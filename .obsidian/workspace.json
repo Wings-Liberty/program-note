@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
+                "file": "010 - 新建笔记/目录结构.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010 - 新建笔记/目录结构.md",
+                "file": "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +128,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "01b325ba97c15819",
+  "active": "a6a30b95162e9259",
   "lastOpenFiles": [
     "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
     "010 - 新建笔记/目录结构.md",
