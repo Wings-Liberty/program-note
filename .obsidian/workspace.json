@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5e5bce039ce97dfc",
+        "id": "50c7471b3f3e0f2d",
         "type": "tabs",
         "children": [
           {
-            "id": "a6a30b95162e9259",
+            "id": "e87fee1968275912",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010 - 新建笔记/目录结构.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d5e2fc689d583aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Java基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
+                "file": "010 - 新建笔记/整理进度.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -75,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 321.5
   },
   "right": {
     "id": "15933b55241e6afb",
@@ -91,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "010 - 新建笔记/目录结构.md"
+                "file": "010 - 新建笔记/整理进度.md"
               }
             }
           },
@@ -128,53 +115,52 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "a6a30b95162e9259",
+  "active": "e87fee1968275912",
   "lastOpenFiles": [
-    "040 - Java基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
-    "010 - 新建笔记/目录结构.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/040 - 类，对象和访问权限关键字.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/030 - 大数值，字符串和数组.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类",
-    "040 - Java基础知识/010 - JDK 基础/classpath.md",
-    "040 - Java基础知识/070 - ProtoBuf 序列化专题",
-    "040 - Java基础知识/060 - Netty 网络编程专题",
-    "040 - Java基础知识/050 - Java 优质类库",
-    "040 - Java基础知识/040 - Java 虚拟机",
-    "040 - Java基础知识/030 - 并发专题",
-    "040 - Java基础知识/020 - Java 语法基础知识",
-    "040 - Java基础知识/010 - JDK 基础",
-    "未命名",
-    "170 - 未整理",
-    "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
-    "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
-    "010 - 新建笔记/测试 git 自动同步.md",
-    "000 - Obsidian 设置记录/02 - 核心插件设置.md",
-    "000 - Obsidian 设置记录/01 - 基础设置.md",
+    "010 - 新建笔记/整理进度.md",
+    "140 - 其他开源组件/110 - 定时任务 - XXL-JOB",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 实战.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 部署和使用方式.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/020 - 自定义使用方式.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/010 - 使用基础.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable",
+    "140 - 其他开源组件/080 - 分布式管理组件 - Zookeeper/020 - Zookeeper 实战.md",
+    "140 - 其他开源组件/080 - 分布式管理组件 - Zookeeper/010 - Zookeeper 安装步骤和基础命令.md",
+    "140 - 其他开源组件/080 - 分布式管理组件 - Zookeeper",
+    "140 - 其他开源组件/070 - 容器化管理 - Docker",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/030 - FileBeat",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/020 - Logstash",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch",
+    "140 - 其他开源组件/060 - 日志检索 - ELK",
+    "140 - 其他开源组件/050 - web 服务器 - Nginx/020 - 使用方式.md",
+    "140 - 其他开源组件/050 - web 服务器 - Nginx/010 - 安装和部署步骤.md",
+    "140 - 其他开源组件/050 - web 服务器 - Nginx",
+    "100 - 编码技巧和架构/030 - 设计模式.md",
+    "100 - 编码技巧和架构/020 - log 定位 bug 技巧.md",
+    "100 - 编码技巧和架构/010 - 开发规范.md",
+    "080 - Mybatis&Mybatis-Plus/030 - 升级为 Mybatis-Plus 注意事项.md",
+    "080 - Mybatis&Mybatis-Plus/020 - Mybatis 设计和源码实现.md",
+    "080 - Mybatis&Mybatis-Plus/010 - Mybatis 使用方式和 xml sql 写法.md",
+    "070 - Spring 全家桶/040 - Spring Cloud Alibaba/050 - 配置中心 - Nacos.md",
+    "070 - Spring 全家桶/040 - Spring Cloud Alibaba/040 - 网关组件 - SpringCloudGateway.md",
+    "070 - Spring 全家桶/040 - Spring Cloud Alibaba/030 - RPC 组件 - OpenFeign.md",
+    "070 - Spring 全家桶/040 - Spring Cloud Alibaba/020 - 负载均衡组件 - Ribbon.md",
+    "070 - Spring 全家桶/040 - Spring Cloud Alibaba/010 - 注册中心 - Nacos.md",
+    "070 - Spring 全家桶/020 - Spring Boot/030 - SpringMVC 自动装配和异常处理机制.md",
+    "070 - Spring 全家桶/020 - Spring Boot/020 - 更多注解.md",
+    "070 - Spring 全家桶/020 - Spring Boot/010 - 自动装配原理和读取配置文件实现方式.md",
     "020 - 附件文件夹/Pasted image 20230326002759.png",
-    "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
-    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
-    "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
-    "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
-    "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "020 - 附件文件夹/Pasted image 20230326002408.png",
     "020 - 附件文件夹/Pasted image 20230326002401.png",
     "020 - 附件文件夹/Pasted image 20230326002352.png",
     "020 - 附件文件夹/Pasted image 20230326002345.png",
     "020 - 附件文件夹/Pasted image 20230326000800.png",
-    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-26 00.06.00.excalidraw.md",
-    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-26 00.05.45.excalidraw.md",
-    "00 - Obsidian 基础设置.md",
-    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.04.44.excalidraw.md",
     "020 - 附件文件夹/Pasted image 20230325232957.png",
     "020 - 附件文件夹/Pasted image 20230325232950.png",
     "020 - 附件文件夹/Pasted image 20230325232450.png",
-    "020 - 附件文件夹/Pasted Image 20230325231248_502.png",
-    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.04.30.excalidraw.md",
-    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.03.16.excalidraw.md",
-    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.04.13.excalidraw.md",
-    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.03.52.excalidraw.md",
-    "000 - Obsidian 设置记录/未命名/未命名.md"
+    "020 - 附件文件夹/Pasted Image 20230325231248_502.png"
   ]
 }
