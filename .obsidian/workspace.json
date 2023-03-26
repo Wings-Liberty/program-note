@@ -75,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 250
   },
   "right": {
     "id": "15933b55241e6afb",
@@ -128,7 +128,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "c7d145da6ee5e1b5",
+  "active": "a6a30b95162e9259",
   "lastOpenFiles": [
     "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
     "010 - 新建笔记/目录结构.md",
