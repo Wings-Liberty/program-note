@@ -103,9 +103,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "c7d145da6ee5e1b5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -121,7 +129,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "80f464c81ae74a49",
+  "active": "c7d145da6ee5e1b5",
   "lastOpenFiles": [
     "000 - Obsidian 设置记录/04 - 个性化设置.md",
     "010 - 新建笔记/测试 git 自动同步.md",
