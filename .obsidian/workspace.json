@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "50c7471b3f3e0f2d",
+        "id": "a0a8f3afa04caa4a",
         "type": "tabs",
         "children": [
           {
-            "id": "e87fee1968275912",
+            "id": "4fc0aa102efc8a60",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8a79b0acd06f6ef4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Java基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "010 - 新建笔记/整理进度.md"
+                "file": "040 - Java基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md"
               }
             }
           },
@@ -115,9 +129,13 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "e87fee1968275912",
+  "active": "c7d145da6ee5e1b5",
   "lastOpenFiles": [
+    "020 - 附件文件夹/Pasted image 20230326231458.png",
+    "020 - 附件文件夹/Pasted image 20230326231438.png",
     "010 - 新建笔记/整理进度.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
+    "020 - 附件文件夹/Pasted image 20230326225643.png",
     "140 - 其他开源组件/110 - 定时任务 - XXL-JOB",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 实战.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 部署和使用方式.md",
@@ -151,7 +169,6 @@
     "070 - Spring 全家桶/040 - Spring Cloud Alibaba/010 - 注册中心 - Nacos.md",
     "070 - Spring 全家桶/020 - Spring Boot/030 - SpringMVC 自动装配和异常处理机制.md",
     "070 - Spring 全家桶/020 - Spring Boot/020 - 更多注解.md",
-    "070 - Spring 全家桶/020 - Spring Boot/010 - 自动装配原理和读取配置文件实现方式.md",
     "020 - 附件文件夹/Pasted image 20230326002759.png",
     "020 - 附件文件夹/Pasted image 20230326002408.png",
     "020 - 附件文件夹/Pasted image 20230326002401.png",
@@ -159,8 +176,6 @@
     "020 - 附件文件夹/Pasted image 20230326002345.png",
     "020 - 附件文件夹/Pasted image 20230326000800.png",
     "020 - 附件文件夹/Pasted image 20230325232957.png",
-    "020 - 附件文件夹/Pasted image 20230325232950.png",
-    "020 - 附件文件夹/Pasted image 20230325232450.png",
-    "020 - 附件文件夹/Pasted Image 20230325231248_502.png"
+    "020 - 附件文件夹/Pasted image 20230325232950.png"
   ]
 }
