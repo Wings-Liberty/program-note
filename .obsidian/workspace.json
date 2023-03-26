@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "8a79b0acd06f6ef4",
+            "id": "7def8774304f3bf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
+                "file": "040 - Java基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -92,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md"
+                "file": "040 - Java基础知识/020 - Java 语法基础知识/120 - 多线程 API.md"
               }
             }
           },
@@ -131,11 +131,28 @@
   },
   "active": "c7d145da6ee5e1b5",
   "lastOpenFiles": [
-    "020 - 附件文件夹/Pasted image 20230326231458.png",
-    "020 - 附件文件夹/Pasted image 20230326231438.png",
+    "040 - Java基础知识/020 - Java 语法基础知识/110 - 数组和集合.md",
+    "020 - 附件文件夹/Pasted image 20230327005919.png",
+    "020 - 附件文件夹/Pasted image 20230327005852.png",
+    "020 - 附件文件夹/Pasted image 20230327005841.png",
+    "020 - 附件文件夹/Pasted image 20230327005814.png",
+    "040 - Java基础知识/020 - Java 语法基础知识/100 - 泛型.md",
     "010 - 新建笔记/整理进度.md",
+    "020 - 附件文件夹/Pasted image 20230327005059.png",
+    "040 - Java基础知识/020 - Java 语法基础知识/090 - 错误，异常.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/080 - 内部类和动态代理类.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
+    "020 - 附件文件夹/Pasted image 20230327003346.png",
+    "040 - Java基础知识/020 - Java 语法基础知识/060 - 枚举类，反射和克隆.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/040 - 类，对象和访问权限关键字.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/030 - 大数值，字符串和数组.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
+    "020 - 附件文件夹/Pasted image 20230327001426.png",
+    "020 - 附件文件夹/Pasted image 20230327001418.png",
+    "020 - 附件文件夹/Pasted image 20230327001352.png",
     "040 - Java基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
-    "020 - 附件文件夹/Pasted image 20230326225643.png",
+    "020 - 附件文件夹/Pasted image 20230326231458.png",
     "140 - 其他开源组件/110 - 定时任务 - XXL-JOB",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 实战.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 部署和使用方式.md",
@@ -158,24 +175,6 @@
     "140 - 其他开源组件/050 - web 服务器 - Nginx",
     "100 - 编码技巧和架构/030 - 设计模式.md",
     "100 - 编码技巧和架构/020 - log 定位 bug 技巧.md",
-    "100 - 编码技巧和架构/010 - 开发规范.md",
-    "080 - Mybatis&Mybatis-Plus/030 - 升级为 Mybatis-Plus 注意事项.md",
-    "080 - Mybatis&Mybatis-Plus/020 - Mybatis 设计和源码实现.md",
-    "080 - Mybatis&Mybatis-Plus/010 - Mybatis 使用方式和 xml sql 写法.md",
-    "070 - Spring 全家桶/040 - Spring Cloud Alibaba/050 - 配置中心 - Nacos.md",
-    "070 - Spring 全家桶/040 - Spring Cloud Alibaba/040 - 网关组件 - SpringCloudGateway.md",
-    "070 - Spring 全家桶/040 - Spring Cloud Alibaba/030 - RPC 组件 - OpenFeign.md",
-    "070 - Spring 全家桶/040 - Spring Cloud Alibaba/020 - 负载均衡组件 - Ribbon.md",
-    "070 - Spring 全家桶/040 - Spring Cloud Alibaba/010 - 注册中心 - Nacos.md",
-    "070 - Spring 全家桶/020 - Spring Boot/030 - SpringMVC 自动装配和异常处理机制.md",
-    "070 - Spring 全家桶/020 - Spring Boot/020 - 更多注解.md",
-    "020 - 附件文件夹/Pasted image 20230326002759.png",
-    "020 - 附件文件夹/Pasted image 20230326002408.png",
-    "020 - 附件文件夹/Pasted image 20230326002401.png",
-    "020 - 附件文件夹/Pasted image 20230326002352.png",
-    "020 - 附件文件夹/Pasted image 20230326002345.png",
-    "020 - 附件文件夹/Pasted image 20230326000800.png",
-    "020 - 附件文件夹/Pasted image 20230325232957.png",
-    "020 - 附件文件夹/Pasted image 20230325232950.png"
+    "100 - 编码技巧和架构/010 - 开发规范.md"
   ]
 }
