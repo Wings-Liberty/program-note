@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "01b325ba97c15819",
+            "id": "8d5e2fc689d583aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
+                "file": "040 - Java基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -75,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250
+    "width": 303.5
   },
   "right": {
     "id": "15933b55241e6afb",
@@ -130,8 +130,24 @@
   },
   "active": "a6a30b95162e9259",
   "lastOpenFiles": [
-    "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
     "010 - 新建笔记/目录结构.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/040 - 类，对象和访问权限关键字.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/030 - 大数值，字符串和数组.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类",
+    "040 - Java基础知识/010 - JDK 基础/classpath.md",
+    "040 - Java基础知识/070 - ProtoBuf 序列化专题",
+    "040 - Java基础知识/060 - Netty 网络编程专题",
+    "040 - Java基础知识/050 - Java 优质类库",
+    "040 - Java基础知识/040 - Java 虚拟机",
+    "040 - Java基础知识/030 - 并发专题",
+    "040 - Java基础知识/020 - Java 语法基础知识",
+    "040 - Java基础知识/010 - JDK 基础",
+    "未命名",
+    "170 - 未整理",
+    "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
     "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
     "010 - 新建笔记/测试 git 自动同步.md",
     "000 - Obsidian 设置记录/02 - 核心插件设置.md",
@@ -142,7 +158,6 @@
     "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
     "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
-    "030 - 模板",
     "020 - 附件文件夹/Pasted image 20230326002408.png",
     "020 - 附件文件夹/Pasted image 20230326002401.png",
     "020 - 附件文件夹/Pasted image 20230326002352.png",
@@ -151,7 +166,6 @@
     "020 - 附件文件夹/03 - 第三方插件设置 2023-03-26 00.06.00.excalidraw.md",
     "020 - 附件文件夹/03 - 第三方插件设置 2023-03-26 00.05.45.excalidraw.md",
     "00 - Obsidian 基础设置.md",
-    "Projects - Demo Project",
     "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.04.44.excalidraw.md",
     "020 - 附件文件夹/Pasted image 20230325232957.png",
     "020 - 附件文件夹/Pasted image 20230325232950.png",
@@ -161,11 +175,6 @@
     "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.03.16.excalidraw.md",
     "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.04.13.excalidraw.md",
     "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.03.52.excalidraw.md",
-    "000 - Obsidian 设置记录/未命名/未命名.md",
-    "000 - Obsidian 设置记录/未命名",
-    "2023-03-25.md",
-    "020 - 附件文件夹",
-    "000 - Obsidian 设置记录",
-    "010 - 新建笔记"
+    "000 - Obsidian 设置记录/未命名/未命名.md"
   ]
 }
