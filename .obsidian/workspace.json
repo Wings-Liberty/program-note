@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
+                "file": "040 - Java基础知识/020 - Java 语法基础知识/110 - 数组和集合.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -92,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java基础知识/020 - Java 语法基础知识/120 - 多线程 API.md"
+                "file": "040 - Java基础知识/020 - Java 语法基础知识/110 - 数组和集合.md"
               }
             }
           },
@@ -129,8 +129,9 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "c7d145da6ee5e1b5",
+  "active": "7def8774304f3bf4",
   "lastOpenFiles": [
+    "040 - Java基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
     "040 - Java基础知识/020 - Java 语法基础知识/110 - 数组和集合.md",
     "020 - 附件文件夹/Pasted image 20230327005919.png",
     "020 - 附件文件夹/Pasted image 20230327005852.png",
