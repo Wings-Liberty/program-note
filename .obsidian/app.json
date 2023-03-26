@@ -1,0 +1,15 @@
+{
+  "readableLineLength": false,
+  "foldHeading": false,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "020 - 附件文件夹",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "010 - 新建笔记",
+  "newLinkFormat": "relative",
+  "showUnsupportedFiles": true,
+  "userIgnoreFilters": [
+    "020 - 附件文件夹/"
+  ],
+  "strictLineBreaks": false
+}

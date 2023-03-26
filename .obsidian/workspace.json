@@ -1,0 +1,142 @@
+{
+  "main": {
+    "id": "e5de3d82c3e4f045",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6e91dea00a48d55",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd104b9a7a5c0fc3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "104f68afeb87d584",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a3a2974525fd5e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68a81097870ae0d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "015f6984f1bc4966",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326
+  },
+  "right": {
+    "id": "15933b55241e6afb",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e28643a5abf30f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50b1d4af7bbf17fd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "f28d75311b0a4ddf",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:打开快速切换": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-projects:Open projects": false
+    }
+  },
+  "active": "68a81097870ae0d6",
+  "lastOpenFiles": [
+    "000 - Obsidian 设置记录/04 - 个性化设置.md",
+    "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
+    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
+    "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
+    "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
+    "Projects - Demo Project/The Best Notes You'll Ever Make.md",
+    "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
+    "030 - 模板",
+    "020 - 附件文件夹/Pasted image 20230326002759.png",
+    "020 - 附件文件夹/Pasted image 20230326002408.png",
+    "020 - 附件文件夹/Pasted image 20230326002401.png",
+    "020 - 附件文件夹/Pasted image 20230326002352.png",
+    "020 - 附件文件夹/Pasted image 20230326002345.png",
+    "020 - 附件文件夹/Pasted image 20230326000800.png",
+    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-26 00.06.00.excalidraw.md",
+    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-26 00.05.45.excalidraw.md",
+    "00 - Obsidian 基础设置.md",
+    "Projects - Demo Project",
+    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.04.44.excalidraw.md",
+    "020 - 附件文件夹/Pasted image 20230325232957.png",
+    "020 - 附件文件夹/Pasted image 20230325232950.png",
+    "020 - 附件文件夹/Pasted image 20230325232450.png",
+    "020 - 附件文件夹/Pasted Image 20230325231248_502.png",
+    "000 - Obsidian 设置记录/01 - 基础设置.md",
+    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.04.30.excalidraw.md",
+    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.03.16.excalidraw.md",
+    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.04.13.excalidraw.md",
+    "020 - 附件文件夹/03 - 第三方插件设置 2023-03-25 23.03.52.excalidraw.md",
+    "000 - Obsidian 设置记录/02 - 核心插件设置.md",
+    "000 - Obsidian 设置记录/未命名/未命名.md",
+    "000 - Obsidian 设置记录/未命名",
+    "2023-03-25.md",
+    "020 - 附件文件夹",
+    "000 - Obsidian 设置记录",
+    "010 - 新建笔记"
+  ]
+}

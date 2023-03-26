@@ -1,0 +1,8 @@
+/* 自定义预览模式下的表格样式 */
+
+/* 预览表格全宽 */
+.markdown-preview-view table {
+    width: 100%;
+    margin-top: 12px;
+}
+
