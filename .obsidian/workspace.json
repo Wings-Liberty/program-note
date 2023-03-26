@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f6e91dea00a48d55",
+        "id": "5e5bce039ce97dfc",
         "type": "tabs",
         "children": [
           {
-            "id": "bd104b9a7a5c0fc3",
+            "id": "3dcc5b3141b8fcbe",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/plugins/obsidian-git/data.json",
-                "staged": false
+                "file": "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -60,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326
+    "width": 290.5
   },
   "right": {
     "id": "15933b55241e6afb",
@@ -75,7 +77,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "000 - Obsidian 设置记录/03 - 第三方插件设置.md"
+              }
             }
           },
           {
@@ -111,11 +115,11 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "bd104b9a7a5c0fc3",
+  "active": "3dcc5b3141b8fcbe",
   "lastOpenFiles": [
+    "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
     "000 - Obsidian 设置记录/04 - 个性化设置.md",
     "010 - 新建笔记/测试 git 自动同步.md",
-    "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
     "000 - Obsidian 设置记录/02 - 核心插件设置.md",
     "000 - Obsidian 设置记录/01 - 基础设置.md",
     "020 - 附件文件夹/Pasted image 20230326002759.png",
