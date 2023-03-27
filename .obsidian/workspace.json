@@ -125,7 +125,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -141,7 +142,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "68a81097870ae0d6",
+  "active": "c7d145da6ee5e1b5",
   "lastOpenFiles": [
     "010 - 新建笔记/整理进度.md",
     "040 - Java基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
