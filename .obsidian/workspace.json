@@ -92,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java基础知识/020 - Java 语法基础知识/110 - 数组和集合.md"
+                "file": "010 - 新建笔记/整理进度.md"
               }
             }
           },
@@ -112,8 +112,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,7 +128,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "7def8774304f3bf4",
+  "active": "50b1d4af7bbf17fd",
   "lastOpenFiles": [
     "040 - Java基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
     "040 - Java基础知识/020 - Java 语法基础知识/110 - 数组和集合.md",
