@@ -26,20 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0328b69371485ccd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
+                "file": "010 - 新建笔记/整理进度.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java基础知识/020 - Java 语法基础知识/120 - 多线程 API.md"
+                "file": "010 - 新建笔记/整理进度.md"
               }
             }
           },
@@ -142,12 +129,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "c7d145da6ee5e1b5",
+  "active": "7def8774304f3bf4",
   "lastOpenFiles": [
+    "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
     "010 - 新建笔记/整理进度.md",
     "040 - Java基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
     "020 - 附件文件夹/Pasted image 20230327234346.png",
-    "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
     "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
     "020 - 附件文件夹/Pasted image 20230327233337.png",
     "020 - 附件文件夹/Pasted image 20230327233324 1.png",
