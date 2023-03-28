@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010 - 新建笔记/整理进度.md",
+                "file": "040 - Java基础知识/030 - 并发专题/050 - ThreadLocal 和 TTL.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java基础知识/020 - Java 语法基础知识/140 - IO 流.md",
+                "file": "040 - Java基础知识/020 - Java 语法基础知识/160 - 安全，数字签名和加密 API.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +91,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java基础知识/020 - Java 语法基础知识/140 - IO 流.md"
+                "file": "040 - Java基础知识/030 - 并发专题/050 - ThreadLocal 和 TTL.md"
               }
             }
           },
@@ -129,12 +128,26 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "4fc0aa102efc8a60",
+  "active": "3679c2421bc5d09f",
   "lastOpenFiles": [
-    "020 - 附件文件夹/Pasted image 20230328233058.png",
-    "040 - Java基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/090 - 错误，异常.md",
+    "020 - 附件文件夹/Pasted image 20230328235303.png",
+    "040 - Java基础知识/030 - 并发专题/060 - transient 关键字.md",
+    "040 - Java基础知识/030 - 并发专题/050 - ThreadLocal 和 TTL.md",
+    "020 - 附件文件夹/Pasted image 20230328235127.png",
+    "020 - 附件文件夹/Pasted image 20230328234950.png",
+    "040 - Java基础知识/030 - 并发专题/010 - 线程池原理.md",
     "010 - 新建笔记/整理进度.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/160 - 安全，数字签名和加密 API.md",
+    "020 - 附件文件夹/Pasted image 20230328234628.png",
+    "040 - Java基础知识/020 - Java 语法基础知识/150 - 日期和时间 API.md",
+    "020 - 附件文件夹/Pasted image 20230328234540.png",
+    "020 - 附件文件夹/Pasted image 20230328234533.png",
+    "040 - Java基础知识/020 - Java 语法基础知识/140 - IO 流.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
+    "020 - 附件文件夹/Pasted image 20230328233609.png",
+    "020 - 附件文件夹/Pasted image 20230328233535.png",
+    "020 - 附件文件夹/Pasted image 20230328233058.png",
+    "040 - Java基础知识/020 - Java 语法基础知识/090 - 错误，异常.md",
     "040 - Java基础知识/010 - JDK 基础/classpath.md",
     "040 - Java基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
     "040 - Java基础知识/020 - Java 语法基础知识/110 - 数组和集合.md",
@@ -145,13 +158,6 @@
     "020 - 附件文件夹/Pasted image 20230327234346.png",
     "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
     "020 - 附件文件夹/Pasted image 20230327233337.png",
-    "020 - 附件文件夹/Pasted image 20230327233324 1.png",
-    "020 - 附件文件夹/Pasted image 20230327233324.png",
-    "020 - 附件文件夹/Pasted image 20230327233313.png",
-    "020 - 附件文件夹/Pasted image 20230327233013.png",
-    "020 - 附件文件夹/Pasted image 20230327232925.png",
-    "020 - 附件文件夹/Pasted image 20230327232919.png",
-    "020 - 附件文件夹/Pasted image 20230327232524.png",
     "031 - 项目Demo/DemoProject/target/classes/com/cx/Main.class",
     "031 - 项目Demo/DemoProject/target/classes/com/cx",
     "031 - 项目Demo/DemoProject/target/classes/com",
@@ -162,7 +168,6 @@
     "031 - 项目Demo/DemoProject/src/main/java/com/cx/Main.java",
     "031 - 项目Demo/DemoProject/src/main/java/com/cx",
     "031 - 项目Demo/DemoProject/src/main/java/com",
-    "020 - 附件文件夹/Pasted image 20230327230938.png",
     "040 - Java基础知识/020 - Java 语法基础知识/060 - 枚举类，反射和克隆.md",
     "040 - Java基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
     "040 - Java基础知识/020 - Java 语法基础知识/040 - 类，对象和访问权限关键字.md",
@@ -170,12 +175,6 @@
     "040 - Java基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
     "040 - Java基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 实战.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 部署和使用方式.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/020 - 自定义使用方式.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/010 - 使用基础.md",
-    "140 - 其他开源组件/080 - 分布式管理组件 - Zookeeper/020 - Zookeeper 实战.md",
-    "140 - 其他开源组件/080 - 分布式管理组件 - Zookeeper/010 - Zookeeper 安装步骤和基础命令.md"
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 部署和使用方式.md"
   ]
 }
