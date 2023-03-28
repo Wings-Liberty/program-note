@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4fc0aa102efc8a60",
+            "id": "3679c2421bc5d09f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "7def8774304f3bf4",
+            "id": "4fc0aa102efc8a60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010 - 新建笔记/整理进度.md",
+                "file": "040 - Java基础知识/020 - Java 语法基础知识/140 - IO 流.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -92,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "010 - 新建笔记/整理进度.md"
+                "file": "040 - Java基础知识/020 - Java 语法基础知识/140 - IO 流.md"
               }
             }
           },
@@ -129,11 +129,19 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "7def8774304f3bf4",
+  "active": "4fc0aa102efc8a60",
   "lastOpenFiles": [
-    "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
+    "020 - 附件文件夹/Pasted image 20230328233058.png",
+    "040 - Java基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/090 - 错误，异常.md",
     "010 - 新建笔记/整理进度.md",
+    "040 - Java基础知识/010 - JDK 基础/classpath.md",
     "040 - Java基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/110 - 数组和集合.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/100 - 泛型.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/080 - 内部类和动态代理类.md",
+    "040 - Java基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
+    "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
     "020 - 附件文件夹/Pasted image 20230327234346.png",
     "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
     "020 - 附件文件夹/Pasted image 20230327233337.png",
@@ -155,11 +163,6 @@
     "031 - 项目Demo/DemoProject/src/main/java/com/cx",
     "031 - 项目Demo/DemoProject/src/main/java/com",
     "020 - 附件文件夹/Pasted image 20230327230938.png",
-    "040 - Java基础知识/020 - Java 语法基础知识/110 - 数组和集合.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/100 - 泛型.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/090 - 错误，异常.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/080 - 内部类和动态代理类.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
     "040 - Java基础知识/020 - Java 语法基础知识/060 - 枚举类，反射和克隆.md",
     "040 - Java基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
     "040 - Java基础知识/020 - Java 语法基础知识/040 - 类，对象和访问权限关键字.md",
@@ -173,8 +176,6 @@
     "140 - 其他开源组件/090 - 工作流 - Flowable/020 - 自定义使用方式.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/010 - 使用基础.md",
     "140 - 其他开源组件/080 - 分布式管理组件 - Zookeeper/020 - Zookeeper 实战.md",
-    "140 - 其他开源组件/080 - 分布式管理组件 - Zookeeper/010 - Zookeeper 安装步骤和基础命令.md",
-    "140 - 其他开源组件/050 - web 服务器 - Nginx/020 - 使用方式.md",
-    "140 - 其他开源组件/050 - web 服务器 - Nginx/010 - 安装和部署步骤.md"
+    "140 - 其他开源组件/080 - 分布式管理组件 - Zookeeper/010 - Zookeeper 安装步骤和基础命令.md"
   ]
 }
