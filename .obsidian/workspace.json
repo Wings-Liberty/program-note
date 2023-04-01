@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a0a8f3afa04caa4a",
+        "id": "7774499c6cbec980",
         "type": "tabs",
         "children": [
           {
-            "id": "3679c2421bc5d09f",
+            "id": "90cc71c483f17062",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java基础知识/030 - 并发专题/050 - ThreadLocal 和 TTL.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4fc0aa102efc8a60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Java基础知识/020 - Java 语法基础知识/160 - 安全，数字签名和加密 API.md",
+                "file": "060 - MySQL&Redis/010 - MySQL 的 SQL 语句.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -91,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java基础知识/030 - 并发专题/050 - ThreadLocal 和 TTL.md"
+                "file": "060 - MySQL&Redis/010 - MySQL 的 SQL 语句.md"
               }
             }
           },
@@ -111,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,53 +114,53 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "3679c2421bc5d09f",
+  "active": "68a81097870ae0d6",
   "lastOpenFiles": [
-    "020 - 附件文件夹/Pasted image 20230328235303.png",
+    "060 - MySQL&Redis/未归档",
+    "050 - Tomcat/010 - Tomcat 和 JavaWeb API.md",
+    "170 - 未整理/Tomcat - 附加功能.md",
+    "050 - Tomcat/020 - Tomcat 深度解析.md",
+    "020 - 附件文件夹/Pasted image 20230402000052.png",
+    "020 - 附件文件夹/Pasted image 20230402000002.png",
+    "020 - 附件文件夹/Pasted image 20230401235947.png",
+    "020 - 附件文件夹/Pasted image 20230401235935.png",
+    "020 - 附件文件夹/Pasted image 20230401235905.png",
+    "020 - 附件文件夹/Pasted image 20230401235857.png",
+    "020 - 附件文件夹/Pasted image 20230401235705.png",
+    "020 - 附件文件夹/Tomcat处理请求.svg",
+    "020 - 附件文件夹/Pasted image 20230401235523.png",
+    "020 - 附件文件夹/Pasted image 20230401235501.png",
+    "040 - Java基础知识/030 - 并发专题/未归档/图灵并发专题.md",
+    "170 - 未整理/Java 基础 - 补充.md",
+    "040 - Java基础知识/030 - 并发专题/未归档/JUC.md",
+    "040 - Java基础知识/030 - 并发专题/030 - 并发容器 - ConcurrentHashMap.md",
+    "040 - Java基础知识/030 - 并发专题/未归档",
     "040 - Java基础知识/030 - 并发专题/060 - transient 关键字.md",
-    "040 - Java基础知识/030 - 并发专题/050 - ThreadLocal 和 TTL.md",
-    "020 - 附件文件夹/Pasted image 20230328235127.png",
-    "020 - 附件文件夹/Pasted image 20230328234950.png",
+    "040 - Java基础知识/021 - Java 基础数据结构/010 - 集合解析 - HashMap.md",
+    "040 - Java基础知识/021 - Java 基础数据结构",
     "040 - Java基础知识/030 - 并发专题/010 - 线程池原理.md",
-    "010 - 新建笔记/整理进度.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/160 - 安全，数字签名和加密 API.md",
-    "020 - 附件文件夹/Pasted image 20230328234628.png",
-    "040 - Java基础知识/020 - Java 语法基础知识/150 - 日期和时间 API.md",
-    "020 - 附件文件夹/Pasted image 20230328234540.png",
-    "020 - 附件文件夹/Pasted image 20230328234533.png",
-    "040 - Java基础知识/020 - Java 语法基础知识/140 - IO 流.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
-    "020 - 附件文件夹/Pasted image 20230328233609.png",
-    "020 - 附件文件夹/Pasted image 20230328233535.png",
-    "020 - 附件文件夹/Pasted image 20230328233058.png",
-    "040 - Java基础知识/020 - Java 语法基础知识/090 - 错误，异常.md",
-    "040 - Java基础知识/010 - JDK 基础/classpath.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/110 - 数组和集合.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/100 - 泛型.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/080 - 内部类和动态代理类.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
-    "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
-    "020 - 附件文件夹/Pasted image 20230327234346.png",
-    "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
-    "020 - 附件文件夹/Pasted image 20230327233337.png",
+    "040 - Java基础知识/010 - JDK 基础/Java 的 ClassPath 再探.md",
+    "170 - 未整理/Java 基础 - Java 编程思想笔记.md",
+    "040 - Java基础知识/060 - Netty 网络编程专题/尚硅谷/01 - Netty 的线程模型和执行流程.md",
+    "040 - Java基础知识/060 - Netty 网络编程专题/尚硅谷/02 - Netty 核心组件，功能分析，源码执行流程.md",
+    "040 - Java基础知识/060 - Netty 网络编程专题/尚硅谷/03 - Netty 实战及其注意事项.md",
+    "040 - Java基础知识/060 - Netty 网络编程专题/图灵学院/01 - NIO 与 Netty 线程模型.md",
+    "040 - Java基础知识/060 - Netty 网络编程专题/图灵学院/02 Netty 核心功能和线程模型.md",
+    "040 - Java基础知识/060 - Netty 网络编程专题/未归档/Netty 源码分析.md",
+    "040 - Java基础知识/060 - Netty 网络编程专题/未归档",
+    "040 - Java基础知识/060 - Netty 网络编程专题/030 - Netty 源码分析.md",
+    "040 - Java基础知识/060 - Netty 网络编程专题/020 - Netty API.md",
+    "040 - Java基础知识/060 - Netty 网络编程专题/010 - Netty 基础执行过程.md",
+    "040 - Java基础知识/060 - Netty 网络编程专题/尚硅谷",
+    "040 - Java基础知识/060 - Netty 网络编程专题/图灵学院",
+    "040 - Java基础知识/030 - 并发专题/020 - AQS 原理.md",
+    "040 - Java基础知识/040 - Java 虚拟机/020 - 自动内存管理.md",
+    "040 - Java基础知识/030 - 并发专题/050 - ThreadLocal 和 TTL.md",
+    "170 - 未整理/Java 基础 - 编译与注解处理.md",
     "031 - 项目Demo/DemoProject/target/classes/com/cx/Main.class",
     "031 - 项目Demo/DemoProject/target/classes/com/cx",
     "031 - 项目Demo/DemoProject/target/classes/com",
     "031 - 项目Demo/DemoProject/target/classes",
-    "031 - 项目Demo/DemoProject/target/generated-sources/annotations",
-    "031 - 项目Demo/DemoProject/target/generated-sources",
-    "031 - 项目Demo/DemoProject/target",
-    "031 - 项目Demo/DemoProject/src/main/java/com/cx/Main.java",
-    "031 - 项目Demo/DemoProject/src/main/java/com/cx",
-    "031 - 项目Demo/DemoProject/src/main/java/com",
-    "040 - Java基础知识/020 - Java 语法基础知识/060 - 枚举类，反射和克隆.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/040 - 类，对象和访问权限关键字.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/030 - 大数值，字符串和数组.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
-    "040 - Java基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 实战.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 部署和使用方式.md"
+    "031 - 项目Demo/DemoProject/target/generated-sources/annotations"
   ]
 }

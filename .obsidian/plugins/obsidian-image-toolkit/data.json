@@ -14,7 +14,7 @@
   "imageBorderWidth": "medium",
   "imageBorderStyle": "solid",
   "imageBorderColor": "red",
-  "galleryNavbarToggle": true,
+  "galleryNavbarToggle": false,
   "galleryNavbarDefaultColor": "#0000001A",
   "galleryNavbarHoverColor": "#0000004D",
   "galleryImgBorderActive": true,
