@@ -8,38 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "645f0c81304622d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "060 - MySQL&Redis/未归档/MYSQL 的主从复制和集群.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc09b3fa3d9ea18d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "060 - MySQL&Redis/未归档/MYSQL 索引优化.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cd637f3196bbfc3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "060 - MySQL&Redis/Redis/010 - Redis 常用命令.md",
+                "file": "060 - MySQL&Redis/Redis/030 - Redis 的配置文件和运行时问题分析.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c22ee1aac550a442",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "060 - MySQL&Redis/未归档/Redis.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "060 - MySQL&Redis/Redis/010 - Redis 常用命令.md"
+                "file": "060 - MySQL&Redis/未归档/Redis.md"
               }
             }
           },
@@ -142,12 +129,15 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "cd637f3196bbfc3b",
+  "active": "c22ee1aac550a442",
   "lastOpenFiles": [
-    "060 - MySQL&Redis/Redis/040 - Redis 单机搭建和集群.md",
     "060 - MySQL&Redis/Redis/030 - Redis 的配置文件和运行时问题分析.md",
+    "060 - MySQL&Redis/未归档/Redis.md",
+    "020 - 附件文件夹/Pasted image 20230402102523.png",
+    "020 - 附件文件夹/Pasted image 20230402102502.png",
     "060 - MySQL&Redis/Redis/020 - Redis 的持久化和事务.md",
-    "060 - MySQL&Redis/Redis/010 - Redis 常用命令.md",
+    "060 - MySQL&Redis/Redis/010 - Redis 常用命令和配置文件.md",
+    "060 - MySQL&Redis/Redis/040 - Redis 单机搭建和集群.md",
     "060 - MySQL&Redis/未命名.md",
     "060 - MySQL&Redis/Redis",
     "060 - MySQL&Redis/MySQL",
@@ -162,9 +152,7 @@
     "020 - 附件文件夹/Pasted image 20230402101513.png",
     "020 - 附件文件夹/Pasted image 20230402101458.png",
     "060 - MySQL&Redis/未归档/MYSQL 的主从复制和集群.md",
-    "020 - 附件文件夹/Pasted image 20230402101225.png",
     "060 - MySQL&Redis/未归档/MYSQL 架构的简单介绍.md",
-    "020 - 附件文件夹/Pasted image 20230402100703.png",
     "060 - MySQL&Redis/未归档/MySQL 的配置文件.md",
     "060 - MySQL&Redis/未归档/MySql.md",
     "060 - MySQL&Redis/MySQL/010 - MySQL 的 SQL 语句.md",
@@ -184,7 +172,6 @@
     "040 - Java基础知识/010 - JDK 基础/Java 的 ClassPath 再探.md",
     "170 - 未整理/Java 基础 - Java 编程思想笔记.md",
     "040 - Java基础知识/060 - Netty 网络编程专题/尚硅谷/01 - Netty 的线程模型和执行流程.md",
-    "040 - Java基础知识/060 - Netty 网络编程专题/尚硅谷/02 - Netty 核心组件，功能分析，源码执行流程.md",
     "040 - Java基础知识/060 - Netty 网络编程专题/未归档",
     "040 - Java基础知识/060 - Netty 网络编程专题/尚硅谷",
     "040 - Java基础知识/060 - Netty 网络编程专题/图灵学院",
