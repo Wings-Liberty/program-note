@@ -4,89 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "7774499c6cbec980",
+        "id": "e1e54bb78fdf8bd7",
         "type": "tabs",
         "children": [
           {
-            "id": "cd637f3196bbfc3b",
+            "id": "337aac1b7108b5d5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "060 - MySQL & Redis/Redis/030 - Redis 的配置文件和运行时问题分析.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c22ee1aac550a442",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "060 - MySQL & Redis/Redis/040 - Redis 单机搭建和集群.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4f0306d03aa2ce6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fdbe9bffe2523b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（旧）.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc7acd12e7f336f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/030 - FileBeat/FileBeat - 轻量级日志采集器.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4331c7ae9213bc43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/020 - Logstash/Logstash - 数据流处理器.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,9 +72,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/020 - Logstash/Logstash - 数据流处理器.md"
-              }
+              "state": {}
             }
           },
           {
@@ -181,53 +108,52 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "4331c7ae9213bc43",
+  "active": "337aac1b7108b5d5",
   "lastOpenFiles": [
-    "020 - 附件文件夹/Pasted image 20230402104710.png",
-    "020 - 附件文件夹/Pasted image 20230402104705.png",
-    "020 - 附件文件夹/Pasted image 20230402104657.png",
-    "020 - 附件文件夹/Pasted image 20230402104642.png",
-    "140 - 其他开源组件/060 - 日志检索 - ELK/030 - FileBeat/FileBeat - 轻量级日志采集器.md",
-    "140 - 其他开源组件/060 - 日志检索 - ELK/020 - Logstash/Logstash - 数据流处理器.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/150 - Spring Security 的异常处理.md",
+    "070 - Spring 全家桶/020 - Spring Boot/未归档",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/140 - Spring Security自定义Token方式认证.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/130 - Spring Security 自定义实现.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/120 - Spring Security 默认实现.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/110 - Spring 与事务.md",
+    "020 - 附件文件夹/Pasted image 20230402111346.png",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/100 - Spring与持久化（MyBatis）.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/010 - Spring IoC容器的设计与实现.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/020 - BeanDefinition 的定位，加载和注册.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/030 - getBean 的执行流程.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/040 - Bean 依赖注入的简单介绍.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/050 - Spring AOP 动态代理和创建代理对象的流程.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/060 - Spring AOP 调用代理 AOP 的对象.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/070 - Spring AOP 通知器的封装.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/080 - Spring MVC 的上下文在 Web 容器中的启动.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/090 - DispatcherServlet 的设计与实现.md",
+    "020 - 附件文件夹/Pasted image 20230402111218.png",
+    "020 - 附件文件夹/Pasted image 20230402111207.png",
+    "020 - 附件文件夹/Pasted image 20230402111148.png",
+    "020 - 附件文件夹/Pasted image 20230402111129.png",
+    "020 - 附件文件夹/Pasted image 20230402111108.png",
+    "020 - 附件文件夹/Pasted image 20230402110526.png",
+    "020 - 附件文件夹/Pasted image 20230402110511.png",
+    "020 - 附件文件夹/Pasted image 20230402110458.png",
+    "020 - 附件文件夹/Pasted image 20230402110006.png",
+    "170 - 未整理/网络编程 - IM 入门指南路线篇.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档",
     "170 - 未整理/数据库 - clickhouse.md",
-    "020 - 附件文件夹/Pasted image 20230402104416.png",
-    "020 - 附件文件夹/Pasted image 20230402104406.png",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/020 - Logstash/Logstash - 数据流处理器.md",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/030 - FileBeat/FileBeat - 轻量级日志采集器.md",
     "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（旧）.md",
     "140 - 其他开源组件/060 - 日志检索 - ELK/020 - Logstash/未归档",
     "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
-    "020 - 附件文件夹/Pasted image 20230402104151.png",
     "060 - MySQL & Redis/Redis/040 - Redis 单机搭建和集群.md",
     "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档",
     "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档.md",
-    "020 - 附件文件夹/Pasted image 20230402103557.png",
     "060 - MySQL & Redis/Redis/030 - Redis 的配置文件和运行时问题分析.md",
     "060 - MySQL & Redis/Redis/020 - Redis 的持久化和事务.md",
-    "060 - MySQL & Redis/Redis/010 - Redis 常用命令和配置文件.md",
-    "060 - MySQL & Redis/未归档/Redis.md",
-    "020 - 附件文件夹/Pasted image 20230402102523.png",
-    "020 - 附件文件夹/Pasted image 20230402102502.png",
-    "060 - MySQL&Redis/未命名.md",
     "060 - MySQL & Redis/Redis",
     "060 - MySQL & Redis/MySQL",
-    "060 - MySQL & Redis/未归档/极客时间 — MySQL45 讲总结.md",
-    "020 - 附件文件夹/Pasted image 20230402101756.png",
-    "060 - MySQL & Redis/未归档/MYSQL 索引优化.md",
-    "060 - MySQL & Redis/未归档/MYSQL 的主从复制和集群.md",
-    "060 - MySQL & Redis/未归档/MYSQL 架构的简单介绍.md",
-    "060 - MySQL & Redis/未归档/MySQL 的配置文件.md",
-    "060 - MySQL & Redis/未归档/MySql.md",
-    "060 - MySQL & Redis/MySQL/010 - MySQL 的 SQL 语句.md",
     "060 - MySQL & Redis/未归档",
-    "050 - Tomcat/010 - Tomcat 和 JavaWeb API.md",
-    "170 - 未整理/Tomcat - 附加功能.md",
-    "050 - Tomcat/020 - Tomcat 深度解析.md",
-    "040 - Java 基础知识/030 - 并发专题/未归档/图灵并发专题.md",
-    "170 - 未整理/Java 基础 - 补充.md",
-    "040 - Java 基础知识/030 - 并发专题/未归档/JUC.md",
     "040 - Java 基础知识/030 - 并发专题/未归档",
     "040 - Java 基础知识/021 - Java 基础数据结构",
-    "040 - Java 基础知识/060 - Netty 网络编程专题/未归档",
-    "040 - Java 基础知识/060 - Netty 网络编程专题/尚硅谷",
-    "040 - Java 基础知识/060 - Netty 网络编程专题/图灵学院"
+    "040 - Java 基础知识/060 - Netty 网络编程专题/未归档"
   ]
 }
