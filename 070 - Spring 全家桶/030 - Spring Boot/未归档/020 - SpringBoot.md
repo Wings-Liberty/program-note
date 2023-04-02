@@ -581,7 +581,6 @@ public ConfigurableApplicationContext run(String... args) {
 ```
 
 
-
 关于`SpringApplication`中的成员变量
 
 `this.environment`包含了默认的和当前激活的Profiles。还有propertyResolver解析器，这里解析的是`${}`
