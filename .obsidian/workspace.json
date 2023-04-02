@@ -32,9 +32,61 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a4f0306d03aa2ce6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8fdbe9bffe2523b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（旧）.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc7acd12e7f336f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/030 - FileBeat/FileBeat - 轻量级日志采集器.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4331c7ae9213bc43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/020 - Logstash/Logstash - 数据流处理器.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -92,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "060 - MySQL & Redis/Redis/040 - Redis 单机搭建和集群.md"
+                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/020 - Logstash/Logstash - 数据流处理器.md"
               }
             }
           },
@@ -129,13 +181,28 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "c22ee1aac550a442",
+  "active": "4331c7ae9213bc43",
   "lastOpenFiles": [
+    "020 - 附件文件夹/Pasted image 20230402104710.png",
+    "020 - 附件文件夹/Pasted image 20230402104705.png",
+    "020 - 附件文件夹/Pasted image 20230402104657.png",
+    "020 - 附件文件夹/Pasted image 20230402104642.png",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/030 - FileBeat/FileBeat - 轻量级日志采集器.md",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/020 - Logstash/Logstash - 数据流处理器.md",
+    "170 - 未整理/数据库 - clickhouse.md",
+    "020 - 附件文件夹/Pasted image 20230402104416.png",
+    "020 - 附件文件夹/Pasted image 20230402104406.png",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（旧）.md",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/020 - Logstash/未归档",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
+    "020 - 附件文件夹/Pasted image 20230402104151.png",
+    "060 - MySQL & Redis/Redis/040 - Redis 单机搭建和集群.md",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档.md",
     "020 - 附件文件夹/Pasted image 20230402103557.png",
     "060 - MySQL & Redis/Redis/030 - Redis 的配置文件和运行时问题分析.md",
     "060 - MySQL & Redis/Redis/020 - Redis 的持久化和事务.md",
     "060 - MySQL & Redis/Redis/010 - Redis 常用命令和配置文件.md",
-    "060 - MySQL & Redis/Redis/040 - Redis 单机搭建和集群.md",
     "060 - MySQL & Redis/未归档/Redis.md",
     "020 - 附件文件夹/Pasted image 20230402102523.png",
     "020 - 附件文件夹/Pasted image 20230402102502.png",
@@ -144,14 +211,7 @@
     "060 - MySQL & Redis/MySQL",
     "060 - MySQL & Redis/未归档/极客时间 — MySQL45 讲总结.md",
     "020 - 附件文件夹/Pasted image 20230402101756.png",
-    "020 - 附件文件夹/Pasted image 20230402101747.png",
-    "020 - 附件文件夹/Pasted image 20230402101721.png",
-    "020 - 附件文件夹/Pasted image 20230402101658.png",
-    "020 - 附件文件夹/Pasted image 20230402101647.png",
     "060 - MySQL & Redis/未归档/MYSQL 索引优化.md",
-    "020 - 附件文件夹/Pasted image 20230402101524.png",
-    "020 - 附件文件夹/Pasted image 20230402101513.png",
-    "020 - 附件文件夹/Pasted image 20230402101458.png",
     "060 - MySQL & Redis/未归档/MYSQL 的主从复制和集群.md",
     "060 - MySQL & Redis/未归档/MYSQL 架构的简单介绍.md",
     "060 - MySQL & Redis/未归档/MySQL 的配置文件.md",
@@ -164,18 +224,10 @@
     "040 - Java 基础知识/030 - 并发专题/未归档/图灵并发专题.md",
     "170 - 未整理/Java 基础 - 补充.md",
     "040 - Java 基础知识/030 - 并发专题/未归档/JUC.md",
-    "040 - Java 基础知识/030 - 并发专题/030 - 并发容器 - ConcurrentHashMap.md",
     "040 - Java 基础知识/030 - 并发专题/未归档",
-    "040 - Java 基础知识/030 - 并发专题/060 - transient 关键字.md",
-    "040 - Java 基础知识/021 - Java 基础数据结构/010 - 集合解析 - HashMap.md",
     "040 - Java 基础知识/021 - Java 基础数据结构",
-    "040 - Java 基础知识/030 - 并发专题/010 - 线程池原理.md",
-    "040 - Java 基础知识/010 - JDK 基础/Java 的 ClassPath 再探.md",
-    "170 - 未整理/Java 基础 - Java 编程思想笔记.md",
     "040 - Java 基础知识/060 - Netty 网络编程专题/未归档",
     "040 - Java 基础知识/060 - Netty 网络编程专题/尚硅谷",
-    "040 - Java 基础知识/060 - Netty 网络编程专题/图灵学院",
-    "031 - 项目Demo/DemoProject/target/classes/com/cx/Main.class",
-    "031 - 项目Demo/DemoProject/target/classes/com/cx"
+    "040 - Java 基础知识/060 - Netty 网络编程专题/图灵学院"
   ]
 }
