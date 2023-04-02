@@ -485,7 +485,7 @@ redis-cli --cluster reshard 127.0.0.1:6385
 **删除节点**
 
 ```shell
-redis-cli --cluster del-node 127.0.0.1:6386 
+redis-cli --cluster del-node 127.0.0.1:6386
 ```
 
 Alter user 'root'@'localhost' INDENTIFIED by 'root';
