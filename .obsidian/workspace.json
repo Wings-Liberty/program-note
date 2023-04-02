@@ -4,50 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e1e54bb78fdf8bd7",
+        "id": "f787b0e423e0d517",
         "type": "tabs",
         "children": [
           {
-            "id": "dbf3379e464ecdb7",
+            "id": "253c0d4098ee4f74",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3cf31ec34e2ab728",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "130 - Linux/Linux 实用命令.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68545692d041a35a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "070 - Spring 全家桶/050 - Spring Cloud Alibaba/050 - 配置中心 - Nacos.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,9 +72,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "070 - Spring 全家桶/050 - Spring Cloud Alibaba/050 - 配置中心 - Nacos.md"
-              }
+              "state": {}
             }
           },
           {
@@ -141,9 +107,21 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "68545692d041a35a",
+  "active": "253c0d4098ee4f74",
   "lastOpenFiles": [
+    "070 - Spring 全家桶/040 - Spring Security/010 - Spring Security.md",
+    "110 - 计算机常识/050 - 认证与授权管理/050 - OAuth，SSO.md",
+    "110 - 计算机常识/050 - 认证与授权管理/040 - RBAC 权限控制.md",
+    "020 - 附件文件夹/Pasted image 20230402151959.png",
+    "110 - 计算机常识/050 - 认证与授权管理/030 - 常见认证方式.md",
+    "110 - 计算机常识/050 - 认证与授权管理/020 -  用户会话状态管理技术.md",
+    "110 - 计算机常识/050 - 认证与授权管理/010 - 认证和授权.md",
+    "020 - 附件文件夹/Pasted image 20230402151626.png",
+    "010 - 新建笔记/整理进度.md",
     "070 - Spring 全家桶/050 - Spring Cloud Alibaba/010 - 注册中心 - Nacos.md",
+    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/020 - 负载均衡组件 - Ribbon.md",
+    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/030 - RPC 组件 - OpenFeign.md",
+    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/040 - 网关组件 - SpringCloudGateway.md",
     "070 - Spring 全家桶/050 - Spring Cloud Alibaba/050 - 配置中心 - Nacos.md",
     "140 - 其他开源组件/110 - 定时任务 - XXL-JOB/XXL-JOB 的基本使用方式.md",
     "130 - Linux/Linux 实用命令.md",
@@ -156,8 +134,6 @@
     "020 - 附件文件夹/Pasted image 20230402135809.png",
     "020 - 附件文件夹/Pasted image 20230402135755.png",
     "020 - 附件文件夹/Pasted image 20230402135734.png",
-    "020 - 附件文件夹/Pasted image 20230402135710.png",
-    "020 - 附件文件夹/Pasted image 20230402135623.png",
     "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机/JVM - tmp.md",
     "170 - 未整理/Java 基础 - CompleteFuture 异步计算.md",
     "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机/小结和问题.md",
@@ -171,18 +147,8 @@
     "070 - Spring 全家桶/030 - Spring Boot/未归档",
     "070 - Spring 全家桶/020 - Spring MVC/未归档/040 - Spring MVC.md",
     "070 - Spring 全家桶/020 - Spring MVC/未归档/020 - Spring MVC.md",
-    "070 - Spring 全家桶/020 - Spring MVC/未归档/030 - SpringMVC 的 DispatcherServlet 执行流程.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/050 - Spring 和 MySQL 事务.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/030 - 注解式开发.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/020 - Spring MVC.md",
-    "070 - Spring 全家桶/020 - Spring MVC/未归档/010 - Spring IOC.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/未归档/190 - Spring IOC 的循环依赖.md",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/030 - 微服务编码.md",
     "070 - Spring 全家桶/020 - Spring MVC/未归档",
-    "070 - Spring 全家桶/020 - Spring MVC/未命名.md",
     "070 - Spring 全家桶/020 - Spring MVC",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/020 - 微服务组件说明.md",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/010 -  开篇导学.md",
     "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档",
     "images",
     "070 - Spring 全家桶/030 - Spring Boot/尚硅谷",
