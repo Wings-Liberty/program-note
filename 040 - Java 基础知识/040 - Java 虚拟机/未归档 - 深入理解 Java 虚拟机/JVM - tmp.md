@@ -24,7 +24,7 @@ JVM体系结构概览
 
 `类文件（Class File）`，`类加载器（Class loader）`，`运行时数据区（RunTime Data Area）`，`执行引擎（Execution Engine）`，`本地方法接口（Native Interface）`，`本地方法库`
 
-![[../../020 - 附件文件夹/Pasted image 20230402130322.png|500]]
+![[../../../020 - 附件文件夹/Pasted image 20230402130322.png|500]]
 
 `RunTime Data Area`就是JVM的核心，其核心分区为：
 

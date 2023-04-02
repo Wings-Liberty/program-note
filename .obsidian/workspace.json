@@ -16,11 +16,38 @@
                 "file": "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3cf31ec34e2ab728",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "130 - Linux/Linux 实用命令.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68545692d041a35a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "070 - Spring 全家桶/050 - Spring Cloud Alibaba/050 - 配置中心 - Nacos.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md"
+                "file": "070 - Spring 全家桶/050 - Spring Cloud Alibaba/050 - 配置中心 - Nacos.md"
               }
             }
           },
@@ -102,7 +129,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 347.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -114,27 +141,31 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "50b1d4af7bbf17fd",
+  "active": "68545692d041a35a",
   "lastOpenFiles": [
-    "130 - Linux/未归档 - 深入理解 Java 虚拟机/JVM - tmp.md",
+    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/010 - 注册中心 - Nacos.md",
+    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/050 - 配置中心 - Nacos.md",
+    "140 - 其他开源组件/110 - 定时任务 - XXL-JOB/XXL-JOB 的基本使用方式.md",
+    "130 - Linux/Linux 实用命令.md",
+    "020 - 附件文件夹/Pasted image 20230402140456.png",
+    "020 - 附件文件夹/Pasted image 20230402140443.png",
+    "020 - 附件文件夹/Pasted image 20230402140427.png",
+    "020 - 附件文件夹/Pasted image 20230402140326.png",
+    "020 - 附件文件夹/Pasted image 20230402140304.png",
     "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
+    "020 - 附件文件夹/Pasted image 20230402135809.png",
+    "020 - 附件文件夹/Pasted image 20230402135755.png",
+    "020 - 附件文件夹/Pasted image 20230402135734.png",
+    "020 - 附件文件夹/Pasted image 20230402135710.png",
+    "020 - 附件文件夹/Pasted image 20230402135623.png",
+    "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机/JVM - tmp.md",
     "170 - 未整理/Java 基础 - CompleteFuture 异步计算.md",
-    "020 - 附件文件夹/Pasted image 20230402130322.png",
-    "130 - Linux/未归档 - 深入理解 Java 虚拟机/小结和问题.md",
-    "130 - Linux/未归档 - 深入理解 Java 虚拟机/050 - 高效并发.md",
-    "020 - 附件文件夹/Pasted image 20230402130144.png",
-    "020 - 附件文件夹/Pasted image 20230402130113.png",
-    "020 - 附件文件夹/Pasted image 20230402130104.png",
-    "130 - Linux/未归档 - 深入理解 Java 虚拟机/030 - 虚拟机执行子系统.md",
-    "020 - 附件文件夹/Pasted image 20230402130007.png",
-    "020 - 附件文件夹/Pasted image 20230402125950.png",
-    "020 - 附件文件夹/Pasted image 20230402125937.png",
-    "020 - 附件文件夹/Pasted image 20230402125916.png",
-    "130 - Linux/未归档 - 深入理解 Java 虚拟机/020 - 自动内存管理.md",
-    "020 - 附件文件夹/Pasted image 20230402125427.png",
-    "020 - 附件文件夹/Pasted image 20230402125102.png",
+    "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机/小结和问题.md",
+    "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机/050 - 高效并发.md",
+    "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机/030 - 虚拟机执行子系统.md",
+    "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机/020 - 自动内存管理.md",
     "070 - Spring 全家桶/030 - Spring Boot/未归档/020 - SpringBoot.md",
-    "130 - Linux/未归档 - 深入理解 Java 虚拟机",
+    "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机",
     "070 - Spring 全家桶/030 - Spring Boot/未归档/010 - SpringBoot 下 Spring IOC 容器的结构.md",
     "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/040 - 尚硅谷 Spring Cloud 笔记草稿.md",
     "070 - Spring 全家桶/030 - Spring Boot/未归档",
@@ -152,11 +183,7 @@
     "070 - Spring 全家桶/020 - Spring MVC",
     "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/020 - 微服务组件说明.md",
     "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/010 -  开篇导学.md",
-    "070 - Spring 全家桶/030 - Spring Boot/尚硅谷/020 - SpringBoot高级篇笔记.md",
     "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档",
-    "070 - Spring 全家桶/030 - Spring Boot/尚硅谷/010 - Spring Boot 笔记.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/未归档/160 - 注解的使用和AOP原理.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/未归档/170 - Spring 创建 IOC.md",
     "images",
     "070 - Spring 全家桶/030 - Spring Boot/尚硅谷",
     "070 - Spring 全家桶/010 - Spring Fromework/未归档",
