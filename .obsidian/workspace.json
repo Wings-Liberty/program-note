@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "90cc71c483f17062",
+            "id": "645f0c81304622d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "060 - MySQL&Redis/010 - MySQL 的 SQL 语句.md",
+                "file": "060 - MySQL&Redis/未归档/MYSQL 的主从复制和集群.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "e4613966222066d3",
+            "id": "bc09b3fa3d9ea18d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "060 - MySQL&Redis/未归档/MySql.md",
+                "file": "060 - MySQL&Redis/未归档/MYSQL 索引优化.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "508a5a4c98c16854",
+            "id": "cd637f3196bbfc3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "060 - MySQL&Redis/未归档/MySQL 的配置文件.md",
+                "file": "060 - MySQL&Redis/Redis/010 - Redis 常用命令.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "060 - MySQL&Redis/未归档/MySQL 的配置文件.md"
+                "file": "060 - MySQL&Redis/Redis/010 - Redis 常用命令.md"
               }
             }
           },
@@ -125,7 +125,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -141,26 +142,36 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "508a5a4c98c16854",
+  "active": "cd637f3196bbfc3b",
   "lastOpenFiles": [
-    "020 - 附件文件夹/Pasted image 20230402002422.png",
-    "060 - MySQL&Redis/未归档/MySql.md",
+    "060 - MySQL&Redis/Redis/040 - Redis 单机搭建和集群.md",
+    "060 - MySQL&Redis/Redis/030 - Redis 的配置文件和运行时问题分析.md",
+    "060 - MySQL&Redis/Redis/020 - Redis 的持久化和事务.md",
+    "060 - MySQL&Redis/Redis/010 - Redis 常用命令.md",
+    "060 - MySQL&Redis/未命名.md",
+    "060 - MySQL&Redis/Redis",
+    "060 - MySQL&Redis/MySQL",
+    "060 - MySQL&Redis/未归档/极客时间 — MySQL45 讲总结.md",
+    "020 - 附件文件夹/Pasted image 20230402101756.png",
+    "020 - 附件文件夹/Pasted image 20230402101747.png",
+    "020 - 附件文件夹/Pasted image 20230402101721.png",
+    "020 - 附件文件夹/Pasted image 20230402101658.png",
+    "020 - 附件文件夹/Pasted image 20230402101647.png",
+    "060 - MySQL&Redis/未归档/MYSQL 索引优化.md",
+    "020 - 附件文件夹/Pasted image 20230402101524.png",
+    "020 - 附件文件夹/Pasted image 20230402101513.png",
+    "020 - 附件文件夹/Pasted image 20230402101458.png",
+    "060 - MySQL&Redis/未归档/MYSQL 的主从复制和集群.md",
+    "020 - 附件文件夹/Pasted image 20230402101225.png",
+    "060 - MySQL&Redis/未归档/MYSQL 架构的简单介绍.md",
+    "020 - 附件文件夹/Pasted image 20230402100703.png",
     "060 - MySQL&Redis/未归档/MySQL 的配置文件.md",
-    "020 - 附件文件夹/Pasted image 20230402002305.png",
-    "020 - 附件文件夹/Pasted image 20230402002218.png",
-    "060 - MySQL&Redis/010 - MySQL 的 SQL 语句.md",
+    "060 - MySQL&Redis/未归档/MySql.md",
+    "060 - MySQL&Redis/MySQL/010 - MySQL 的 SQL 语句.md",
     "060 - MySQL&Redis/未归档",
     "050 - Tomcat/010 - Tomcat 和 JavaWeb API.md",
     "170 - 未整理/Tomcat - 附加功能.md",
     "050 - Tomcat/020 - Tomcat 深度解析.md",
-    "020 - 附件文件夹/Pasted image 20230402000052.png",
-    "020 - 附件文件夹/Pasted image 20230402000002.png",
-    "020 - 附件文件夹/Pasted image 20230401235947.png",
-    "020 - 附件文件夹/Pasted image 20230401235935.png",
-    "020 - 附件文件夹/Pasted image 20230401235905.png",
-    "020 - 附件文件夹/Pasted image 20230401235857.png",
-    "020 - 附件文件夹/Pasted image 20230401235705.png",
-    "020 - 附件文件夹/Tomcat处理请求.svg",
     "040 - Java基础知识/030 - 并发专题/未归档/图灵并发专题.md",
     "170 - 未整理/Java 基础 - 补充.md",
     "040 - Java基础知识/030 - 并发专题/未归档/JUC.md",
@@ -174,20 +185,10 @@
     "170 - 未整理/Java 基础 - Java 编程思想笔记.md",
     "040 - Java基础知识/060 - Netty 网络编程专题/尚硅谷/01 - Netty 的线程模型和执行流程.md",
     "040 - Java基础知识/060 - Netty 网络编程专题/尚硅谷/02 - Netty 核心组件，功能分析，源码执行流程.md",
-    "040 - Java基础知识/060 - Netty 网络编程专题/尚硅谷/03 - Netty 实战及其注意事项.md",
-    "040 - Java基础知识/060 - Netty 网络编程专题/图灵学院/01 - NIO 与 Netty 线程模型.md",
-    "040 - Java基础知识/060 - Netty 网络编程专题/图灵学院/02 Netty 核心功能和线程模型.md",
-    "040 - Java基础知识/060 - Netty 网络编程专题/未归档/Netty 源码分析.md",
     "040 - Java基础知识/060 - Netty 网络编程专题/未归档",
-    "040 - Java基础知识/060 - Netty 网络编程专题/030 - Netty 源码分析.md",
-    "040 - Java基础知识/060 - Netty 网络编程专题/020 - Netty API.md",
-    "040 - Java基础知识/060 - Netty 网络编程专题/010 - Netty 基础执行过程.md",
     "040 - Java基础知识/060 - Netty 网络编程专题/尚硅谷",
     "040 - Java基础知识/060 - Netty 网络编程专题/图灵学院",
-    "040 - Java基础知识/030 - 并发专题/020 - AQS 原理.md",
     "031 - 项目Demo/DemoProject/target/classes/com/cx/Main.class",
-    "031 - 项目Demo/DemoProject/target/classes/com/cx",
-    "031 - 项目Demo/DemoProject/target/classes/com",
-    "031 - 项目Demo/DemoProject/target/classes"
+    "031 - 项目Demo/DemoProject/target/classes/com/cx"
   ]
 }
