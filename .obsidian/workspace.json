@@ -8,72 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c88073d9a88268f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "130 - Linux/未归档 - 深入理解 Java 虚拟机/020 - 自动内存管理.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cfd7ed7c29af17be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "130 - Linux/未归档 - 深入理解 Java 虚拟机/030 - 虚拟机执行子系统.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c9d1756864a0ae2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "130 - Linux/未归档 - 深入理解 Java 虚拟机/050 - 高效并发.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e59ef1b29c7c7b12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "130 - Linux/未归档 - 深入理解 Java 虚拟机/小结和问题.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dbf3379e464ecdb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "130 - Linux/未归档 - 深入理解 Java 虚拟机/JVM - tmp.md",
+                "file": "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "130 - Linux/未归档 - 深入理解 Java 虚拟机/JVM - tmp.md"
+                "file": "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md"
               }
             }
           },
@@ -151,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,10 +114,11 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "dbf3379e464ecdb7",
+  "active": "50b1d4af7bbf17fd",
   "lastOpenFiles": [
-    "170 - 未整理/Java 基础 - CompleteFuture 异步计算.md",
     "130 - Linux/未归档 - 深入理解 Java 虚拟机/JVM - tmp.md",
+    "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
+    "170 - 未整理/Java 基础 - CompleteFuture 异步计算.md",
     "020 - 附件文件夹/Pasted image 20230402130322.png",
     "130 - Linux/未归档 - 深入理解 Java 虚拟机/小结和问题.md",
     "130 - Linux/未归档 - 深入理解 Java 虚拟机/050 - 高效并发.md",
@@ -210,7 +157,6 @@
     "070 - Spring 全家桶/030 - Spring Boot/尚硅谷/010 - Spring Boot 笔记.md",
     "070 - Spring 全家桶/010 - Spring Fromework/未归档/160 - 注解的使用和AOP原理.md",
     "070 - Spring 全家桶/010 - Spring Fromework/未归档/170 - Spring 创建 IOC.md",
-    "images/搜狗截图20180302221835.png.md",
     "images",
     "070 - Spring 全家桶/030 - Spring Boot/尚硅谷",
     "070 - Spring 全家桶/010 - Spring Fromework/未归档",
