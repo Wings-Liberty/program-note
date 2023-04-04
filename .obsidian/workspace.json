@@ -11,8 +11,13 @@
             "id": "2ea41ff63b0e5ec6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -72,7 +77,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md"
+              }
             }
           },
           {
