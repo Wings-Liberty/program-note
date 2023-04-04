@@ -6,7 +6,7 @@
 
 分布式队列因为有高可靠性的要求，所以数据要进行持久化存储。
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405001648.png|700]]
 
 1. 消息生成者发送消息
 2. MQ收到消息，将消息进行持久化，在存储中新增一条记录
@@ -21,13 +21,13 @@
 
 Apache下开源的另外一款MQ—ActiveMQ（默认采用的KahaDB做消息存储）可选用JDBC的方式来做消息持久化，通过简单的xml配置信息即可实现JDBC消息存储。由于，普通关系型数据库（如Mysql）在单表数据量达到千万级别的情况下，其IO读写性能往往会出现瓶颈。在可靠性方面，该种方案非常依赖DB，如果一旦DB出现故障，则MQ的消息就无法落盘存储会导致线上故障
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405001706.png|150]]
 
 - 文件系统
 
   目前业界较为常用的几款产品（RocketMQ/Kafka/RabbitMQ）均采用的是消息刷盘至所部署虚拟机/物理机的文件系统来做持久化（刷盘一般可以分为异步刷盘和同步刷盘两种模式）。消息刷盘为消息存储提供了一种高效率、高可靠性和高性能的数据持久化方式。除非部署MQ机器本身或是本地磁盘挂了，否则一般是不会出现无法持久化的故障问题。
 
-  
+![[../../020 - 附件文件夹/Pasted image 20230405001730.png|100]]
 
 ### 1.1.2 性能对比
 
@@ -56,7 +56,7 @@ Linux操作系统分为【用户态】和【内核态】，文件操作、网络
 3. 然后从用户态 内存复制到网络驱动的内核态内存；
 4. 最后是从网络驱动的内核态内存复 制到网卡中进行传输。
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405001804.png|700]]
 
 通过使用mmap 的方式，可以省去向用户态的内存复制，提高速度。这种机制在 Java 中是通过 MappedByteBuffer 实现的
 
@@ -68,7 +68,7 @@ RocketMQ充分利用了上述特性，也就是所谓的“零拷贝”技术，
 
 RocketMQ 消息的存储是由 ConsumeQueue 和 CommitLog 配合完成 的，消息真正的物理存储文件是 CommitLog，ConsumeQueue 是消息的逻辑队列，类似数据库的索引文件，存储的是指向物理存储的地址。每 个Topic下的每个Message Queue都有一个对应的 ConsumeQueue 文件。
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405001816.png|700]]
 
 * CommitLog：存储消息的元数据
 * ConsumerQueue：存储消息在 CommitLog 的索引，使用 offset 偏移量（和MessageQueue是一一对应的，每创建一个消息队列就创建一个ConsumerQueue。此目录里放的是和Topic同名的目录，目录下就是索引文件）
@@ -78,7 +78,7 @@ RocketMQ 消息的存储是由 ConsumeQueue 和 CommitLog 配合完成 的，消
 
 RocketMQ 的消息是存储到磁盘上的（持久化 ），这样既能保证断电后恢复， 又可以让存储的消息量超出内存的限制（磁盘空间比内存大很多）。RocketMQ 为了提高性能，会尽可能地保证磁盘的顺序写。消息在通过Producer写入RocketMQ的时 候，有两种写磁盘方式，分布式同步刷盘和异步刷盘。
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405001838.png|500]]
 
 #### 1）同步刷盘
 
@@ -94,7 +94,7 @@ RocketMQ 的消息是存储到磁盘上的（持久化 ），这样既能保证�
 
 ## 1.2 高可用性机制
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405001853.png|700]]
 
 RocketMQ分布式集群是通过Master和Slave的配合达到高可用性的。
 
@@ -110,7 +110,7 @@ Master角色的Broker支持读和写，Slave角色的Broker仅支持读，也就
 
 在创建Topic的时候，把Topic的多个Message Queue创建在多个Broker组上（相同Broker名称，不同 brokerId的机器组成一个Broker组），这样当一个Broker组的Master不可 用后，其他组的Master仍然可用，Producer仍然可以发送消息。 RocketMQ目前还不支持把Slave自动转成Master，如果机器资源不足， 需要把Slave转成Master，则要手动停止Slave角色的Broker，更改配置文 件，用新的配置文件启动Broker。
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405001908.png|700]]
 
 ### 1.2.3 消息主从复制
 
@@ -134,7 +134,7 @@ Master角色的Broker支持读和写，Slave角色的Broker仅支持读，也就
 
 #### 4）总结
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405001922.png|425]]
 
 实际应用中要结合业务场景，合理设置刷盘方式和主从复制方式， 尤其是SYNC_FLUSH方式，由于频繁地触发磁盘写动作，会明显降低 性能。通常情况下，应该把Master和Save配置成ASYNC_FLUSH的刷盘 方式，主从之间配置成SYNC_MASTER的复制方式，这样即使有一台 机器出故障，仍然能保证数据不丢，是个不错的选择。
 
@@ -144,7 +144,7 @@ Master角色的Broker支持读和写，Slave角色的Broker仅支持读，也就
 
 Producer端，每个实例在发消息的时候，默认会轮询所有的message queue发送，以达到让消息平均落在不同的queue上。而由于queue可以散落在不同的broker，所以消息就发送到不同的broker下，如下图：
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405001938.png|700]]
 
 图中箭头线条上的标号代表顺序，发布方会把第一条消息发送至 Queue 0，然后第二条消息发送至 Queue 1，以此类推。
 
@@ -160,11 +160,11 @@ Producer端，每个实例在发消息的时候，默认会轮询所有的messag
 
 默认的分配算法是AllocateMessageQueueAveragely，如下图：
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405001948.png|600]]
 
 还有另外一种平均的算法是AllocateMessageQueueAveragelyByCircle，也是平均分摊每一条 queue，只是以环状轮流分queue的形式，如下图：
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405001959.png|600]]
 
 需要注意的是，集群模式下，queue 都是只允许分配只一个实例，这是由于如果多个实例同时消费一个 queue 的消息，由于拉取哪些消息是consumer 主动控制的，那样会导致同一个消息在不同的实例下被消费多次，所以算法上都是一个 queue 只分给一个 consumer 实例，一个consumer 实例可以允许同时分到不同的 queue。
 
@@ -178,7 +178,7 @@ Producer端，每个实例在发消息的时候，默认会轮询所有的messag
 
 在实现上，其中一个不同就是在consumer分配queue的时候，所有consumer都分到所有的queue。
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002010.png|600]]
 
 ## 1.4 消息重试
 
@@ -324,11 +324,11 @@ public class MessageListenerImpl implements MessageListener {
 
 1. 在控制台查询出现死信队列的主题信息
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002034.png|700]]
 
 2. 在消息界面根据主题查询死信消息
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002044.png|700]]
 
 3. 选择重新发送消息
 
@@ -389,7 +389,7 @@ consumer.subscribe("ons_test", "*", new MessageListener() {
 
 从官方仓库 <https://github.com/apache/rocketmq> `clone`或者`download`源码。
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002058.png|700]]
 
 **源码目录结构：**
 
@@ -415,7 +415,7 @@ consumer.subscribe("ons_test", "*", new MessageListener() {
 
 ### 2.1.2 导入IDEA
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002111.png|700]]
 
 **执行安装**（在maven的选项卡中执行此命令）
 
@@ -433,19 +433,19 @@ mvn clean install -Dmaven.test.skip=true
 
 创建`conf`配置文件夹,从`distribution`拷贝`broker.conf`和`logback_broker.xml`和`logback_namesrv.xml`
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002127.png|300]]
 
 #### 1）启动NameServer
 
 * 展开namesrv模块，右键NamesrvStartup.java
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002144.png|700]]
 
 * 配置**ROCKETMQ_HOME**
 
+![[../../020 - 附件文件夹/Pasted image 20230405002152.png|300]]
 
-
-
+![[../../020 - 附件文件夹/Pasted image 20230405002210.png|700]]
 
 * 重新启动
 
@@ -488,9 +488,9 @@ abortFile=E:\\RocketMQ\\data\\rocketmq\\dataDir\\abort
 * 创建数据文件夹`dataDir`
 * 启动`BrokerStartup`,配置`broker.conf`和`ROCKETMQ_HOME`
 
+![[../../020 - 附件文件夹/Pasted image 20230405002223.png|300]]
 
-
-
+![[../../020 - 附件文件夹/Pasted image 20230405002233.png|700]]
 
 #### 3）发送消息
 
@@ -524,8 +524,7 @@ consumer.setNamesrvAddr("127.0.0.1:9876");
 
 NameServer就是为了解决以上问题设计的。
 
-
-
+![[../../020 - 附件文件夹/Pasted image 20230405002244.png|700]]
 
 Broker消息服务器在启动的时向所有NameServer注册，消息生产者（Producer）在发送消息时之前先从NameServer获取Broker服务器地址列表，然后根据负载均衡算法从列表中选择一台服务器进行发送。NameServer与每台Broker保持长连接，并间隔30S检测Broker是否存活，如果检测到Broker宕机，则从路由注册表中删除。但是路由变化不会马上通知消息生产者。这样设计的目的是为了降低NameServer实现的复杂度，在消息发送端提供容错机制保证消息发送的可用性。
 
@@ -533,7 +532,7 @@ NameServer本身的高可用是通过部署多台NameServer来实现，但彼此
 
 ### 2.2.2 启动流程
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002258.png|700]]
 
 启动类：`org.apache.rocketmq.namesrv.NamesrvStartup`
 
@@ -710,7 +709,7 @@ private final HashMap<String/* brokerAddr */, BrokerLiveInfo> brokerLiveTable;
 private final HashMap<String/* brokerAddr */, List<String>/* Filter Server */> filterServerTable;
 ```
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002329.png|750]]
 
 **topicQueueTable：**Topic消息队列路由信息，消息发送时根据路由表进行负载均衡
 
@@ -724,9 +723,9 @@ private final HashMap<String/* brokerAddr */, List<String>/* Filter Server */> f
 
 > RocketMQ基于定于发布机制，一个Topic拥有多个消息队列，一个Broker为每一个主题创建4个读队列和4个写队列。多个Broker组成一个集群，集群由相同的多台Broker组成Master-Slave架构，brokerId为0代表Master，大于0为Slave。BrokerLiveInfo中的lastUpdateTimestamp存储上次收到Broker心跳包的时间。
 
+![[../../020 - 附件文件夹/Pasted image 20230405002349.png|700]]
 
-
-
+![[../../020 - 附件文件夹/Pasted image 20230405002357.png|700]]
 
 #### 2.2.3.2 路由注册&Broker的启动
 
@@ -737,7 +736,7 @@ Broker发送心跳包you 两个作用
 - 向NameServer注册路由
 - 向NameServer证明自己还在活跃，没有宕机
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002406.png|800]]
 
 RocketMQ路由注册是通过Broker与NameServer的心跳功能实现的。Broker启动时向集群中所有的NameServer发送心跳信息，每隔30s向集群中所有NameServer发送心跳包，NameServer收到心跳包时会更新brokerLiveTable缓存中BrokerLiveInfo的lastUpdataTimeStamp信息，然后NameServer每隔10s扫描brokerLiveTable，如果连续120S没有收到心跳包，NameServer将移除Broker的路由信息同时关闭Socket连接。
 
@@ -829,12 +828,9 @@ RemotingCommand response = this.remotingClient.invokeSync(namesrvAddr, request, 
 
 ##### 2）处理心跳包
 
-
-
 NameServer接收到Broker心跳包后处理请求比高返回结果
 
-
-
+![[../../020 - 附件文件夹/Pasted image 20230405002508.png|500]]
 
 `org.apache.rocketmq.namesrv.processor.DefaultRequestProcessor`网路处理类（可以处理Broker的心跳请求，和Producer，Consumer的请求）    
 
@@ -1001,12 +997,8 @@ if (MixAll.MASTER_ID != brokerId) {
 
 #### 2.2.3.3 路由删除
 
-
-
 - Broker长时间不发心跳包，NameServer删除Broker的所有相关路由
 - Broker主动关闭，通知NamerServer删除相关路由
-
-
 
 ```Broker```每隔30s向```NameServer```发送一个心跳包，心跳包包含`BrokerId`，`Broker`地址，`Broker`名称，`Broker`所属集群名称、`Broker`关联的`FilterServer`列表。但是如果`Broker`宕机，`NameServer`无法收到心跳包，此时`NameServer`如何来剔除这些失效的`Broker`呢？`NameServer`会每隔10s扫描`brokerLiveTable`状态表，如果`BrokerLive`的**lastUpdateTimestamp**的时间戳距当前时间超过120s，则认为`Broker`失效，移除该`Broker`，关闭与`Broker`连接，同时更新`topicQueueTable`、`brokerAddrTable`、`brokerLiveTable`、`filterServerTable`。
 
@@ -1017,7 +1009,7 @@ if (MixAll.MASTER_ID != brokerId) {
 
 这两种方式路由删除的方法都是一样的，就是从相关路由表中删除与该broker相关的信息。
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002545.png|700]]
 
 ***代码：NamesrvController#initialize***
 
@@ -1206,18 +1198,19 @@ public RemotingCommand getRouteInfoByTopic(ChannelHandlerContext ctx,
 
 ### 2.2.4 小结
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002606.png|700]]
 
 ## 2.3 Producer
 
 消息生产者的代码都在client模块中，相对于RocketMQ来讲，消息生产者就是客户端，也是消息的提供者。
 
+![[../../020 - 附件文件夹/Pasted image 20230405002621.png|300]]
 
 ### 2.3.1 方法和属性
 
 #### 1）主要方法介绍
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002636.png|400]]
 
 ```java
 //创建主题
@@ -1256,7 +1249,7 @@ QueryResult queryMessage(final String topic, final String key, final int maxNum,
 MessageExt viewMessage(String topic,String msgId) throws RemotingException, MQBrokerException, InterruptedException, MQClientException;
 ```
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002703.png|700]]
 
 ```java
 // 启动
@@ -1328,6 +1321,7 @@ SendResult send(final Collection<Message> msgs) throws MQClientException, Remoti
 
 #### 2）属性介绍
 
+![[../../020 - 附件文件夹/Pasted image 20230405002728.png|450]]
 
 ```java
 producerGroup：生产者所属组
@@ -1343,7 +1337,7 @@ maxMessageSize：允许发送的最大消息长度，默认为4M
 
 ### 2.3.2 启动流程
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002746.png|700]]
 
 DefaultMQProducer持有成员变量DefaultMQProducerImpl
 
@@ -1419,7 +1413,7 @@ if (startFactory) {
 3. 选择队列
 4. 发送消息
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002803.png|800]]
 
 ***代码：DefaultMQProducerImpl#send(Message msg)***
 
@@ -1507,7 +1501,7 @@ private TopicPublishInfo tryToFindTopicPublishInfo(final String topic) {
 }
 ```
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405002932.png|700]]
 
 ***代码：TopicPublishInfo***
 
@@ -1734,6 +1728,7 @@ public MessageQueue selectOneMessageQueue(final TopicPublishInfo tpInfo, final S
 }
 ```
 
+![[../../020 - 附件文件夹/Pasted image 20230405002958.png|750]]
 
 延迟机制接口规范
 
@@ -2056,7 +2051,7 @@ if (this.hasSendMessageHook()) {
 
 ### 2.3.4 批量消息发送
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405003022.png|750]]
 
 批量消息发送是将同一个主题的多条消息一起打包发送到消息服务端，减少网络调用次数，提高网络传输效率。当然，并不是在同一批次中发送的消息数量越多越好，其判断依据是单条消息的长度，如果单条消息内容比较长，则打包多条消息发送会影响其他线程发送消息的响应时间，并且单批次消息总长度不能超过DefaultMQProducer#maxMessageSize。
 
@@ -2103,7 +2098,7 @@ private MessageBatch batch(Collection<Message> msgs) throws MQClientException {
 
 ### 2.4.1 消息存储核心类
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405003039.png|550]]
 
 ```java
 private final MessageStoreConfig messageStoreConfig;	//消息配置属性
@@ -2130,8 +2125,7 @@ private final LinkedList<CommitLogDispatcher> dispatcherList;	//CommitLog文件�
 
 先将消息存到内存中，之后再使用刷盘机制将消息写入磁盘
 
-
-
+![[../../020 - 附件文件夹/Pasted image 20230405003102.png|700]]
 
 ***消息存储入口：DefaultMessageStore#putMessage***
 

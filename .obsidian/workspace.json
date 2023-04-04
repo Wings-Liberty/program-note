@@ -16,7 +16,7 @@
                 "file": "140 - 其他开源组件/040 - 消息队列 - RocketMQ/030 - RocketMQ 03 高级设置.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           }
@@ -114,20 +114,21 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "50b1d4af7bbf17fd",
+  "active": "e7982c7f75cff9e8",
   "lastOpenFiles": [
+    "020 - 附件文件夹/Pasted image 20230405003102.png",
+    "020 - 附件文件夹/Pasted image 20230405003039.png",
+    "020 - 附件文件夹/Pasted image 20230405003022.png",
+    "020 - 附件文件夹/Pasted image 20230405002958.png",
+    "020 - 附件文件夹/Pasted image 20230405002932.png",
+    "020 - 附件文件夹/Pasted image 20230405002803.png",
+    "020 - 附件文件夹/Pasted image 20230405002746.png",
+    "020 - 附件文件夹/Pasted image 20230405002728.png",
+    "020 - 附件文件夹/Pasted image 20230405002703.png",
+    "020 - 附件文件夹/Pasted image 20230405002636.png",
+    "020 - 附件文件夹/Pasted image 20230405002621.png",
     "140 - 其他开源组件/040 - 消息队列 - RocketMQ/020 - RocketMQ 02 使用场景示例.md",
     "140 - 其他开源组件/040 - 消息队列 - RocketMQ/030 - RocketMQ 03 高级设置.md",
-    "020 - 附件文件夹/Pasted image 20230404225840.png",
-    "020 - 附件文件夹/Pasted image 20230404225817.png",
-    "020 - 附件文件夹/Pasted image 20230404225748.png",
-    "020 - 附件文件夹/Pasted image 20230404225659.png",
-    "020 - 附件文件夹/Pasted image 20230404225626.png",
-    "020 - 附件文件夹/Pasted image 20230404225559.png",
-    "020 - 附件文件夹/Pasted image 20230404225543.png",
-    "020 - 附件文件夹/Pasted image 20230404225517.png",
-    "020 - 附件文件夹/Pasted image 20230404225502.png",
-    "020 - 附件文件夹/Pasted image 20230404225400.png",
     "100 - 编码技巧和架构/050 - UML",
     "140 - 其他开源组件/040 - 消息队列 - RocketMQ/010 - RocketMQ 使用方式和集群搭建.md",
     "140 - 其他开源组件/042 - 消息队列 - ActiveMQ/ActiveMQ.md",
@@ -156,7 +157,6 @@
     "110 - 计算机常识/050 - 认证与授权管理/030 - 常见认证方式.md",
     "110 - 计算机常识/050 - 认证与授权管理/020 -  用户会话状态管理技术.md",
     "110 - 计算机常识/050 - 认证与授权管理/010 - 认证和授权.md",
-    "010 - 新建笔记/整理进度.md",
     "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机",
     "070 - Spring 全家桶/030 - Spring Boot/未归档",
     "070 - Spring 全家桶/020 - Spring MVC/未归档",
