@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "dcb90f9e18c11320",
+        "id": "9a2c02241d30e6ff",
         "type": "tabs",
         "children": [
           {
-            "id": "2ea41ff63b0e5ec6",
+            "id": "e7982c7f75cff9e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
+                "file": "140 - 其他开源组件/040 - 消息队列 - RocketMQ/030 - RocketMQ 03 高级设置.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md"
+                "file": "140 - 其他开源组件/040 - 消息队列 - RocketMQ/030 - RocketMQ 03 高级设置.md"
               }
             }
           },
@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -114,28 +114,41 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "2ea41ff63b0e5ec6",
+  "active": "e7982c7f75cff9e8",
   "lastOpenFiles": [
-    "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
+    "140 - 其他开源组件/040 - 消息队列 - RocketMQ/020 - RocketMQ 02 使用场景示例.md",
+    "140 - 其他开源组件/040 - 消息队列 - RocketMQ/030 - RocketMQ 03 高级设置.md",
+    "020 - 附件文件夹/Pasted image 20230404225840.png",
+    "020 - 附件文件夹/Pasted image 20230404225817.png",
+    "020 - 附件文件夹/Pasted image 20230404225748.png",
+    "020 - 附件文件夹/Pasted image 20230404225659.png",
+    "020 - 附件文件夹/Pasted image 20230404225626.png",
+    "020 - 附件文件夹/Pasted image 20230404225559.png",
+    "020 - 附件文件夹/Pasted image 20230404225543.png",
+    "020 - 附件文件夹/Pasted image 20230404225517.png",
+    "020 - 附件文件夹/Pasted image 20230404225502.png",
+    "020 - 附件文件夹/Pasted image 20230404225400.png",
+    "100 - 编码技巧和架构/050 - UML",
+    "140 - 其他开源组件/040 - 消息队列 - RocketMQ/010 - RocketMQ 使用方式和集群搭建.md",
+    "140 - 其他开源组件/042 - 消息队列 - ActiveMQ/ActiveMQ.md",
+    "140 - 其他开源组件/042 - 消息队列 - ActiveMQ",
+    "080 - Mybatis & Mybatis-Plus/未归档/Mybatis&Mybatis-Plus.md",
+    "140 - 其他开源组件/041 - 消息队列 - RabbitMQ/RabbitMQ.md",
+    "140 - 其他开源组件/041 - 消息队列 - RabbitMQ",
+    "080 - Mybatis & Mybatis-Plus/未归档/Mybatis-Plus.md",
+    "120 - 项目管理/020 - 项目管理工具 - Maven/Maven 笔记.md",
+    "080 - Mybatis & Mybatis-Plus/未归档",
+    "120 - 项目管理/020 - 项目管理工具 - Maven/项目管理工具 - Maven - 基础使用方式.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
     "140 - 其他开源组件/020 - 权限管理 - Shiro/050 - Shiro.md",
     "140 - 其他开源组件/020 - 权限管理 - Shiro/040 - Shiro 的补充功能.md",
     "140 - 其他开源组件/020 - 权限管理 - Shiro/030 - Shiro 过滤器链的创建和调用流程.md",
-    "020 - 附件文件夹/Pasted image 20230402231143.png",
-    "020 - 附件文件夹/Pasted image 20230402231118.png",
     "140 - 其他开源组件/020 - 权限管理 - Shiro/010 - Shiro 简介和 Spring 整合 Shiro 的实现流程.md",
     "140 - 其他开源组件/020 - 权限管理 - Shiro/020 - Shiro 内置过滤器详解.md",
-    "020 - 附件文件夹/Pasted image 20230402230714.png",
     "070 - Spring 全家桶/040 - Spring Security/040 - SpringSecurity 调用 QQ 登录接口.md",
     "140 - 其他开源组件/120 - 权限管理 - Shiro",
-    "020 - 附件文件夹/Pasted image 20230402230507.png",
     "070 - Spring 全家桶/040 - Spring Security/030 - Spring Security.md",
-    "020 - 附件文件夹/Pasted image 20230402230156.png",
-    "020 - 附件文件夹/Pasted image 20230402230142.png",
-    "020 - 附件文件夹/Pasted image 20230402230127.png",
-    "020 - 附件文件夹/Pasted image 20230402230115.png",
-    "020 - 附件文件夹/Pasted image 20230402230053.png",
-    "020 - 附件文件夹/Pasted image 20230402230039.png",
     "070 - Spring 全家桶/040 - Spring Security/010 - Spring Security.md",
     "070 - Spring 全家桶/040 - Spring Security/020 - Spring Security OAuth2 认证和授权流程.md",
     "110 - 计算机常识/050 - 认证与授权管理/050 - OAuth，SSO.md",
@@ -144,23 +157,10 @@
     "110 - 计算机常识/050 - 认证与授权管理/020 -  用户会话状态管理技术.md",
     "110 - 计算机常识/050 - 认证与授权管理/010 - 认证和授权.md",
     "010 - 新建笔记/整理进度.md",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/010 - 注册中心 - Nacos.md",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/020 - 负载均衡组件 - Ribbon.md",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/030 - RPC 组件 - OpenFeign.md",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/040 - 网关组件 - SpringCloudGateway.md",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/050 - 配置中心 - Nacos.md",
-    "140 - 其他开源组件/110 - 定时任务 - XXL-JOB/XXL-JOB 的基本使用方式.md",
-    "130 - Linux/Linux 实用命令.md",
-    "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
-    "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机/JVM - tmp.md",
     "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机",
     "070 - Spring 全家桶/030 - Spring Boot/未归档",
     "070 - Spring 全家桶/020 - Spring MVC/未归档",
     "070 - Spring 全家桶/020 - Spring MVC",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档",
-    "images",
-    "070 - Spring 全家桶/030 - Spring Boot/尚硅谷",
-    "070 - Spring 全家桶/010 - Spring Fromework/未归档",
-    "140 - 其他开源组件/060 - 日志检索 - ELK/020 - Logstash/未归档"
+    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档"
   ]
 }

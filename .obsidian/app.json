@@ -11,5 +11,6 @@
   "userIgnoreFilters": [
     "020 - 附件文件夹/"
   ],
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "defaultViewMode": "source"
 }
