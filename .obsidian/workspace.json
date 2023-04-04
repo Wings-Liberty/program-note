@@ -116,6 +116,8 @@
   },
   "active": "2ea41ff63b0e5ec6",
   "lastOpenFiles": [
+    "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
     "140 - 其他开源组件/020 - 权限管理 - Shiro/050 - Shiro.md",
     "140 - 其他开源组件/020 - 权限管理 - Shiro/040 - Shiro 的补充功能.md",
     "140 - 其他开源组件/020 - 权限管理 - Shiro/030 - Shiro 过滤器链的创建和调用流程.md",
@@ -151,8 +153,6 @@
     "130 - Linux/Linux 实用命令.md",
     "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
     "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机/JVM - tmp.md",
-    "170 - 未整理/Java 基础 - CompleteFuture 异步计算.md",
-    "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机/小结和问题.md",
     "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机",
     "070 - Spring 全家桶/030 - Spring Boot/未归档",
     "070 - Spring 全家桶/020 - Spring MVC/未归档",
