@@ -2341,7 +2341,7 @@ handleHA(result, putMessageResult, msg);
 
 ### 2.4.3 存储文件
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405003617.png|200]]
 
 - commitLog：消息存储目录
 - config：运行期间产生的一些配置信息
@@ -2358,7 +2358,7 @@ RocketMQ通过使用内存映射文件提高IO访问性能，无论是CommitLog�
 
 此类相当于commitLog文件夹
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405003635.png|500]]
 
 ```java
 String storePath;	// 存储目录。commitLog文件夹的磁盘路径
@@ -2487,7 +2487,7 @@ public long getMaxWrotePosition() {
 
 #### 2）MappedFile
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405003659.png|500]]
 
 ```java
 int OS_PAGE_SIZE = 1024 * 4;		// 操作系统每页大小,默认4K
@@ -2643,7 +2643,7 @@ protected void commit0(final int commitLeastPages) {
 
 刷写磁盘，直接调用MappedByteBuffer或fileChannel的force方法将内存中的数据持久化到磁盘，那么flushedPosition应该等于MappedByteBuffer中的写指针；如果writeBuffer不为空，则flushPosition应该等于上一次的commit指针；因为上一次提交的数据就是进入到MappedByteBuffer中的数据；如果writeBuffer为空，数据时直接进入到MappedByteBuffer，wrotePosition代表的是MappedByteBuffer中的指针，故设置flushPosition为wrotePosition。
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405003720.png]]
 
 ```java
 public int flush(final int flushLeastPages) {
@@ -2741,7 +2741,7 @@ public void shutdown(final long intervalForcibly) {
 
 短暂的存储池。RocketMQ单独创建一个MappedByteBuffer内存缓存池，用来临时存储数据，数据先写入该内存映射中，然后由commit线程定时将数据从该内存复制到与目标物理文件对应的内存映射中。RocketMQ引入该机制主要的原因是提供一种内存锁定，将当前堆外内存一直锁定在内存中，避免被进程将内存交换到磁盘。
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405003807.png|400]]
 
 ```java
 private final int poolSize;		//availableBuffers个数
@@ -2770,9 +2770,9 @@ public void init() {
 
 消息消费队文件、消息属性索引文件都是基于CommitLog文件构建的，当消息生产者提交的消息存储在CommitLog文件中，ConsumerQueue、IndexFile需要及时更新，否则消息无法及时被消费，根据消息属性查找消息也会出现较大延迟。RocketMQ通过开启一个线程**ReputMessageService**来准实时转发CommitLog文件更新事件，相应的任务处理器根据转发的消息及时更新ConsumerQueue、IndexFile文件。
 
+![[../../020 - 附件文件夹/Pasted image 20230405003828.png|700]]
 
-
-
+![[../../020 - 附件文件夹/Pasted image 20230405003845.png|700]]
 
 ***代码：DefaultMessageStore：start***
 
@@ -2820,7 +2820,7 @@ for (int readSize = 0; readSize < result.getSize() && doNext; ) {
 
 ***DispatchRequest***
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405003900.png|300]]
 
 ```java
 String topic; //消息主题名称
@@ -2841,7 +2841,7 @@ byte[] bitMap;	//位图
 
 #### 1）转发到ConsumerQueue
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405003916.png|700]]
 
 ```java
 class CommitLogDispatcherBuildConsumeQueue implements CommitLogDispatcher {
@@ -2892,7 +2892,7 @@ if (mappedFile != null) {
 
 #### 2）转发到Index
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405003929.png|750]]
 
 ```java
 class CommitLogDispatcherBuildIndex implements CommitLogDispatcher {
@@ -2964,9 +2964,9 @@ public void buildIndex(DispatchRequest req) {
 
 由于RocketMQ存储首先将消息全量存储在CommitLog文件中，然后异步生成转发任务更新ConsumerQueue和Index文件。如果消息成功存储到CommitLog文件中，转发任务未成功执行，此时消息服务器Broker由于某个愿意宕机，导致CommitLog、ConsumerQueue、IndexFile文件数据不一致。如果不加以人工修复的话，会有一部分消息即便在CommitLog中文件中存在，但由于没有转发到ConsumerQueue，这部分消息将永远无法被消费者消费。
 
+![[../../020 - 附件文件夹/Pasted image 20230405003951.png|700]]
 
-
-####1）存储文件加载
+#### 1）存储文件加载
 
 ***代码：DefaultMessageStore#load***
 
@@ -3180,7 +3180,7 @@ public void recoverTopicQueueTable() {
 }
 ```
 
-####2）正常恢复
+#### 2）正常恢复
 
 ***代码：CommitLog#recoverNormally***
 
@@ -3276,7 +3276,7 @@ public void truncateDirtyFiles(long offset) {
 }
 ```
 
-####3）异常恢复
+#### 3）异常恢复
 
 Broker异常停止文件恢复的实现为CommitLog#recoverAbnormally。异常文件恢复步骤与正常停止文件恢复流程基本相同，其主要差别有两个。首先，正常停止默认从倒数第三个文件开始进行恢复，而异常停止则需要从最后一个文件往前走，找到第一个消息存储正常的文件。其次，如果CommitLog目录没有消息文件，如果消息消费队列目录下存在文件，则需要销毁。
 
@@ -3318,7 +3318,7 @@ RocketMQ的存储是基于JDK NIO的内存映射机制（MappedByteBuffer）的�
 
 消息追加到内存后，立即将数据刷写到磁盘文件
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004036.png|750]]
 
 ***代码：CommitLog#handleDiskFlush***
 
@@ -3339,7 +3339,7 @@ if (messageExt.isWaitStoreMsgOK()) {
 
 ***GroupCommitRequest***
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004138.png|300]]
 
 ```java
 long nextOffset;	//刷盘点偏移量
@@ -3409,7 +3409,7 @@ private void doCommit() {
 
 在消息追加到内存后，立即返回给消息发送端。如果开启transientStorePoolEnable，RocketMQ会单独申请一个与目标物理文件（commitLog）同样大小的堆外内存，该堆外内存将使用内存锁定，确保不会被置换到虚拟内存中去，消息首先追加到堆外内存，然后提交到物理文件的内存映射中，然后刷写到磁盘。如果未开启transientStorePoolEnable，消息直接追加到物理文件直接映射文件中，然后刷写到磁盘中。
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004154.png|700]]
 
 开启transientStorePoolEnable后异步刷盘步骤:
 
@@ -3655,7 +3655,7 @@ RocketMQ支持局部顺序消息消费，也就是保证同一个消息队列上
 
 **<u>消息推送模式</u>**
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004215.png|400]]
 
 **<u>消息消费重要方法</u>**
 
@@ -3672,7 +3672,7 @@ void unsubscribe(final String topic)：取消消息订阅
 
 **<u>DefaultMQPushConsumer</u>**
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004233.png|400]]
 
 ```java
 //消费者组
@@ -3713,7 +3713,7 @@ private long consumeTimeout = 15;
 
 ### 2.5.3 消费者启动流程
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004253.png|750]]
 
 ***代码：DefaultMQPushConsumerImpl#start***
 
@@ -3815,7 +3815,7 @@ public synchronized void start() throws MQClientException {
 
 从MQClientInstance的启动流程中可以看出，RocketMQ使用一个单独的线程PullMessageService来负责消息的拉取。
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004315.png|750]]
 
 ***代码：PullMessageService#run***
 
@@ -3841,7 +3841,7 @@ public void run() {
 
 <u>**PullRequest**</u>
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004328.png|300]]
 
 ```java
 private String consumerGroup;	//消费者组
@@ -3872,7 +3872,7 @@ private void pullMessage(final PullRequest pullRequest) {
 
 ProcessQueue是MessageQueue在消费端的重现、快照。PullMessageService从消息服务器默认每次拉取32条消息，按照消息的队列偏移量顺序存放在ProcessQueue中，PullMessageService然后将消息提交到消费者消费线程池，消息成功消费后从ProcessQueue中移除。
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004343.png|400]]
 
 **<u>属性</u>**
 
@@ -3918,7 +3918,7 @@ public List<MessageExt> takeMessags(final int batchSize)
 
 ##### 1.客户端发起拉取请求
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004418.png|750]]
 
 ***代码：DefaultMQPushConsumerImpl#pullMessage***
 
@@ -3998,7 +3998,7 @@ public void pullMessage(final PullRequest pullRequest) {
 
 ##### 2.消息服务端Broker组装消息
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004441.png|750]]
 
 ***代码：PullMessageProcessor#processRequest***
 
@@ -4146,7 +4146,7 @@ if (storeOffsetEnable) {
 
 ##### 3.消息拉取客户端处理消息
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004459.png|750]]
 
 ***代码：MQClientAPIImpl#processPullResponse***
 
@@ -4191,7 +4191,7 @@ private final long maxOffset;	//消息队列最大偏移量
 private List<MessageExt> msgFoundList;	//拉取的消息列表
 ```
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004518.png|200]]
 
 ***代码：DefaultMQPushConsumerImpl$PullCallback#OnSuccess***
 
@@ -4215,7 +4215,7 @@ if (DefaultMQPushConsumerImpl.this.defaultMQPushConsumer.getPullInterval() > 0) 
 
 ##### 4.消息拉取总结
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004534.png|700]]
 
 #### 4）消息拉取长轮询机制分析
 
@@ -4523,7 +4523,7 @@ c3:q3,q6
 
 PullMessageService负责对消息队列进行消息拉取，从远端服务器拉取消息后将消息存储ProcessQueue消息队列处理队列中，然后调用ConsumeMessageService#submitConsumeRequest方法进行消息消费，使用线程池来消费消息，确保了消息拉取与消息消费的解耦。ConsumeMessageService支持顺序消息和并发消息，核心类图如下：
 
-
+![[../../020 - 附件文件夹/Pasted image 20230405004609.png|600]]
 
 **<u>并发消息消费</u>**
 
