@@ -140,7 +140,7 @@ protected FilterChainManager createFilterChainManager() {
 
 添加过后filterChains长这样。url就是过滤器链的名字（chainName）
 
-![[../../020 - 附件文件夹/Pasted image 20230402231118.png|725]]
+![[../../../020 - 附件文件夹/Pasted image 20230402231118.png|725]]
 
 至此就完成了过滤器链的创建
 
@@ -152,7 +152,7 @@ protected FilterChainManager createFilterChainManager() {
 
 **`SpringShiroFilter`的继承体系图**
 
-![[../../020 - 附件文件夹/Pasted image 20230402231143.png|500]]
+![[../../../020 - 附件文件夹/Pasted image 20230402231143.png|500]]
 
 其中`AbstractShiroFilter`实现了`doFilterInternal`方法
 

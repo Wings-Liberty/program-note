@@ -40,7 +40,7 @@ shiroFilterFactoryBean.setFilterChainDefinitionMap(map); // 将上述配置set�
 
 # Shiro内置过滤器的继承体系
 
-![[../../020 - 附件文件夹/Pasted image 20230402230714.png]]
+![[../../../020 - 附件文件夹/Pasted image 20230402230714.png]]
 
 `AbstractFilter`实现了`Filter`接口，过滤器执行过滤的方法是`doFilter()`。只要摸清`FormAuthenticationFilter`是怎么执行此方法即可
 
