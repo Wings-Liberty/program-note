@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
+                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md"
+                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md"
               }
             }
           },
@@ -98,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -117,9 +116,11 @@
   },
   "active": "37b7dd3ddf4813a2",
   "lastOpenFiles": [
+    "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（旧）.md",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/030 - 大数值，字符串和数组.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
     "040 - Java 基础知识/010 - JDK 基础/Java 的 ClassPath 再探.md",
     "010 - 新建笔记/整理进度.md",
     "170 - 未整理/C 基础 - C Primer Plus.md",
@@ -156,8 +157,6 @@
     "140 - 其他开源组件/020 - 权限管理 - Shiro/020 - Shiro 内置过滤器详解.md",
     "070 - Spring 全家桶/040 - Spring Security/040 - SpringSecurity 调用 QQ 登录接口.md",
     "140 - 其他开源组件/120 - 权限管理 - Shiro",
-    "070 - Spring 全家桶/040 - Spring Security/030 - Spring Security.md",
-    "070 - Spring 全家桶/040 - Spring Security/010 - Spring Security.md",
     "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机",
     "070 - Spring 全家桶/030 - Spring Boot/未归档",
     "070 - Spring 全家桶/020 - Spring MVC/未归档",
