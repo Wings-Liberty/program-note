@@ -11,8 +11,13 @@
             "id": "7ba9676230f299c7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -72,7 +77,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "000 - Obsidian 设置记录/03 - 第三方插件设置.md"
+              }
             }
           },
           {
