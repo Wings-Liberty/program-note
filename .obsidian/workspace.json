@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f4a85c4e2ffa62cf",
+        "id": "78e6e92918ffa52b",
         "type": "tabs",
         "children": [
           {
-            "id": "ac0bbe311e43a122",
+            "id": "fdb31e3b58e60002",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "170 - 未整理/常用网站.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#notCompleted",
+                "query": "Dubbo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +77,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "170 - 未整理/常用网站.md"
+              }
             }
           },
           {
@@ -108,53 +115,53 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "ac0bbe311e43a122",
+  "active": "fdb31e3b58e60002",
   "lastOpenFiles": [
-    "040 - Java 基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/030 - 大数值，字符串和数组.md",
-    "040 - Java 基础知识/010 - JDK 基础/Java 的 ClassPath 再探.md",
+    "170 - 未整理/Java 虚拟机 - 深入理解Java虚拟机（CSDN博主总结）.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/990 - 从2.7.0-2.7.5版本，Dubbo调用链路是如何提升30%性能的.md",
+    "170 - 未整理/常用网站.md",
+    "170 - 未整理/Java 杂谈 - 如何绑定线程到指定的 CPU 上执行.md",
+    "170 - 未整理/数据库 - clickhouse.md",
     "010 - 新建笔记/整理进度.md",
-    "170 - 未整理/C 基础 - C Primer Plus.md",
-    "170 - 未整理/C 基础 - C 和指针.md",
+    "170 - 未整理/网络编程 - IM 入门指南路线篇.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/000 - 资料来源.md",
+    "170 - 未整理/未命名.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/037 - 集群 - directory.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/010 -  Hello, Dubbo.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/480 - 异步化改造.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/470 - 服务端处理请求过程.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/450 - 服务引用过程.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/460 - 消费端发送请求过程.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/440 - 服务暴露过程.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/430 - 2.7 新特性.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/420 - 序列化 - 开篇.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/410 - 集群 - Mock.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/400 - 集群 - router.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/390 - 集群 - merger.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/360 - 集群 - configurator.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/350 - 集群 - cluster.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/340 - 集群 - 开篇.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/380 - 集群 - LoadBalance.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析/270 - 远程调用 - injvm本地调用.md",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo/020 - 源码解析",
+    "140 - 其他开源组件/120 - RPC 组件 - Dubbo",
     "020 - 附件文件夹/Pasted image 20230405005131.png",
     "020 - 附件文件夹/Pasted image 20230405005050.png",
     "020 - 附件文件夹/Pasted image 20230405005040.png",
     "020 - 附件文件夹/Pasted image 20230405005027.png",
     "020 - 附件文件夹/Pasted image 20230405005011.png",
-    "140 - 其他开源组件/040 - 消息队列 - RocketMQ/030 - RocketMQ 03 高级设置.md",
     "020 - 附件文件夹/Pasted image 20230405004609.png",
     "020 - 附件文件夹/Pasted image 20230405004534.png",
     "020 - 附件文件夹/Pasted image 20230405004518.png",
     "020 - 附件文件夹/Pasted image 20230405004459.png",
     "020 - 附件文件夹/Pasted image 20230405004441.png",
-    "140 - 其他开源组件/040 - 消息队列 - RocketMQ/020 - RocketMQ 02 使用场景示例.md",
     "100 - 编码技巧和架构/050 - UML",
-    "140 - 其他开源组件/040 - 消息队列 - RocketMQ/010 - RocketMQ 使用方式和集群搭建.md",
-    "140 - 其他开源组件/042 - 消息队列 - ActiveMQ/ActiveMQ.md",
     "140 - 其他开源组件/042 - 消息队列 - ActiveMQ",
-    "080 - Mybatis & Mybatis-Plus/未归档/Mybatis&Mybatis-Plus.md",
-    "140 - 其他开源组件/041 - 消息队列 - RabbitMQ/RabbitMQ.md",
     "140 - 其他开源组件/041 - 消息队列 - RabbitMQ",
-    "080 - Mybatis & Mybatis-Plus/未归档/Mybatis-Plus.md",
-    "120 - 项目管理/020 - 项目管理工具 - Maven/Maven 笔记.md",
     "080 - Mybatis & Mybatis-Plus/未归档",
-    "120 - 项目管理/020 - 项目管理工具 - Maven/项目管理工具 - Maven - 基础使用方式.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
-    "140 - 其他开源组件/020 - 权限管理 - Shiro/050 - Shiro.md",
-    "140 - 其他开源组件/020 - 权限管理 - Shiro/040 - Shiro 的补充功能.md",
-    "140 - 其他开源组件/020 - 权限管理 - Shiro/030 - Shiro 过滤器链的创建和调用流程.md",
-    "140 - 其他开源组件/020 - 权限管理 - Shiro/010 - Shiro 简介和 Spring 整合 Shiro 的实现流程.md",
-    "140 - 其他开源组件/020 - 权限管理 - Shiro/020 - Shiro 内置过滤器详解.md",
-    "070 - Spring 全家桶/040 - Spring Security/040 - SpringSecurity 调用 QQ 登录接口.md",
     "140 - 其他开源组件/120 - 权限管理 - Shiro",
-    "070 - Spring 全家桶/040 - Spring Security/030 - Spring Security.md",
-    "070 - Spring 全家桶/040 - Spring Security/010 - Spring Security.md",
     "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机",
     "070 - Spring 全家桶/030 - Spring Boot/未归档",
-    "070 - Spring 全家桶/020 - Spring MVC/未归档",
-    "070 - Spring 全家桶/020 - Spring MVC",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档"
+    "070 - Spring 全家桶/020 - Spring MVC/未归档"
   ]
 }
