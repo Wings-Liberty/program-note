@@ -12,5 +12,6 @@
     "020 - 附件文件夹/"
   ],
   "strictLineBreaks": false,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "showLineNumber": false
 }

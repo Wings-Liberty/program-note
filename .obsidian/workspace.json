@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9a2c02241d30e6ff",
+        "id": "f8d568e67fc02cf1",
         "type": "tabs",
         "children": [
           {
-            "id": "37b7dd3ddf4813a2",
+            "id": "1b55e5b791542718",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md"
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md"
               }
             }
           },
@@ -115,11 +115,11 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "37b7dd3ddf4813a2",
+  "active": "1b55e5b791542718",
   "lastOpenFiles": [
+    "040 - Java 基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/030 - 大数值，字符串和数组.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
     "040 - Java 基础知识/010 - JDK 基础/Java 的 ClassPath 再探.md",
     "010 - 新建笔记/整理进度.md",
     "170 - 未整理/C 基础 - C Primer Plus.md",
