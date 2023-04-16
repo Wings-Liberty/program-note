@@ -4,29 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b73da6d808cc1b58",
+        "id": "52ce1fdec83a17c5",
         "type": "tabs",
         "children": [
           {
-            "id": "3b84b404131be547",
+            "id": "0b6e94545b6db34c",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              }
-            }
-          },
-          {
-            "id": "c3de29227e28d428",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -122,7 +108,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "3b84b404131be547",
+  "active": "c7d145da6ee5e1b5",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "180 - 未整理/项目/谷粒商城/谷粒商城.md",
