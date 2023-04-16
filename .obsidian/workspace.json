@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "52ce1fdec83a17c5",
+        "id": "d2418528fc8304d1",
         "type": "tabs",
         "children": [
           {
-            "id": "0b6e94545b6db34c",
+            "id": "6fbd3ff6a5c236e7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "180 - 未整理/测试git插件.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -72,7 +77,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "180 - 未整理/测试git插件.md"
+              }
             }
           },
           {
@@ -108,8 +115,9 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "c7d145da6ee5e1b5",
+  "active": "6fbd3ff6a5c236e7",
   "lastOpenFiles": [
+    "180 - 未整理/测试git插件.md",
     "conflict-files-obsidian-git.md",
     "180 - 未整理/项目/谷粒商城/谷粒商城.md",
     "180 - 未整理/项目/谷粒商城",
@@ -139,7 +147,6 @@
     "180 - 未整理/网络编程 - IM 入门指南路线篇.md",
     "180 - 未整理/流式计算引擎 - Spark - 学习笔记草稿.md",
     "180 - 未整理/流式计算引擎 - Kafka Stream.md",
-    "180 - 未整理/架构设计 - 基于 ELK 的日志系统设计方案.md",
     "180 - 未整理/未整理的bug",
     "180 - 未整理",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档",
