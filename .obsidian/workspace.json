@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f49a5177cfd38aaa",
+        "id": "2da0a2d9fbab31c8",
         "type": "tabs",
         "children": [
           {
-            "id": "8180a9100b0414e5",
+            "id": "9144886ab8ebd237",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/plugins/obsidian-git/data.json",
-                "staged": false
+                "file": "180 - 未整理/新电脑加的东西.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -75,7 +77,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "180 - 未整理/新电脑加的东西.md"
+              }
             }
           },
           {
@@ -111,7 +115,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "8180a9100b0414e5",
+  "active": "9144886ab8ebd237",
   "lastOpenFiles": [
     "180 - 未整理/新电脑加的东西.md",
     "conflict-files-obsidian-git.md",
