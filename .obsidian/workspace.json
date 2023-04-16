@@ -11,12 +11,10 @@
             "id": "6729b317bc720b13",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "140 - 其他开源组件/110 - 定时任务 - XXL-JOB/XXL-JOB 的基本使用方式.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -77,9 +75,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "140 - 其他开源组件/110 - 定时任务 - XXL-JOB/XXL-JOB 的基本使用方式.md"
-              }
+              "state": {}
             }
           },
           {
@@ -98,7 +94,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -114,8 +111,9 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "68a81097870ae0d6",
+  "active": "6729b317bc720b13",
   "lastOpenFiles": [
+    "140 - 其他开源组件/110 - 定时任务 - XXL-JOB/XXL-JOB 的基本使用方式.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/24 - Demo 功能验证.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/41 - 执行异常处理方式（仅针对动作）.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/40 - 策略执行流程实现草稿.md",
@@ -144,7 +142,6 @@
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档",
     "180 - 未整理/数据库 - Hadoop - HDFS 指令手册.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/03 - 会签和或签.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档",
     "110 - 计算机常识/020 - 计算机网络/未命名",
     "060 - MySQL & Redis/未归档/优先整理的未归档的redis笔记",
