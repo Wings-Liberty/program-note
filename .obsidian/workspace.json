@@ -11,12 +11,21 @@
             "id": "3b84b404131be547",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "060 - MySQL & Redis/未归档/MySql.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              }
+            }
+          },
+          {
+            "id": "c3de29227e28d428",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -77,9 +86,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "060 - MySQL & Redis/未归档/MySql.md"
-              }
+              "state": {}
             }
           },
           {
@@ -98,7 +105,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -116,51 +124,51 @@
   },
   "active": "3b84b404131be547",
   "lastOpenFiles": [
-    "050 - Tomcat/010 - Tomcat 和 JavaWeb API.md",
-    "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
-    "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（旧）.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/030 - 大数值，字符串和数组.md",
-    "040 - Java 基础知识/010 - JDK 基础/Java 的 ClassPath 再探.md",
-    "010 - 新建笔记/整理进度.md",
-    "170 - 未整理/C 基础 - C Primer Plus.md",
-    "170 - 未整理/C 基础 - C 和指针.md",
+    "conflict-files-obsidian-git.md",
+    "180 - 未整理/项目/谷粒商城/谷粒商城.md",
+    "180 - 未整理/项目/谷粒商城",
+    "180 - 未整理/面试经验/联想云.md",
+    "180 - 未整理/面试经验/谷粒商城项目.md",
+    "180 - 未整理/面试经验/zxh面试.md",
+    "180 - 未整理/闲杂/网络模拟器.md",
+    "180 - 未整理/闲杂/源码之路.md",
+    "180 - 未整理/闲杂/支付.md",
+    "180 - 未整理/闲杂/待反映的问题.md",
+    "180 - 未整理/闲杂/常用网站.md",
+    "180 - 未整理/闲杂/博客中的坑.md",
+    "180 - 未整理/闲杂/华为云服务器搭建常用开发环境.md",
+    "180 - 未整理/闲杂/IDEA 打 jar 包.md",
+    "180 - 未整理/闲杂/ssh 免密码登录原理及其设置方式.md",
+    "180 - 未整理/未整理的bug/xxl-job 执行任务时在控制台没有打印异常的情况下出现执行sql没有生效.md",
+    "180 - 未整理/未整理的bug/protobufd 的 toStrng 方法漏打印某些属性.md",
+    "180 - 未整理/未整理的bug/protobuf 的枚举类赋值用 枚举类还是用 int 变量？.md",
+    "180 - 未整理/未整理的bug/Mapstruct 类型转换有问题.md",
+    "180 - 未整理/未整理的bug/Lombok 和 MapStruct 的兼容问题.md",
+    "180 - 未整理/未整理的bug/IDEA Command line is too long.Shorten command line for Application or also for Spring Boot default configuration.md",
+    "180 - 未整理/未整理的bug/@Async异步方法调用另一个 @Async方法，如果两个方法在同一个类里，不会调用代理对象的方法.md",
+    "180 - 未整理/项目",
+    "180 - 未整理/面试经验",
+    "180 - 未整理/闲杂",
+    "180 - 未整理/脚本 - 基于神探和态感底层组件安装及脚本调用的shell框架分享.md",
+    "180 - 未整理/网络编程 - IM 入门指南路线篇.md",
+    "180 - 未整理/流式计算引擎 - Spark - 学习笔记草稿.md",
+    "180 - 未整理/流式计算引擎 - Kafka Stream.md",
+    "180 - 未整理/架构设计 - 基于 ELK 的日志系统设计方案.md",
+    "180 - 未整理/未整理的bug",
+    "180 - 未整理",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档",
+    "140 - 其他开源组件/080 - 分布式协同管理软件 - Zookeeper/未归档",
+    "140 - 其他开源组件/080 - 分布式协同管理软件 - Zookeeper",
     "020 - 附件文件夹/Pasted image 20230405005131.png",
     "020 - 附件文件夹/Pasted image 20230405005050.png",
     "020 - 附件文件夹/Pasted image 20230405005040.png",
     "020 - 附件文件夹/Pasted image 20230405005027.png",
     "020 - 附件文件夹/Pasted image 20230405005011.png",
-    "140 - 其他开源组件/040 - 消息队列 - RocketMQ/030 - RocketMQ 03 高级设置.md",
     "020 - 附件文件夹/Pasted image 20230405004609.png",
     "020 - 附件文件夹/Pasted image 20230405004534.png",
     "020 - 附件文件夹/Pasted image 20230405004518.png",
     "020 - 附件文件夹/Pasted image 20230405004459.png",
-    "020 - 附件文件夹/Pasted image 20230405004441.png",
-    "140 - 其他开源组件/040 - 消息队列 - RocketMQ/020 - RocketMQ 02 使用场景示例.md",
-    "100 - 编码技巧和架构/050 - UML",
-    "140 - 其他开源组件/040 - 消息队列 - RocketMQ/010 - RocketMQ 使用方式和集群搭建.md",
-    "140 - 其他开源组件/042 - 消息队列 - ActiveMQ/ActiveMQ.md",
-    "140 - 其他开源组件/042 - 消息队列 - ActiveMQ",
-    "080 - Mybatis & Mybatis-Plus/未归档/Mybatis&Mybatis-Plus.md",
-    "140 - 其他开源组件/041 - 消息队列 - RabbitMQ/RabbitMQ.md",
-    "140 - 其他开源组件/041 - 消息队列 - RabbitMQ",
-    "080 - Mybatis & Mybatis-Plus/未归档/Mybatis-Plus.md",
-    "120 - 项目管理/020 - 项目管理工具 - Maven/Maven 笔记.md",
-    "080 - Mybatis & Mybatis-Plus/未归档",
-    "120 - 项目管理/020 - 项目管理工具 - Maven/项目管理工具 - Maven - 基础使用方式.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
-    "140 - 其他开源组件/020 - 权限管理 - Shiro/050 - Shiro.md",
-    "140 - 其他开源组件/020 - 权限管理 - Shiro/040 - Shiro 的补充功能.md",
-    "140 - 其他开源组件/020 - 权限管理 - Shiro/030 - Shiro 过滤器链的创建和调用流程.md",
-    "140 - 其他开源组件/020 - 权限管理 - Shiro/010 - Shiro 简介和 Spring 整合 Shiro 的实现流程.md",
-    "140 - 其他开源组件/020 - 权限管理 - Shiro/020 - Shiro 内置过滤器详解.md",
-    "140 - 其他开源组件/120 - 权限管理 - Shiro",
-    "040 - Java 基础知识/040 - Java 虚拟机/未归档 - 深入理解 Java 虚拟机",
-    "070 - Spring 全家桶/030 - Spring Boot/未归档",
-    "070 - Spring 全家桶/020 - Spring MVC/未归档",
-    "070 - Spring 全家桶/020 - Spring MVC",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档"
+    "020 - 附件文件夹/Pasted image 20230405004441.png"
   ]
 }

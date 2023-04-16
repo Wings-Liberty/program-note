@@ -219,3 +219,61 @@ Arrays.sort(peoples, Comparator.comparing(Person::getName, (s, t) -> Integer.com
 Comparator.comparing(Person::getMiddleName(), Comparator.nullsFirst(...));
 ```
 
+# Lambda 受检异常处理
+
+```java
+List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5, 6, 0);  
+
+integers.forEach(i -> {
+	try {  
+		System.out.println(50 / i);  
+	} catch (ArithmeticException e) {  
+		System.err.println( "Arithmetic Exception occured : " + e.getMessage());  
+	}  
+});
+```
+
+Consummer 的 accept 方法中没有显式声明异常
+
+```java
+void accept(T t);
+```
+
+所以 lambda 写 accept 时需要在 lambda 里用 try-catch 捕捉异常，这让 lambda 失去了简洁性
+
+比如我们可以自定义函数式接口声明异常
+
+```java
+@FunctionalInterface  
+interface UncheckedFunction<T, R> {  
+	R apply(T t) throws Exception;  
+}
+```
+
+但如果在 foreach 里写 UncheckedFunction 的 lambda 就会导致抛出的异常抛给 foreach
+
+foreach 没有处理异常的功能，而且 foreach 只接收 JDK 的 Consumer，Function 等接口
+不支持我们自定义的 UncheckedFunction
+
+所以需要一个适配器，把我们的 UncheckedFunction 转为 JDK 的 Function
+
+```java
+public class Try {  
+	public static <T, R> Function<T, R> of(UncheckedFunction<T, R> mapper) {  
+		Objects.requireNonNull(mapper);  
+		return t -> {
+			try {  
+				return mapper.apply(t);  
+			} catch (Exception e) {  
+				throw Exceptions.unchecked(e);  
+			}
+		};  
+	}
+
+	@FunctionalInterface  
+	public interface UncheckedFunction<T, R> {  
+		R apply(T t) throws Exception;  
+	}
+}
+```
+
