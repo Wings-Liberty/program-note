@@ -115,10 +115,11 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "c7d145da6ee5e1b5",
+  "active": "7ba9676230f299c7",
   "lastOpenFiles": [
-    "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
+    "040 - Java 基础知识/010 - JDK 基础/JDK 自带命令用法.md",
     "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
+    "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 实战.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 部署和使用方式.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
@@ -150,7 +151,6 @@
     "140 - 其他开源组件/080 - 分布式协同管理软件 - Zookeeper/未归档/Zookeeper 基础和常用指令.md",
     "140 - 其他开源组件/080 - 分布式协同管理软件 - Zookeeper/010 - Zookeeper 安装步骤和基础命令.md",
     "140 - 其他开源组件/080 - 分布式协同管理软件 - Zookeeper/未归档",
-    "140 - 其他开源组件/080 - 分布式协同管理软件 - Zookeeper/020 - Zookeeper 实战.md",
     "120 - 项目管理/030 - 容器化管理 - Docker",
     "120 - 项目管理/070 - 容器化管理 - Docker",
     "020 - 附件文件夹/Pasted image 20230405005131.png",
