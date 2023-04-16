@@ -13,14 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/Nacos 注册中心 的基本使用方式.md",
+                "file": "140 - 其他开源组件/110 - 定时任务 - XXL-JOB/XXL-JOB 的基本使用方式.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cda2d8e44f9e2df6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/110 - 定时任务 - XXL-JOB/未归档.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "82fd455410192b2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "180 - 未整理/流式计算引擎 - Spark - 学习笔记草稿.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c9536cd4c2def9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -78,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/Nacos 注册中心 的基本使用方式.md"
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md"
               }
             }
           },
@@ -115,44 +155,44 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "c7d145da6ee5e1b5",
+  "active": "7c9536cd4c2def9b",
   "lastOpenFiles": [
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/OpenFeign 远程调用的基本使用方式.md",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/Nacos 配置中心 的基本使用方式.md",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/Nacos 注册中心 的基本使用方式.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/05 - MyBatis.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/04 - Spring MVC.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/03 - Spring 声明式事务.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/02 - Spring AOP.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/01 - Spring IOC 容器的设计与 bean 的加载流程.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/00 - Spring 注解式开发.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/010 - Spring IOC.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/170 - 异步回调 - CompletableFuture.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/OGNL 表达式.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档",
+    "180 - 未整理/数据库 - Hadoop - HDFS 指令手册.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/03 - 会签和或签.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档",
+    "130 - Linux/Shell 脚本.md",
+    "130 - Linux/初始化虚拟机必备操作.md",
+    "180 - 未整理/数据库 - Hive 命令手册.md",
+    "180 - 未整理/数据库 - Hive - 学习草稿.md",
+    "180 - 未整理/Tomcat - 附加功能.md",
+    "180 - 未整理/架构设计 - 基于 ELK 的日志系统设计方案.md",
+    "180 - 未整理/对象的类型转换 - MapStruct.md",
+    "110 - 计算机常识/030 - 操作系统/SysLog 系统日志.md",
+    "110 - 计算机常识/正则表达式.md",
+    "110 - 计算机常识/040 - 编译原理/编译原理实战——极客时间-编译原理实战课.md",
+    "110 - 计算机常识/060 - 加解密塞算法基础/03 - 数据的完整性，认证和不可否认的保障.md",
+    "110 - 计算机常识/060 - 加解密塞算法基础/02 - 对称密码，非对称密码和混合密码系统.md",
+    "110 - 计算机常识/060 - 加解密塞算法基础/01 - 密码学工具箱.md",
+    "110 - 计算机常识/060 - 加解密塞算法基础/网络安全.md",
+    "110 - 计算机常识/060 - 加解密塞算法基础/密码基础常识.md",
+    "110 - 计算机常识/060 - 加解密塞算法基础/流密码和块密码.md",
+    "110 - 计算机常识/060 - 加解密塞算法基础/05 - SSL, TLS.md",
+    "110 - 计算机常识/060 - 加解密塞算法基础/04 - 密钥 —— 秘密的精华.md",
+    "110 - 计算机常识/030 - 操作系统/零拷贝.md",
+    "110 - 计算机常识/020 - 计算机网络/未命名",
+    "060 - MySQL & Redis/未归档/优先整理的未归档的redis笔记",
+    "060 - MySQL & Redis/未归档/新建文件夹",
+    "060 - MySQL & Redis/未归档/优先整理的未归档的mysql笔记",
+    "060 - MySQL & Redis/未归档/是否",
     "020 - 附件文件夹/07、异步&线程池.pdf",
-    "080 - Mybatis & Mybatis-Plus/未归档/JDBC.md",
-    "110 - 计算机常识/010 - 计算机组成原理/编码-藏匿在计算机软硬件背后的语言.md",
-    "140 - 其他开源组件/041 - 消息队列 - RabbitMQ/RabbitMQ.md",
-    "140 - 其他开源组件/110 - 定时任务 - XXL-JOB/XXL-JOB 的基本使用方式.md",
-    "070 - Spring 全家桶/010 - Spring Fromework/未归档/010 - Spring IoC容器的设计与实现.md",
     "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记",
-    "070 - Spring 全家桶/010 - Spring Fromework/未归档/180 - Spring注解式开发.md",
-    "180 - 未整理/Java 基础 - 各种实体类（Entity，VO，DTO 等）.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/（未归档）Java 编程思想笔记.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/142 - 零拷贝 - mmap 和 sendfile.md",
-    "070 - Spring 全家桶/020 - Spring MVC/未归档/030 - SpringMVC 的 DispatcherServlet 执行流程.md",
-    "040 - Java 基础知识/010 - JDK 基础/Java 的 ClassPath 再探.md",
-    "070 - Spring 全家桶/020 - Spring MVC/未归档/020 - Spring MVC.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/141 - 文件读写.txt",
-    "040 - Java 基础知识/020 - Java 语法基础知识/新建 文本文档.txt",
-    "180 - 未整理/项目/谷粒商城",
-    "180 - 未整理/项目",
-    "180 - 未整理/闲杂",
-    "090 - 算法/未归档",
-    "090 - 算法/新建文件夹",
-    "120 - 项目管理/040 - 持续集成 - Jenkins",
     "020 - 附件文件夹/Pasted image 20230405005131.png",
     "020 - 附件文件夹/Pasted image 20230405005050.png",
     "020 - 附件文件夹/Pasted image 20230405005040.png",
