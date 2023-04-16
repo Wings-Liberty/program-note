@@ -4,30 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d2418528fc8304d1",
+        "id": "b7dd7d957f4abebc",
         "type": "tabs",
         "children": [
           {
-            "id": "6fbd3ff6a5c236e7",
+            "id": "ce4dfa39bb016f6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "180 - 未整理/脚本 - 基于神探和态感底层组件安装及脚本调用的shell框架分享.md",
+                "file": "180 - 未整理/新电脑加的东西.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "26c29978fc432825",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
               }
             }
           }
@@ -60,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#notCompleted",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 333.5
   },
   "right": {
     "id": "15933b55241e6afb",
@@ -89,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "180 - 未整理/脚本 - 基于神探和态感底层组件安装及脚本调用的shell框架分享.md"
+                "file": "180 - 未整理/新电脑加的东西.md"
               }
             }
           },
@@ -114,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 372.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -126,43 +115,44 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "6fbd3ff6a5c236e7",
+  "active": "ce4dfa39bb016f6b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
-    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/01 - Nacos 注册中心.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/31 - 剧本的循环结构和延时节点调研.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/26 - 新的全局常量没入库，节点调用的时候查不到.md",
-    "180 - 未整理/测试git插件.md",
+    "180 - 未整理/新电脑加的东西.md",
     "ob-config.gitignore",
-    "180 - 未整理/闲杂/心得.md",
+    "ob-configgitignore",
+    "新建 文本文档.txt",
+    "conflict-files-obsidian-git.md",
+    "180 - 未整理/测试git插件.md",
+    "140 - 其他开源组件/110 - 定时任务 - XXL-JOB/XXL-JOB 的基本使用方式.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/24 - Demo 功能验证.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/41 - 执行异常处理方式（仅针对动作）.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/40 - 策略执行流程实现草稿.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/24 - Demo 功能验证.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/31 - 剧本的循环结构和延时节点调研.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/26 - 新的全局常量没入库，节点调用的时候查不到.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用",
-    "180 - 未整理/项目/谷粒商城/谷粒商城.md",
-    "180 - 未整理/项目/谷粒商城",
-    "180 - 未整理/面试经验/联想云.md",
-    "180 - 未整理/面试经验/谷粒商城项目.md",
-    "180 - 未整理/面试经验/zxh面试.md",
-    "180 - 未整理/闲杂/网络模拟器.md",
-    "180 - 未整理/闲杂/源码之路.md",
-    "180 - 未整理/闲杂/支付.md",
-    "180 - 未整理/闲杂/待反映的问题.md",
-    "180 - 未整理/闲杂/常用网站.md",
-    "180 - 未整理/闲杂/博客中的坑.md",
-    "180 - 未整理/闲杂/华为云服务器搭建常用开发环境.md",
-    "180 - 未整理/闲杂/IDEA 打 jar 包.md",
-    "180 - 未整理/闲杂/ssh 免密码登录原理及其设置方式.md",
-    "180 - 未整理/未整理的bug/xxl-job 执行任务时在控制台没有打印异常的情况下出现执行sql没有生效.md",
+    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/01 - Nacos 注册中心.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
+    "180 - 未整理/闲杂/心得.md",
+    "100 - 编码技巧和架构/010 - 开发规范/编码规范 - 通用篇.md",
+    "100 - 编码技巧和架构/010 - 开发规范/编码规范 - 安全篇.md",
+    "100 - 编码技巧和架构/060 - 架构设计/01 - 设计模式基本原则.md",
+    "180 - 未整理/未整理的bug/Mapstruct 类型转换有问题.md",
+    "180 - 未整理/未整理的bug/Lombok 和 MapStruct 的兼容问题.md",
+    "180 - 未整理/未整理的bug/IDEA Command line is too long.Shorten command line for Application or also for Spring Boot default configuration.md",
     "180 - 未整理/未整理的bug/protobufd 的 toStrng 方法漏打印某些属性.md",
-    "180 - 未整理/项目",
-    "180 - 未整理/面试经验",
-    "180 - 未整理/闲杂",
+    "180 - 未整理/未整理的bug/protobuf 的枚举类赋值用 枚举类还是用 int 变量？.md",
+    "180 - 未整理/未整理的bug/xxl-job 执行任务时在控制台没有打印异常的情况下出现执行sql没有生效.md",
+    "180 - 未整理/未整理的bug/@Async异步方法调用另一个 @Async方法，如果两个方法在同一个类里，不会调用代理对象的方法.md",
     "180 - 未整理/未整理的bug",
-    "180 - 未整理",
+    "180 - 未整理/闲杂/IDEA 打 jar 包.md",
+    "180 - 未整理/闲杂/网络模拟器.md",
+    "180 - 未整理/闲杂/ssh 免密码登录原理及其设置方式.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档",
+    "110 - 计算机常识/020 - 计算机网络/未命名",
+    "060 - MySQL & Redis/未归档/优先整理的未归档的redis笔记",
+    "060 - MySQL & Redis/未归档/新建文件夹",
     "020 - 附件文件夹/Pasted image 20230405005131.png",
     "020 - 附件文件夹/Pasted image 20230405005050.png",
     "020 - 附件文件夹/Pasted image 20230405005040.png",
