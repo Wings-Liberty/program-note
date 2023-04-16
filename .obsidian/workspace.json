@@ -4,33 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "df7c96f83f3552ba",
+        "id": "b7dd7d957f4abebc",
         "type": "tabs",
         "children": [
           {
-            "id": "76054c16901b77b1",
+            "id": "ce4dfa39bb016f6b",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": true
-              }
-            }
-          },
-          {
-            "id": "154916f0e5709a24",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/app.json",
-                "staged": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 372.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -123,7 +108,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "154916f0e5709a24",
+  "active": "ce4dfa39bb016f6b",
   "lastOpenFiles": [
     "ob-config.gitignore",
     "ob-configgitignore",
