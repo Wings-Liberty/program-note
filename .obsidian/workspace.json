@@ -4,21 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "dbe53b94858f82d5",
+        "id": "d2418528fc8304d1",
         "type": "tabs",
         "children": [
           {
-            "id": "be711bd1e10a9f0d",
+            "id": "6fbd3ff6a5c236e7",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "180 - 未整理/新电脑加的东西.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +78,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "180 - 未整理/新电脑加的东西.md"
+              }
             }
           },
           {
@@ -111,12 +116,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "be711bd1e10a9f0d",
+  "active": "6fbd3ff6a5c236e7",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "180 - 未整理/新电脑加的东西.md",
     "180 - 未整理/流式计算引擎 - Spark - 学习笔记草稿.md",
     "180 - 未整理/脚本 - 基于神探和态感底层组件安装及脚本调用的shell框架分享.md",
-    "conflict-files-obsidian-git.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
     "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/01 - Nacos 注册中心.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/31 - 剧本的循环结构和延时节点调研.md",
