@@ -138,8 +138,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,8 +154,11 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "68a81097870ae0d6",
+  "active": "50b1d4af7bbf17fd",
   "lastOpenFiles": [
+    "100 - 编码技巧和架构/010 - 开发规范/编码规范 - 通用篇.md",
+    "100 - 编码技巧和架构/010 - 开发规范/编码规范 - 安全篇.md",
+    "100 - 编码技巧和架构/060 - 架构设计/01 - 设计模式基本原则.md",
     "180 - 未整理/未整理的bug/Mapstruct 类型转换有问题.md",
     "180 - 未整理/未整理的bug/Lombok 和 MapStruct 的兼容问题.md",
     "180 - 未整理/未整理的bug/IDEA Command line is too long.Shorten command line for Application or also for Spring Boot default configuration.md",
@@ -183,9 +185,6 @@
     "180 - 未整理/数据库 - Hive - 学习草稿.md",
     "180 - 未整理/Tomcat - 附加功能.md",
     "180 - 未整理/架构设计 - 基于 ELK 的日志系统设计方案.md",
-    "180 - 未整理/对象的类型转换 - MapStruct.md",
-    "110 - 计算机常识/030 - 操作系统/SysLog 系统日志.md",
-    "110 - 计算机常识/正则表达式.md",
     "110 - 计算机常识/020 - 计算机网络/未命名",
     "060 - MySQL & Redis/未归档/优先整理的未归档的redis笔记",
     "060 - MySQL & Redis/未归档/新建文件夹",
