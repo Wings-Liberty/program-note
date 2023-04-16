@@ -1,0 +1,65 @@
+回调的方式实现异步编程
+
+Java 的一些框架， 比如 Netty， 自己扩展了 Java 的 `Future` 接口， 提供了 `addListener`等多个扩展方法； Google guava 也提供了通用的扩展 Future
+
+`Future` 以及相关使用方法提供了异步执行任务的能力， 但是对于结果的获取却是很不方便， 只能通过阻塞或者轮询的方式得到任务的结果。 阻塞的方式显然和我们的异步编程的初衷相违背， 轮询的方式又会耗费无谓的 CPU 资源
+
+
+在 Java 8 中, 新增加了一个包含 50 个方法左右的类: CompletableFuture， 提供了非常强大的 Future 的扩展功能， 可以帮助我们简化异步编程的复杂性， 提供了函数式编程的能力， 可以通过回调的方式处理计算结果， 并且提供了转换和组合 CompletableFuture 的方法
+
+CompletableFuture 类实现了 Future 接口， 所以还是可以像以前一样通过 `get` 方法阻塞或者轮询的方式获得结果， **但是这种方式不推荐使用**
+ 
+CompletableFuture 和 FutureTask 同属于 Future 接口的实现类， 都可以获取线程的执行结果
+
+![../91 - 静态资源/Pasted image 20220918225907.png](https://wings-liberty.oss-cn-beijing.aliyuncs.com/note/Pasted%20image%2020220918225907.png)
+
+
+CompletableFuture 的主要使用方式如下
+
+1. 创建一个对象
+2. 计算完成时回调方法
+3. handle 方法发
+4. 线程串行化方法
+5. 多个任务组合，都完成后再向下执行
+6. 多个任务组合，完成一个就能向下执行
+7. 多任务组合
+
+异步回调的本质就是用线程池 + 同步器 实现
+
+## 创建异步回调的方法
+
+![Pasted image 20220918230954](https://wings-liberty.oss-cn-beijing.aliyuncs.com/note/Pasted%20image%2020220918230954.png)
+
+runXxxx 都是没有返回结果的， supplyXxx 都是可以获取返回结果的，可以传入自定义的线程池， 否则就用默认的线程池
+
+
+## 回调方法获取计算的返回值
+
+![Pasted image 20220918231958](https://wings-liberty.oss-cn-beijing.aliyuncs.com/note/Pasted%20image%2020220918231958.png)
+
+- whenComplete 可以处理正常和异常的计算结果
+- exceptionally 处理异常情况
+
+
+whenComplete 和 whenCompleteAsync 的区别：  
+
+- whenComplete： 是执行当前任务的线程执行继续执行 whenComplete 的任务
+- whenCompleteAsync： 是执行把 whenCompleteAsync 这个任务继续提交给线程池  
+来进行执行
+
+
+## 修改结果返回值
+
+handle 和 complete 都能修改任务的执行结果
+
+
+## 串行化执行的方法调用
+
+当前置任务都完成后再执行这些 thenXxx 方法，这些方法会依赖前置任务的返回值
+
+![Pasted image 20220918233105](https://wings-liberty.oss-cn-beijing.aliyuncs.com/note/Pasted%20image%2020220918233105.png)
+
+## 两个任务都完成后就运行指定方法合并结果
+
+
+![[../../020 - 附件文件夹/07、异步&线程池.pdf]]

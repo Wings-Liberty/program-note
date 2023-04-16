@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "110 - 计算机常识/010 - 计算机组成原理/编码-藏匿在计算机软硬件背后的语言.md",
+                "file": "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/Nacos 注册中心 的基本使用方式.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "110 - 计算机常识/010 - 计算机组成原理/编码-藏匿在计算机软硬件背后的语言.md"
+                "file": "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/Nacos 注册中心 的基本使用方式.md"
               }
             }
           },
@@ -98,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -114,44 +115,44 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "6729b317bc720b13",
+  "active": "c7d145da6ee5e1b5",
   "lastOpenFiles": [
-    "140 - 其他开源组件/041 - 消息队列 - RabbitMQ/RabbitMQ.md",
+    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/OpenFeign 远程调用的基本使用方式.md",
+    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/Nacos 配置中心 的基本使用方式.md",
+    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/Nacos 注册中心 的基本使用方式.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/05 - MyBatis.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/04 - Spring MVC.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/03 - Spring 声明式事务.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/02 - Spring AOP.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/01 - Spring IOC 容器的设计与 bean 的加载流程.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/00 - Spring 注解式开发.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/010 - Spring IOC.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/170 - 异步回调 - CompletableFuture.md",
+    "020 - 附件文件夹/07、异步&线程池.pdf",
+    "080 - Mybatis & Mybatis-Plus/未归档/JDBC.md",
     "110 - 计算机常识/010 - 计算机组成原理/编码-藏匿在计算机软硬件背后的语言.md",
+    "140 - 其他开源组件/041 - 消息队列 - RabbitMQ/RabbitMQ.md",
     "140 - 其他开源组件/110 - 定时任务 - XXL-JOB/XXL-JOB 的基本使用方式.md",
     "070 - Spring 全家桶/010 - Spring Fromework/未归档/010 - Spring IoC容器的设计与实现.md",
     "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记",
     "070 - Spring 全家桶/010 - Spring Fromework/未归档/180 - Spring注解式开发.md",
     "180 - 未整理/Java 基础 - 各种实体类（Entity，VO，DTO 等）.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/异步回调.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/（未归档）Java 编程思想笔记.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/142 - 零拷贝 - mmap 和 sendfile.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md",
     "070 - Spring 全家桶/020 - Spring MVC/未归档/030 - SpringMVC 的 DispatcherServlet 执行流程.md",
     "040 - Java 基础知识/010 - JDK 基础/Java 的 ClassPath 再探.md",
     "070 - Spring 全家桶/020 - Spring MVC/未归档/020 - Spring MVC.md",
-    "070 - Spring 全家桶/020 - Spring MVC/未归档/010 - Spring IOC.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/141 - 文件读写.md",
-    "180 - 未整理/Java 基础 - 补充.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/141 - 文件读写.txt",
     "040 - Java 基础知识/020 - Java 语法基础知识/新建 文本文档.txt",
-    "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
-    "040 - Java 基础知识/010 - JDK 基础/JDK 自带命令用法.md",
-    "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 实战.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 部署和使用方式.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
-    "010 - 新建笔记/未命名.md",
-    "180 - 未整理/项目/谷粒商城/谷粒商城.md",
     "180 - 未整理/项目/谷粒商城",
     "180 - 未整理/项目",
-    "180 - 未整理/闲杂/源码之路.md",
     "180 - 未整理/闲杂",
     "090 - 算法/未归档",
     "090 - 算法/新建文件夹",
     "120 - 项目管理/040 - 持续集成 - Jenkins",
-    "120 - 项目管理/新建文件夹",
     "020 - 附件文件夹/Pasted image 20230405005131.png",
     "020 - 附件文件夹/Pasted image 20230405005050.png",
     "020 - 附件文件夹/Pasted image 20230405005040.png",
