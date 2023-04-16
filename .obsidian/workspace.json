@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "91d3c7b9a6ccda91",
+        "id": "f49a5177cfd38aaa",
         "type": "tabs",
         "children": [
           {
-            "id": "b27843264bbc0079",
+            "id": "8180a9100b0414e5",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -111,7 +108,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "b27843264bbc0079",
+  "active": "c7d145da6ee5e1b5",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "180 - 未整理/新电脑加的东西.md",
