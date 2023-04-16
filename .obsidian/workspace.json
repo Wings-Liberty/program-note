@@ -19,48 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "cda2d8e44f9e2df6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/110 - 定时任务 - XXL-JOB/未归档.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82fd455410192b2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "180 - 未整理/流式计算引擎 - Spark - 学习笔记草稿.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c9536cd4c2def9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md"
+                "file": "140 - 其他开源组件/110 - 定时任务 - XXL-JOB/XXL-JOB 的基本使用方式.md"
               }
             }
           },
@@ -154,8 +114,17 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "50b1d4af7bbf17fd",
+  "active": "68a81097870ae0d6",
   "lastOpenFiles": [
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/24 - Demo 功能验证.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/41 - 执行异常处理方式（仅针对动作）.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/40 - 策略执行流程实现草稿.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/31 - 剧本的循环结构和延时节点调研.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/26 - 新的全局常量没入库，节点调用的时候查不到.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用",
+    "070 - Spring 全家桶/050 - Spring Cloud Alibaba/未归档/01 - Nacos 注册中心.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
+    "180 - 未整理/闲杂/心得.md",
     "100 - 编码技巧和架构/010 - 开发规范/编码规范 - 通用篇.md",
     "100 - 编码技巧和架构/010 - 开发规范/编码规范 - 安全篇.md",
     "100 - 编码技巧和架构/060 - 架构设计/01 - 设计模式基本原则.md",
@@ -176,22 +145,13 @@
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档",
     "180 - 未整理/数据库 - Hadoop - HDFS 指令手册.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/03 - 会签和或签.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档",
-    "130 - Linux/Shell 脚本.md",
-    "130 - Linux/初始化虚拟机必备操作.md",
-    "180 - 未整理/数据库 - Hive 命令手册.md",
-    "180 - 未整理/数据库 - Hive - 学习草稿.md",
-    "180 - 未整理/Tomcat - 附加功能.md",
-    "180 - 未整理/架构设计 - 基于 ELK 的日志系统设计方案.md",
     "110 - 计算机常识/020 - 计算机网络/未命名",
     "060 - MySQL & Redis/未归档/优先整理的未归档的redis笔记",
     "060 - MySQL & Redis/未归档/新建文件夹",
     "060 - MySQL & Redis/未归档/优先整理的未归档的mysql笔记",
     "060 - MySQL & Redis/未归档/是否",
     "020 - 附件文件夹/07、异步&线程池.pdf",
-    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记",
     "020 - 附件文件夹/Pasted image 20230405005131.png",
     "020 - 附件文件夹/Pasted image 20230405005050.png",
     "020 - 附件文件夹/Pasted image 20230405005040.png",
