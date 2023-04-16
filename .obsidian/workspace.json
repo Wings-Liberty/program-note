@@ -11,8 +11,11 @@
             "id": "8180a9100b0414e5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/plugins/obsidian-git/data.json",
+                "staged": false
+              }
             }
           }
         ]
@@ -108,10 +111,10 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "c7d145da6ee5e1b5",
+  "active": "8180a9100b0414e5",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "180 - 未整理/新电脑加的东西.md",
+    "conflict-files-obsidian-git.md",
     "180 - 未整理/流式计算引擎 - Spark - 学习笔记草稿.md",
     "180 - 未整理/脚本 - 基于神探和态感底层组件安装及脚本调用的shell框架分享.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
