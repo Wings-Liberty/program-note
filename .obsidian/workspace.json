@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d2418528fc8304d1",
+        "id": "91d3c7b9a6ccda91",
         "type": "tabs",
         "children": [
           {
-            "id": "6fbd3ff6a5c236e7",
+            "id": "b27843264bbc0079",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "180 - 未整理/新电脑加的东西.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,9 +75,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "180 - 未整理/新电脑加的东西.md"
-              }
+              "state": {}
             }
           },
           {
@@ -116,7 +111,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "6fbd3ff6a5c236e7",
+  "active": "b27843264bbc0079",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "180 - 未整理/新电脑加的东西.md",
