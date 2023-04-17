@@ -1,4 +1,4 @@
-
+#还没有复习 
 
 - [ ] [JavaGuide Raft](https://snailclimb.gitee.io/javaguide/#/docs/distributed-system/theorem&algorithm&protocol/raft-algorithm)（难以理解）
 - [ ] [Raft算法 - 个人博客](https://tanxinyu.work/raft/)（先看这个）

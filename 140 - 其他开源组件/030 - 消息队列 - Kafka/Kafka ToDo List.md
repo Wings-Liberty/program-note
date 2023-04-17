@@ -1,3 +1,5 @@
+#还没有复习 
+
 ## 偏移量
 
 Kafka的logs目录中存在许多__consumer_offsets-xx

@@ -1,3 +1,5 @@
+#还没有复习 
+
 参考[这里](https://blog.csdn.net/UbuntuTouch/article/details/126135980)
 
 Syslog 的名称来自系统日志记录协议。 它**是消息记录的标准**，用于将系统日志或事件消息发送到特定的服务器，称为 Syslog 服务器

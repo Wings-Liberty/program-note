@@ -3259,7 +3259,7 @@ sin 3.14/2 is 1.000000
 实际上 gcc 会自动帮你找到外部函数库并执行链接，上述的`gcc sin.c`实际上等价于`gcc sin.c -lm -L/lib -L/lib64`
 
 - 现在 Linux 默认函数库在`/lib`和`/lib64`下，所以不用 -L 显示指定也行
-- Linux 默认会在`/usr/include`下找 .c 文件中 #include 需要的文件（stdio.h 和 math.h 均在 /usr/inlcude/ 下）。也可以用 -I 选项修改 include 文件的目录
+- Linux 默认会在`/usr/include`下找 .c 文件中 `#include` 需要的文件（stdio.h 和 math.h 均在 /usr/inlcude/ 下）。也可以用 -I 选项修改 include 文件的目录
 
 
 

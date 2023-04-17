@@ -1,3 +1,5 @@
+#还没有复习 
+
 # 课程模块
 
 
@@ -674,7 +676,7 @@ Connection 仅针对当前连接有效：当客户端携带`Connection: Keep-Ali
 
 Allow：告诉客户端，服务器上该 URI 对应的资源允许哪些方法的执行 
 
-> Allow = #method 
+> `Allow = #method `
 >
 > 例如：Allow: GET, HEAD, PUT 
 
@@ -1935,7 +1937,7 @@ HTTP协议提供的 HTTP Basic 认证方式过于简单，通常自定义的认�
 
 > 在请求中传递认证信息：Authorization = credentials 
 >
-> credentials = auth-scheme [ 1*SP ( token68 / #auth-param ) ] 
+> credentials = auth-scheme [ 1*SP ( token68 / `#auth-param` ) ] 
 >
 > - auth-scheme = token
 > - token68 = 1*( ALPHA / DIGIT / "-" / "." / "_" / "~" / "+" / "/" ) *"=“ 
@@ -1953,7 +1955,7 @@ HTTP协议提供的 HTTP Basic 认证方式过于简单，通常自定义的认�
 
 > 在响应头部中告知客户端需要认证：WWW-Authenticate = 1#challenge 
 >
-> - challenge = auth-scheme [ 1*SP ( token68 / #auth-param ) ]
+> - challenge = auth-scheme [ 1*SP ( token68 / `#auth-param` ) ]
 >   - auth-scheme = token
 >     - token68 = 1*( ALPHA / DIGIT / "-" / "." / "_" / "~" / "+" / "/" ) *"="
 >     - auth-param = token BWS "=" BWS ( token / quoted-string )

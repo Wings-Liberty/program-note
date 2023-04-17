@@ -1286,7 +1286,7 @@ SpringBoot默认帮我们配置好了日志；
 
 > 也可以在配置文件里手动设置级别
 >
-> 如：logging.level.com.cx=trace #这样指定类中的所有trace级别及其上级别就能输出了
+> 如：`logging.level.com.cx=trace # 这样指定类中的所有trace级别及其上级别就能输出了`
 
         日志输出格式：
     		%d表示日期时间，

@@ -1,3 +1,5 @@
+#还没有复习 
+
 此笔记不对Git进行介绍，而是记录git的命令行操作（分必须掌握和非必须掌握两部分）
 
 # git中的常用名词
@@ -142,7 +144,6 @@ git checkout .
 分两种连接方式。1.克隆远程库到本地。2.本地 push 到远程库，以达到连接目的。这里说第2种
 
 ```shell
-$
 $ git remote add origin git@gitee.com:wingsofliberty/gitstudy.git
 $ git push -u origin "master"
 ```

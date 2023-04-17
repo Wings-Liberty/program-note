@@ -277,7 +277,7 @@ float，double，long double
 > - 关键字：const 
 > - 字符串：如何创建、存储字符串
 > - 如何使用 strlen() 函数获取字符串的长度
-> - 用 C 预处理器指令 #define 和 ANSIC 的 const 修饰符创建符号常量
+> - 用 C 预处理器指令 `#define` 和 ANSIC 的 const 修饰符创建符号常量
 
 
 
@@ -2428,7 +2428,7 @@ ifdef-else 之间的指令可以是其他的预处理指令也可以是 C 的源
 
 
 
-**#ifndef 指令**
+**`#ifndef` 指令**
 
 可以和 `#else`，`#endif` 一起使用。其含义和 `#ifdef` 相反。如果 `#ifndef` 后面的宏未被定义就执行下面的指令
 
@@ -2447,7 +2447,7 @@ ifdef-else 之间的指令可以是其他的预处理指令也可以是 C 的源
 
 
 
-**#if 和 #elif 指令**
+**`#if` 和 `#elif` 指令**
 
 ```c
 #if A==1
