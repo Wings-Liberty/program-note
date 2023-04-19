@@ -1,4 +1,86 @@
-#还没有复习 
+#正在复习
+
+有一个这样的需求。有一个方法里需要完成 5 个任务，
+
+![[../../020 - 附件文件夹/Pasted image 20230419225752.png|300]]
+
+
+
+
+# 异步回调 - CompletableFuture
+
+异步回调是干啥的？为什么会有异步回调？新功能来源于新需求，因为有以下需求所以就有了这个功能
+
+一个方法里有一些费时行为，但需要方法的响应时间不要太长，同时容忍可以不用立刻知道费时行为的响应结果
+
+于是就可以用多线程，为费时行为创建一个 `Runnable` 后丢给线程池
+
+但又希望可以这样，方法先让线程池做一件事，然后主线程做自己的事，等主线程做完后找线程池要任务的执行结果，于是有了 `Callable` 和 `Future` 接口及其实现类
+
+但这还不够，我想这样，同时创建多个任务丢给线程池，然后等这些任务都返回结果，或有任意一个返回结果后，主线程再继续向下走。有这个需求是因为这种场景很常见
+
+比如一个 “新增一个策略” 的接口，用户填了 10 个数据，程序需要检查 10 个数据是否合法时，我如果能用 10 个线程并行执行检查数据是否合法，接口响应速度就会缩短好几倍
+
+比如一个 “创建订单” 的接口，用户一个订单里有 10 种商品，每种商品的购买数量还不一样，程序用 10 个线程分别查询每种商品的库存是否都够，在10个线程都返回结果后，我再用 10 个线程查询商品的价格，这 10 个线程都返回结果后，我再让主线程计算总价
+
+> 小学你一定在数学书的某个章节里见过这个问题
+>
+> 问题：烧水需要 10 分钟，扫地需要 5 分钟，写作业需要 6 分钟，问你完成这三件事需要几分钟
+>
+> 这么简单的问题在小学会，结果成年写代码的时候就不知道怎么才能缩短接口响应事件了。笑死
+
+
+**也就是说我希望方法的执行过程可以是一个工作流**，而不是传统的串行方式执行。我根据每个任务的依赖关系，在工作流中设置哪些任务可以并行执行，哪些任务必须等其他任务完成后才能执行
+
+**因为有了并行的部分，所以工作流能比传统串行执行方法更快地完成任务。**然后 JDK 就有了 `CompletableFuture` 帮助我们 “绘制” 每个任务之间的依赖关系
+
+
+参考资料有以下
+
+> - [廖雪峰的教程](https://www.liaoxuefeng.com/wiki/1252599548343744/1306581182447650)用很简单的例子讲明白了 `CompletableFuture` 是什么，怎么用和常用的 3，4 个方法（完全足够了，其他API都是这几个的变体和组合）。但是很多 API 都没介绍
+> - [更多 API 的介绍](https://zhuanlan.zhihu.com/p/344431341)。文章下面还提供了一些优秀的参考资料
+>   - [简单介绍它是什么](https://blog.csdn.net/u011726984/article/details/79320004)
+>   - [Future 的实现机制 - 讲解实现原理](https://zhuanlan.zhihu.com/p/54459770)
+>   - [外文](callicoder.com/java-8-completablefuture-tutorial/)
+> - [更详细的API](https://www.jianshu.com/p/558b090ae4bb)：其实其他 API 都是常用的 3，4 个 API 的组合变体，而且还难以理解
+> - [美团技术分享](https://tech.meituan.com/2022/05/12/principles-and-practices-of-completablefuture.html)
+
+
+> 这里的异步回调机制能实现异步回调和Future的组合
+
+核心类 `CompletableFuture`   此类提供了很多静态方法处理 `Future`
+
+示例代码
+
+```java
+/**
+ * 异步回调
+ */
+public class AsyncDemo {
+
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+//        CompletableFuture<Void> runAsync = CompletableFuture.runAsync(() -> {
+//            System.out.println("hello");
+//        });
+
+        CompletableFuture<Integer> asyncFuture = CompletableFuture.supplyAsync(() -> {
+            System.out.println("异步回调");
+            int i= 3/0;
+            return 200;
+        });
+
+        System.out.println("任务执行的返回值 : " + asyncFuture.whenComplete((res, throwable) -> {
+            System.out.println("res : " + res);
+            System.out.println("throwable : " + throwable);
+        }).exceptionally(throwable -> {
+            System.out.println("exceptionally抛出的异常 throwable" + throwable);
+            return 100;
+        }).get());
+    }
+}
+```
+
+# 最旧的笔记
 
 回调的方式实现异步编程
 

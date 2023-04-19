@@ -1,6 +1,6 @@
 #还没有复习 
 
-# lambda表达式
+# lambda 表达式
 
 > lambda 表达式，也称“闭包”
 >
