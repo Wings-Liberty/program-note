@@ -112,7 +112,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -128,7 +129,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "e0f5bfb2fb1b6b2e",
+  "active": "c7d145da6ee5e1b5",
   "lastOpenFiles": [
     "020 - 附件文件夹/Pasted image 20230419225752.png",
     "040 - Java 基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
