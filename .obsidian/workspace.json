@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 - 编码技巧和架构/030 - 设计模式/设计模式.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13603ed659a89280",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 - 编码技巧和架构/030 - 设计模式/设计模式.md",
+                "file": "100 - 编码技巧和架构/030 - 设计模式/010 - UML 图和 6 大设计原则.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,11 +130,17 @@
   },
   "active": "9b5771723e9f5f0e",
   "lastOpenFiles": [
-    "021 - 离线网页备份文件夹/设计模式 - 单例模式.html",
-    "020 - 附件文件夹/Pasted image 20230422173102.png",
+    "020 - 附件文件夹/Pasted image 20230422183006.png",
+    "021 - 离线网页备份文件夹/设计模式 - 建造者模式.html",
+    "021 - 离线网页备份文件夹/设计模式 - 抽象工厂.html",
+    "020 - 附件文件夹/Pasted image 20230422181558.png",
+    "100 - 编码技巧和架构/030 - 设计模式/010 - UML 图和 6 大设计原则.md",
     "100 - 编码技巧和架构/030 - 设计模式/设计模式.md",
     "100 - 编码技巧和架构/030 - 设计模式/020 - 23 种设计模式.md",
-    "100 - 编码技巧和架构/030 - 设计模式/010 - UML 图和 6 大设计原则.md",
+    "020 - 附件文件夹/Pasted image 20230422181158.png",
+    "021 - 离线网页备份文件夹/设计模式 - 简单工厂.html",
+    "021 - 离线网页备份文件夹/设计模式 - 单例模式.html",
+    "020 - 附件文件夹/Pasted image 20230422173102.png",
     "021 - 离线网页备份文件夹/简说设计模式 - 设计模式6大基本原则.html",
     "021 - 离线网页备份文件夹/UML大科普：一文梳理清 14种 UML图！.html",
     "021 - 离线网页备份文件夹",
@@ -179,15 +172,9 @@
     "081 - Jedis & Redission",
     "080 - Mybatis & Mybatis-Plus/未命名",
     "ob-config.gitignore",
-    "ob-configgitignore",
-    "新建 文本文档.txt",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用",
-    "180 - 未整理/未整理的bug",
     "020 - 附件文件夹/Pasted image 20230405005131.png",
     "020 - 附件文件夹/Pasted image 20230405005050.png",
     "020 - 附件文件夹/Pasted image 20230405005040.png",
-    "020 - 附件文件夹/Pasted image 20230405005027.png",
-    "020 - 附件文件夹/Pasted image 20230405005011.png",
-    "020 - 附件文件夹/Pasted image 20230405004609.png"
+    "020 - 附件文件夹/Pasted image 20230405005027.png"
   ]
 }
