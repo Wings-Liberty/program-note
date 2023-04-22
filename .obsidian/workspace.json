@@ -112,7 +112,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -128,8 +129,10 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "9b5771723e9f5f0e",
+  "active": "c7d145da6ee5e1b5",
   "lastOpenFiles": [
+    "020 - 附件文件夹/Pasted image 20230422220854.png",
+    "021 - 离线网页备份文件夹/设计模式 - 原型模式.html",
     "020 - 附件文件夹/Pasted image 20230422183006.png",
     "021 - 离线网页备份文件夹/设计模式 - 建造者模式.html",
     "021 - 离线网页备份文件夹/设计模式 - 抽象工厂.html",
@@ -171,10 +174,8 @@
     "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
     "081 - Jedis & Redission",
     "080 - Mybatis & Mybatis-Plus/未命名",
-    "ob-config.gitignore",
     "020 - 附件文件夹/Pasted image 20230405005131.png",
     "020 - 附件文件夹/Pasted image 20230405005050.png",
-    "020 - 附件文件夹/Pasted image 20230405005040.png",
-    "020 - 附件文件夹/Pasted image 20230405005027.png"
+    "020 - 附件文件夹/Pasted image 20230405005040.png"
   ]
 }
