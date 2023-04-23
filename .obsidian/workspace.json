@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#正在复习",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,8 +112,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,8 +128,9 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "c7d145da6ee5e1b5",
+  "active": "50b1d4af7bbf17fd",
   "lastOpenFiles": [
+    "020 - 附件文件夹/Pasted image 20230423224119.png",
     "021 - 离线网页备份文件夹/设计模式 - 代理模式.html",
     "020 - 附件文件夹/Pasted image 20230423221651.png",
     "021 - 离线网页备份文件夹/设计模式 - 享元模式.html",
@@ -154,7 +154,6 @@
     "021 - 离线网页备份文件夹/设计模式 - 建造者模式.html",
     "021 - 离线网页备份文件夹/设计模式 - 抽象工厂.html",
     "021 - 离线网页备份文件夹/设计模式 - 简单工厂.html",
-    "021 - 离线网页备份文件夹/设计模式 - 单例模式.html",
     "040 - Java 基础知识/030 - 并发专题/050 - ThreadLocal 和 TTL.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/170 - 异步回调 - CompletableFuture.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
