@@ -5,7 +5,6 @@
 # 安装Docker
 
 
-
 ## 简易安装
 
 ```shell
@@ -687,4 +686,17 @@ docker compose 更多指令参考
 - [菜鸟教程](https://www.runoob.com/docker/docker-compose.html)
 - [Docker Compose 模板文件](https://yeasy.gitbook.io/docker_practice/compose/compose_file#image)
 - [docker-compose 命令说明](https://www.breword.com/yeasy-docker_practice/compose/commands)
+
+# 搭建公有云仓库 方式
+
+先根据第一步，在服务器上下载 docker，然后搭建 portainer，教程参考[这里](https://blog.csdn.net/m0_67900727/article/details/123550536)
+
+然后用 portainer 连接上阿里云镜像服务作为云仓库
+
+阿里云镜像服务使用方式参考下一个标题
+
+
+
+# 阿里云镜像仓库使用方式
+
 
