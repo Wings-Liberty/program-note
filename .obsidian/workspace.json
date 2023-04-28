@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f0fd8e602dc3e3de",
+        "id": "3fa2914284bda1fa",
         "type": "tabs",
         "children": [
           {
-            "id": "1f7dde3a10e3a26a",
+            "id": "8d91f6ebd0fb9981",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 - 编码技巧和架构/030 - 设计模式/010 - UML 图和 6 大设计原则.md",
+                "file": "130 - Linux/020 - Linux Desktop 入坟记录/换系统.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 - 编码技巧和架构/030 - 设计模式/010 - UML 图和 6 大设计原则.md"
+                "file": "130 - Linux/020 - Linux Desktop 入坟记录/换系统.md"
               }
             }
           },
@@ -115,8 +115,10 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "68a81097870ae0d6",
+  "active": "8d91f6ebd0fb9981",
   "lastOpenFiles": [
+    "130 - Linux/020 - Linux Desktop 入坟记录/换系统.md",
+    "100 - 编码技巧和架构/030 - 设计模式/010 - UML 图和 6 大设计原则.md",
     "130 - Linux/020 - Linux Desktop 入坟记录",
     "010 - 新建笔记/近期计划.md",
     "010 - 新建笔记/整理进度.md",
@@ -134,7 +136,6 @@
     "120 - 项目管理/010 - 版本管理 - Git/代码管理-Git.md",
     "120 - 项目管理/020 - 项目管理工具 - Maven/Maven 笔记.md",
     "120 - 项目管理/040 - 持续集成 - Jenkins/持续集成——Jenkins.md",
-    "100 - 编码技巧和架构/030 - 设计模式/010 - UML 图和 6 大设计原则.md",
     "100 - 编码技巧和架构/030 - 设计模式/设计模式.md",
     "100 - 编码技巧和架构/030 - 设计模式/020 - 23 种设计模式.md",
     "021 - 离线网页备份文件夹/设计模式 - 迭代器模式.html",
@@ -154,7 +155,6 @@
     "021 - 离线网页备份文件夹/设计模式 - 状态模式.html",
     "021 - 离线网页备份文件夹/设计模式 - 命令模式.html",
     "020 - 附件文件夹/Pasted image 20230424224848.png",
-    "021 - 离线网页备份文件夹/设计模式 - 模板模式.html",
     "020 - 附件文件夹/Pasted image 20230424224256.png",
     "020 - 附件文件夹/Pasted image 20230423224119.png",
     "040 - Java 基础知识/030 - 并发专题/050 - ThreadLocal 和 TTL.md",
