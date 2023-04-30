@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#正在复习",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md"
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md"
               }
             }
           },
@@ -114,11 +114,13 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "50b1d4af7bbf17fd",
+  "active": "8d91f6ebd0fb9981",
   "lastOpenFiles": [
+    "021 - 离线网页备份文件夹/Lambda 表达式的作用域.html",
+    "040 - Java 基础知识/020 - Java 语法基础知识/060 - 枚举类，反射和克隆.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/030 - 大数值，字符串和数组.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/040 - 类，对象和访问权限关键字.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
     "130 - Linux/020 - Linux Desktop 入坟记录/换系统.md",
     "020 - 附件文件夹/Pasted image 20230429103833.png",
     "100 - 编码技巧和架构/030 - 设计模式/010 - UML 图和 6 大设计原则.md",
@@ -128,7 +130,6 @@
     "120 - 项目管理/030 - 容器化管理 - Docker/Docker.md",
     "040 - Java 基础知识/010 - JDK 基础/Java 的 ClassPath 再探.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/（未归档）Java 编程思想笔记.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/060 - 枚举类，反射和克隆.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
     "040 - Java 基础知识/010 - JDK 基础/java 命令和包结构.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",

@@ -1,4 +1,4 @@
-#还没有复习 
+#正在复习 
 
 # lambda 表达式
 
@@ -10,7 +10,7 @@
 
 ## 表达式模板和可简化部分
 
-**lambda表达式模板**
+**lambda 表达式模板**
 
 ```
 (parameters) ->{ statements; }
@@ -18,20 +18,20 @@
 
 **可简化部分**
 
-- 省略参数类型：参数列表的参数类型可以省略，编译器可自动识别
+- 省略参数类型：如果编译器可静态自动识别参数列表的参数类型，则参数列表的参数类型可以省略
 - 省略小括号：如果只有一个参数，参数列表两边的小括号可省略`()`
 - 省略大括号：如果方法体只有一句话，可省略方法体的大括号`{}`
-- 省略`return`关键字：如果方法体只有一句话，且这句话是`return statements`，可省略`return`关键字
+- 省略 `return` 关键字：如果方法体只有一句话，且这句话是 `return statements`，可省略 `return` 关键字
 
 
-## 表达式中变量的作用域
+## lambda 表达式中变量的作用域
 
-[参考](https://blog.csdn.net/sun_promise/article/details/51132916?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1.control)
+参考[[../../021 - 离线网页备份文件夹/Lambda 表达式的作用域.html|Lambda表达式的作用域]]
 
-- 在表达式中使用域外的**局部变量**（**方法体内声明的变量和外部方法参数列表里的变量**）需要注意
+在表达式中使用域外的**局部变量**（**方法体内声明的变量和外部方法参数列表里的变量**）需要注意
 
 - 不能在表达式中修改这些域外的变量的**值**，**基本数据类型和对象都不行**
-- 在表达式中用到的域外变量被隐式声明为了`final`（原因见下述代码示例）
+- 在表达式中用到的域外变量被隐式声明为了 `final`（原因见下述代码示例）
 - 表达式的参数列表中参数名不能和域外变量同名
 
 基于前两个注意事项，建议将这些在表达中被用到的**域外局部变量都显式声明为 final**
