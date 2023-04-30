@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "130 - Linux/020 - Linux Desktop 入坟记录/换系统.md",
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "130 - Linux/020 - Linux Desktop 入坟记录/换系统.md"
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md"
               }
             }
           },
@@ -98,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -115,9 +114,13 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "8d91f6ebd0fb9981",
+  "active": "50b1d4af7bbf17fd",
   "lastOpenFiles": [
+    "040 - Java 基础知识/020 - Java 语法基础知识/030 - 大数值，字符串和数组.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/040 - 类，对象和访问权限关键字.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
     "130 - Linux/020 - Linux Desktop 入坟记录/换系统.md",
+    "020 - 附件文件夹/Pasted image 20230429103833.png",
     "100 - 编码技巧和架构/030 - 设计模式/010 - UML 图和 6 大设计原则.md",
     "130 - Linux/020 - Linux Desktop 入坟记录",
     "010 - 新建笔记/近期计划.md",
@@ -127,10 +130,7 @@
     "040 - Java 基础知识/020 - Java 语法基础知识/（未归档）Java 编程思想笔记.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/060 - 枚举类，反射和克隆.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/050 - 继承，多态和接口.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/040 - 类，对象和访问权限关键字.md",
     "040 - Java 基础知识/010 - JDK 基础/java 命令和包结构.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/030 - 大数值，字符串和数组.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
     "120 - 项目管理/010 - 版本管理 - Git/代码管理-Git.md",
@@ -156,12 +156,10 @@
     "021 - 离线网页备份文件夹/设计模式 - 命令模式.html",
     "020 - 附件文件夹/Pasted image 20230424224848.png",
     "020 - 附件文件夹/Pasted image 20230424224256.png",
-    "020 - 附件文件夹/Pasted image 20230423224119.png",
     "040 - Java 基础知识/030 - 并发专题/050 - ThreadLocal 和 TTL.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/170 - 异步回调 - CompletableFuture.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
     "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
-    "180 - 未整理/C 基础 - C Primer Plus.md",
-    "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md"
+    "180 - 未整理/C 基础 - C Primer Plus.md"
   ]
 }
