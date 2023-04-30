@@ -1,4 +1,3 @@
-#正在复习 
 
 # lambda 表达式
 
@@ -197,7 +196,7 @@ System.out.println(predicate.test("断言型接口"));
 [还有很多其他函数式接口](https://www.runoob.com/java/java8-functional-interfaces.html)
 
 
-# Comparator
+# Comparator 比较器
 
 > `Comparator` 是比较器，用于比较两个对象，并返回一个 `int` 结果
 >
@@ -214,7 +213,7 @@ System.out.println(predicate.test("断言型接口"));
 ```java
 Arrays.sort(peoples, Comparator.comparing(Person::getlastName).thenComparing(Person::getFirstName));
 
-Arrays.sort(peoples, Comparator.comparing(Person::getName, (s, t) -> Integer.compare(s.1ength(), t.lengthO)));
+Arrays.sort(peoples, Comparator.comparing(Person::getName, (s, t) -> Integer.compare(s.length(), t.length())));
 
 Comparator.comparing(Person::getMiddleName(), Comparator.nullsFirst(...));
 ```
