@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "120 - 项目管理/030 - 容器化管理 - Docker/Docker.md",
+                "file": "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7050a219048649c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,15 +39,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
+                "file": "120 - 项目管理/030 - 容器化管理 - Docker/020 - Docker 数据卷以及怎么用 DockerFile 和 docker-compose 自定义镜像.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md"
+                "file": "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md"
               }
             }
           },
@@ -128,16 +140,16 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "44e75a5b401f7dc6",
+  "active": "5151a8c1a9b4e57f",
   "lastOpenFiles": [
     "120 - 项目管理/030 - 容器化管理 - Docker/Docker.md",
+    "120 - 项目管理/030 - 容器化管理 - Docker/020 - Docker 数据卷以及怎么用 DockerFile 和 docker-compose 自定义镜像.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
     "020 - 附件文件夹/The Linux Commend Line.pdf",
     "130 - Linux/Shell 脚本.md",
     "130 - Linux/Linux 实用命令.md",
     "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/Docker (copy).md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/020 - Docker 数据卷以及怎么用 DockerFile 和 docker-compose 自定义镜像.md",
     "130 - Linux/初始化虚拟机必备操作.md",
     "130 - Linux/010 - Linux 基础知识/010 - 临时.md",
     "130 - Linux/未命名.md",
