@@ -8,38 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5151a8c1a9b4e57f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e7050a219048649c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44e75a5b401f7dc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "120 - 项目管理/030 - 容器化管理 - Docker/020 - Docker 数据卷以及怎么用 DockerFile 和 docker-compose 自定义镜像.md",
+                "file": "120 - 项目管理/030 - 容器化管理 - Docker/Docker (copy).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -83,6 +57,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "145a92916a1d6451",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -104,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md"
+                "file": "120 - 项目管理/030 - 容器化管理 - Docker/Docker (copy).md"
               }
             }
           },
@@ -140,16 +122,19 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "5151a8c1a9b4e57f",
+  "active": "e7050a219048649c",
   "lastOpenFiles": [
+    "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
+    "120 - 项目管理/030 - 容器化管理 - Docker/Docker (copy).md",
+    "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/Docker.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/020 - Docker 数据卷以及怎么用 DockerFile 和 docker-compose 自定义镜像.md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
+    "120 - 项目管理/030 - 容器化管理 - Docker/040 = d.md",
+    "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md",
     "020 - 附件文件夹/The Linux Commend Line.pdf",
     "130 - Linux/Shell 脚本.md",
     "130 - Linux/Linux 实用命令.md",
     "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/Docker (copy).md",
     "130 - Linux/初始化虚拟机必备操作.md",
     "130 - Linux/010 - Linux 基础知识/010 - 临时.md",
     "130 - Linux/未命名.md",
@@ -170,7 +155,6 @@
     "040 - Java 基础知识/020 - Java 语法基础知识/100 - 泛型.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/090 - 错误，异常.md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/170 - 异步回调 - CompletableFuture.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/160 - 安全，数字签名和加密 API.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/141 - 文件读写.md",
@@ -180,7 +164,6 @@
     "040 - Java 基础知识/020 - Java 语法基础知识/142 - 零拷贝 - mmap 和 sendfile.md",
     "021 - 离线网页备份文件夹/在java中如何处理finally块中的抛出异常以及finally和return的一些细节_finally里面可以抛出异常吗.html",
     "021 - 离线网页备份文件夹/Lambda 表达式的作用域.html",
-    "040 - Java 基础知识/020 - Java 语法基础知识/060 - 枚举类，反射和克隆.md",
     "130 - Linux/020 - Linux Desktop 入坟记录",
     "021 - 离线网页备份文件夹/设计模式 - 迭代器模式.html",
     "021 - 离线网页备份文件夹/设计模式 - 备忘录模式.html",

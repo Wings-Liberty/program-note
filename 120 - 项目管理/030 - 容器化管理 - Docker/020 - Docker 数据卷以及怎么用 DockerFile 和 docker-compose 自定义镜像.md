@@ -277,3 +277,42 @@ docker 有一个 dockerhub，多放置各大官方的 docker 镜像，因为是�
 
 4. 在[容器镜像服务](https://cr.console.aliyun.com/instances/repositories)中搜索并 pull 自己的镜像
 
+
+# 用 Docker Compose 管理镜像和容器
+
+Docker Compose 是以 yml 文件方式配置管理多个容器的配置和启动
+
+使用方式如下
+
+1. 编写 docker-compose。这是一个 yml 格式的文件
+2. 运行 `docker compose up`
+
+
+举个例子，现在需要启动一个 webapp 和一个 redis，下面是一个比较简洁的配置
+
+```yaml
+version: '3'
+services:
+	web:
+        build: .
+        ports:
+            - "5000:5000"
+        volumes:
+            - .:/code
+            - logvolume01:/var/log
+        links:
+            - redis
+	redis:
+		image: redis
+```
+
+
+docker compose 相当于用一个 yml 文件保存了多个 docker 命令，执行 `docker compose up` 相当于运行了多个 docker 命令
+
+只不过把 docker 命令改成了 yml 的写法
+
+docker compose 更多指令参考
+
+- [菜鸟教程](https://www.runoob.com/docker/docker-compose.html)
+- [Docker Compose 模板文件](https://yeasy.gitbook.io/docker_practice/compose/compose_file#image)
+- [docker-compose 命令说明](https://www.breword.com/yeasy-docker_practice/compose/commands)
