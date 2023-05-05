@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e1b9166674872994",
+        "id": "67ad22abeedfd45f",
         "type": "tabs",
         "children": [
           {
-            "id": "e7050a219048649c",
+            "id": "b9d1bf9360bb4989",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "120 - 项目管理/030 - 容器化管理 - Docker/Docker (copy).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -122,7 +117,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "e7050a219048649c",
+  "active": "68a81097870ae0d6",
   "lastOpenFiles": [
     "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md",
