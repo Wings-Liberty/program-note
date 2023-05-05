@@ -11,8 +11,13 @@
             "id": "b9d1bf9360bb4989",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "080 - Mybatis & Mybatis-Plus/未归档/Mybatis&Mybatis-Plus.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "120 - 项目管理/030 - 容器化管理 - Docker/Docker (copy).md"
+                "file": "080 - Mybatis & Mybatis-Plus/未归档/Mybatis&Mybatis-Plus.md"
               }
             }
           },
@@ -117,8 +122,9 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "68a81097870ae0d6",
+  "active": "b9d1bf9360bb4989",
   "lastOpenFiles": [
+    "080 - Mybatis & Mybatis-Plus/未归档/Mybatis-Plus.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md",
     "120 - 项目管理/040 - 持续集成 - Jenkins/持续集成——Jenkins.md",
@@ -156,7 +162,6 @@
     "040 - Java 基础知识/020 - Java 语法基础知识/141 - 文件读写.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/080 - 内部类和动态代理类.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
     "021 - 离线网页备份文件夹/在java中如何处理finally块中的抛出异常以及finally和return的一些细节_finally里面可以抛出异常吗.html",
     "021 - 离线网页备份文件夹/Lambda 表达式的作用域.html",
     "130 - Linux/020 - Linux Desktop 入坟记录",
