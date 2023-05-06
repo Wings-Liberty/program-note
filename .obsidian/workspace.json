@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "080 - Mybatis & Mybatis-Plus/未归档/Mybatis&Mybatis-Plus.md",
+                "file": "060 - MySQL & Redis/未归档/优先整理的未归档的mysql笔记/常用的实用函数.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "080 - Mybatis & Mybatis-Plus/未归档/Mybatis&Mybatis-Plus.md"
+                "file": "060 - MySQL & Redis/未归档/优先整理的未归档的mysql笔记/常用的实用函数.md"
               }
             }
           },
@@ -124,6 +124,7 @@
   },
   "active": "b9d1bf9360bb4989",
   "lastOpenFiles": [
+    "080 - Mybatis & Mybatis-Plus/未归档/Mybatis&Mybatis-Plus.md",
     "080 - Mybatis & Mybatis-Plus/未归档/Mybatis-Plus.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md",
@@ -161,7 +162,6 @@
     "040 - Java 基础知识/020 - Java 语法基础知识/160 - 安全，数字签名和加密 API.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/141 - 文件读写.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/080 - 内部类和动态代理类.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
     "021 - 离线网页备份文件夹/在java中如何处理finally块中的抛出异常以及finally和return的一些细节_finally里面可以抛出异常吗.html",
     "021 - 离线网页备份文件夹/Lambda 表达式的作用域.html",
     "130 - Linux/020 - Linux Desktop 入坟记录",
