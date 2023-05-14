@@ -1,4 +1,3 @@
-#还没有复习 
 
 # Stream 流式计算
 
@@ -29,7 +28,7 @@ java 中常用的集合有 `List`，`Set`，`Map`
 3. 流的操作是尽可能惰性执行的。这意味着直至需要其结果时，操作才会执行。因此，我们甚至可以操作无限流
 
 
-**流的动作分3种**
+**流的动作分 3 种**
 
 - 创建流的动作（`stream` 或 `parallelStream` 创建流）
 - 流的中间操作。将初始流转换为其他流（`filter`，`map` 等操作流）
@@ -425,7 +424,7 @@ Optional<User> result = Optional.ofNullable(user).filter(u->!"zhangsan".equals(u
 // Collectors.toMap 需要两个 Function，一个为map提供k，一个为map提供v
 // 如果需要v就是它本身可以写e->e（Function.identity()实现了它）
 Map<Integer, Person> idToPerson = people.collect(Collectors.toMap(Person::getId, Function.identity());
-                                                 
+
 // 如果有重复的v，流执行时会报错。可以通过为toMap传第三个参数（BinaryOperator）解决
 // BinaryOperator是函数式接口，它继承了BiFunction
 public static <T, K, U>
@@ -452,7 +451,7 @@ Map<String,List<Locale>> countryTolocales = locales.collect(Collectors.groupingB
 
 **补充**
 
-- 当分类函数是断言函数（即返回 `boolean` 值的函数）时，流的元素可以分区为两个列表∶该函数返回 true 的元素和其他的元素。在这种情况下，使用`partitioningBy`比使用 `groupingBy` 要更高效
+- 当分类函数是断言函数（即返回 `boolean` 值的函数）时，流的元素可以分区为两个列表∶该函数返回 true 的元素和其他的元素。在这种情况下，使用 `partitioningBy` 比使用 `groupingBy` 要更高效
 - `groupingByConcurrent` 返回的 `Map` 类型是 `ConcurrentHashMap`
 
 
@@ -490,9 +489,6 @@ Map<String, Optional<String>> stateTolongestCityName = cities.collet(
                 maxBy(Comparator.comparing(String::length)))));
 ```
 
-[一些使用建议](https://lw900925.github.io/java/java8-optional.html)
-
-https://cloud.tencent.com/developer/article/1596865
 
 ## 约简操作
 
@@ -534,8 +530,3 @@ Stream<Integer> integers = IntStream.range(0,100).boxed();
 但是有些操作中，如果并行计算可以打乱原有元素的顺序的话，效率会有所提高。例如：`distinct`，`limit`
 
 `.parallelStream.unordered()` 可以让并行流放弃维护原有元素的顺序，从而提高一些操作的速度
-
-
-# 其他
-
-https://blog.csdn.net/qq_43570650/article/details/121687883?spm=1001.2014.3001.5501
