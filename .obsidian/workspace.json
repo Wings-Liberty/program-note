@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1c20825bb4521fca",
+        "id": "d8cd1f18139e97cd",
         "type": "tabs",
         "children": [
           {
-            "id": "e4ab4faf93e511d7",
+            "id": "2ce9349dbeb25e41",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "150 - 极客时间/010 - README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "150 - 极客时间/010 - README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -122,10 +115,10 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "e4ab4faf93e511d7",
+  "active": "2ce9349dbeb25e41",
   "lastOpenFiles": [
-    "040 - Java 基础知识/020 - Java 语法基础知识/150 - 日期和时间 API.md",
     "150 - 极客时间/010 - README.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/150 - 日期和时间 API.md",
     "150 - 极客时间",
     "080 - Mybatis & Mybatis-Plus/未归档/Mybatis&Mybatis-Plus.md",
     "040 - Java 基础知识/021 - Java 基础数据结构/010 - 集合解析 - HashMap.md",
