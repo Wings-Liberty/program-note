@@ -11,8 +11,13 @@
             "id": "2ce9349dbeb25e41",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "150 - 极客时间/089 - 消息队列高手课/00 - 开篇.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -80,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "150 - 极客时间/089 - 消息队列高手课/00 - 开篇.md"
+              }
             }
           },
           {
@@ -99,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -117,7 +125,11 @@
   },
   "active": "2ce9349dbeb25e41",
   "lastOpenFiles": [
+    "150 - 极客时间/089 - 消息队列高手课/01 - 为什么需要消息队列.md",
+    "150 - 极客时间/089 - 消息队列高手课/00 - 开篇.md",
+    "150 - 极客时间/089 - 消息队列高手课/问题集.md",
     "150 - 极客时间/010 - README.md",
+    "150 - 极客时间/089 - 消息队列高手课",
     "040 - Java 基础知识/020 - Java 语法基础知识/150 - 日期和时间 API.md",
     "150 - 极客时间",
     "080 - Mybatis & Mybatis-Plus/未归档/Mybatis&Mybatis-Plus.md",
@@ -143,9 +155,6 @@
     "020 - 附件文件夹/The Linux Commend Line.pdf",
     "130 - Linux/Shell 脚本.md",
     "130 - Linux/Linux 实用命令.md",
-    "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
-    "130 - Linux/初始化虚拟机必备操作.md",
-    "130 - Linux/010 - Linux 基础知识/010 - 临时.md",
     "130 - Linux/010 - Linux 基础知识",
     "020 - 附件文件夹/Pasted image 20230503143540.png",
     "020 - 附件文件夹/Pasted image 20230503143525.png",
@@ -161,7 +170,6 @@
     "021 - 离线网页备份文件夹/Lambda 表达式的作用域.html",
     "130 - Linux/020 - Linux Desktop 入坟记录",
     "021 - 离线网页备份文件夹/设计模式 - 迭代器模式.html",
-    "021 - 离线网页备份文件夹/设计模式 - 备忘录模式.html",
-    "021 - 离线网页备份文件夹/设计模式 - 策略模式.html"
+    "021 - 离线网页备份文件夹/设计模式 - 备忘录模式.html"
   ]
 }
