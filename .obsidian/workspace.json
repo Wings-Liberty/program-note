@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d8cd1f18139e97cd",
+        "id": "7d505801834b6f47",
         "type": "tabs",
         "children": [
           {
-            "id": "2ce9349dbeb25e41",
+            "id": "c7b33b849a2b4648",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "150 - 极客时间/089 - 消息队列高手课/00 - 开篇.md",
+                "file": "150 - 极客时间/089 - 消息队列高手课/01 - 为什么需要消息队列？.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "150 - 极客时间/089 - 消息队列高手课/00 - 开篇.md"
+                "file": "150 - 极客时间/089 - 消息队列高手课/01 - 为什么需要消息队列？.md"
               }
             }
           },
@@ -123,9 +123,14 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "2ce9349dbeb25e41",
+  "active": "c7b33b849a2b4648",
   "lastOpenFiles": [
-    "150 - 极客时间/089 - 消息队列高手课/01 - 为什么需要消息队列.md",
+    "150 - 极客时间/089 - 消息队列高手课/02 - 该如何选择消息队列？.md",
+    "010 - 新建笔记/整理进度.md",
+    "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
+    "180 - 未整理/功能设计 - 单点登录.md",
+    "010 - 新建笔记/近期计划.md",
+    "150 - 极客时间/089 - 消息队列高手课/01 - 为什么需要消息队列？.md",
     "150 - 极客时间/089 - 消息队列高手课/00 - 开篇.md",
     "150 - 极客时间/089 - 消息队列高手课/问题集.md",
     "150 - 极客时间/010 - README.md",
@@ -149,12 +154,7 @@
     "120 - 项目管理/040 - 持续集成 - Jenkins/持续集成——Jenkins.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/Docker (copy).md",
     "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/Docker.md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/020 - Docker 数据卷以及怎么用 DockerFile 和 docker-compose 自定义镜像.md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/040 = d.md",
     "020 - 附件文件夹/The Linux Commend Line.pdf",
-    "130 - Linux/Shell 脚本.md",
-    "130 - Linux/Linux 实用命令.md",
     "130 - Linux/010 - Linux 基础知识",
     "020 - 附件文件夹/Pasted image 20230503143540.png",
     "020 - 附件文件夹/Pasted image 20230503143525.png",
