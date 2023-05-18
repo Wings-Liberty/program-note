@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
+                "file": "070 - Spring 全家桶/010 - Spring Fromework/未归档/030 - getBean 的执行流程.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "PostConstruct",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md"
+                "file": "070 - Spring 全家桶/010 - Spring Fromework/未归档/030 - getBean 的执行流程.md"
               }
             }
           },
@@ -125,6 +126,9 @@
   },
   "active": "56124df0ce13944c",
   "lastOpenFiles": [
+    "070 - Spring 全家桶/020 - Spring MVC/未归档/010 - Spring IOC.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/00 - Spring 注解式开发.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
     "150 - 极客时间/089 - 消息队列高手课/03 - 消息模型：主题和队列有什么区别？.md",
     "150 - 极客时间/089 - 消息队列高手课/02 - 该如何选择消息队列？.md",
@@ -151,9 +155,6 @@
     "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
     "060 - MySQL & Redis/未归档/优先整理的未归档的mysql笔记/常用的实用函数.md",
     "080 - Mybatis & Mybatis-Plus/未归档/Mybatis-Plus.md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md",
-    "120 - 项目管理/040 - 持续集成 - Jenkins/持续集成——Jenkins.md",
     "020 - 附件文件夹/The Linux Commend Line.pdf",
     "130 - Linux/010 - Linux 基础知识",
     "020 - 附件文件夹/Pasted image 20230503143540.png",
