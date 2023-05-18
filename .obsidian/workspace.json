@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a98813d73fca06c6",
+        "id": "bdb49f8d48f5529b",
         "type": "tabs",
         "children": [
           {
-            "id": "56124df0ce13944c",
+            "id": "8855b212e483d882",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "070 - Spring 全家桶/010 - Spring Fromework/未归档/030 - getBean 的执行流程.md",
+                "file": "150 - 极客时间/089 - 消息队列高手课/06 - 如何处理消费过程中的重复消息？.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "070 - Spring 全家桶/010 - Spring Fromework/未归档/030 - getBean 的执行流程.md"
+                "file": "150 - 极客时间/089 - 消息队列高手课/06 - 如何处理消费过程中的重复消息？.md"
               }
             }
           },
@@ -124,8 +123,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "56124df0ce13944c",
+  "active": "8855b212e483d882",
   "lastOpenFiles": [
+    "150 - 极客时间/089 - 消息队列高手课/05 - 如何确保消息不会丢失？.md",
+    "150 - 极客时间/089 - 消息队列高手课/04 - 如何利用事务消息实现分布式事务？.md",
+    "150 - 极客时间/089 - 消息队列高手课/06 - 如何处理消费过程中的重复消息？.md",
+    "070 - Spring 全家桶/010 - Spring Fromework/未归档/030 - getBean 的执行流程.md",
     "070 - Spring 全家桶/020 - Spring MVC/未归档/010 - Spring IOC.md",
     "070 - Spring 全家桶/010 - Spring Fromework/需要优先整理的未归档笔记/00 - Spring 注解式开发.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
@@ -151,10 +154,6 @@
     "020 - 附件文件夹/BladeX开发手册-2.7.0.RELEASE.pdf",
     "040 - Java 基础知识/020 - Java 语法基础知识/142 - 零拷贝 - mmap 和 sendfile.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/141 - 文件读写.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
-    "060 - MySQL & Redis/未归档/优先整理的未归档的mysql笔记/常用的实用函数.md",
-    "080 - Mybatis & Mybatis-Plus/未归档/Mybatis-Plus.md",
     "020 - 附件文件夹/The Linux Commend Line.pdf",
     "130 - Linux/010 - Linux 基础知识",
     "020 - 附件文件夹/Pasted image 20230503143540.png",
