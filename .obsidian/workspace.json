@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bdb49f8d48f5529b",
+        "id": "09db7838173c3fa9",
         "type": "tabs",
         "children": [
           {
-            "id": "8855b212e483d882",
+            "id": "ae98602e5f0b84c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/170 - 异步回调 - CompletableFuture.md",
+                "file": "090 - 算法/010 - 常用算法和数据结构/ 直接插入排序.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,19 +21,28 @@
             }
           },
           {
-            "id": "956fd1cd2670c84b",
+            "id": "2c59ec41b4e6644b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
+                "file": "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "e382c820853a51b9",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/170 - 异步回调 - CompletableFuture.md"
-              }
+              "state": {}
             }
           },
           {
@@ -135,10 +142,25 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "8855b212e483d882",
+  "active": "e382c820853a51b9",
   "lastOpenFiles": [
-    "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
+    "090 - 算法/010 - 常用算法和数据结构/ 直接插入排序.md",
+    "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
+    "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
+    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
+    "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
+    "Projects - Demo Project/The Best Notes You'll Ever Make.md",
+    "Projects - Demo Project",
+    "090 - 算法/040 - 工程算法/一致性算法 - Raft 协议.md",
+    "090 - 算法/010 - 产.md",
+    "090 - 算法/010 - 常用算法和数据结构",
+    "010 - 新建笔记/整理进度.md",
+    "010 - 新建笔记/近期计划.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/171 - CompletableFuture 实现原理.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/180 - 日志系统.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/170 - 异步回调 - CompletableFuture.md",
+    "021 - 离线网页备份文件夹/CompletableFuture原理与实践-外卖商家端API的异步化 - 美团技术团队 (2023_5_21 18_06_43).html",
+    "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
@@ -152,18 +174,6 @@
     "040 - Java 基础知识/020 - Java 语法基础知识/011 - 比较两个对象大小 - Comparable 和 Comparator.md",
     "020 - 附件文件夹/Pasted image 20230521121724.png",
     "150 - 极客时间/089 - 消息队列高手课/16 - 缓存策略：如何使用缓存来减少磁盘IO？.md",
-    "040 - Java 基础知识/030 - 并发专题/060 - transient 关键字.md",
-    "040 - Java 基础知识/030 - 并发专题/050 - ThreadLocal 和 TTL.md",
-    "040 - Java 基础知识/030 - 并发专题/040 - 并发容器 - CopyOnWriteList.md",
-    "040 - Java 基础知识/030 - 并发专题/020 - AQS 原理.md",
-    "040 - Java 基础知识/030 - 并发专题/030 - 并发容器 - ConcurrentHashMap.md",
-    "040 - Java 基础知识/030 - 并发专题/010 - 线程池原理.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/180 - 日志系统.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/150 - 日期和时间 API.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/141 - 文件读写.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/142 - 零拷贝 - mmap 和 sendfile.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
-    "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
     "150 - 极客时间/089 - 消息队列高手课",
     "150 - 极客时间",
     "020 - 附件文件夹/BladeX开发手册-2.7.0.RELEASE.pdf",
@@ -179,9 +189,6 @@
     "020 - 附件文件夹/Pasted image 20230503141740.png",
     "020 - 附件文件夹/Pasted image 20230503141729.png",
     "021 - 离线网页备份文件夹/在java中如何处理finally块中的抛出异常以及finally和return的一些细节_finally里面可以抛出异常吗.html",
-    "021 - 离线网页备份文件夹/Lambda 表达式的作用域.html",
-    "130 - Linux/020 - Linux Desktop 入坟记录",
-    "021 - 离线网页备份文件夹/设计模式 - 迭代器模式.html",
-    "021 - 离线网页备份文件夹/设计模式 - 备忘录模式.html"
+    "021 - 离线网页备份文件夹/Lambda 表达式的作用域.html"
   ]
 }

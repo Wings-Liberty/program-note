@@ -1,6 +1,136 @@
 {
   "version": 2,
-  "projects": [],
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Projects - Demo Project",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 360
+              },
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "name": "Table",
+          "id": "74cce247-56e0-4ae9-a435-65c257bccaa9",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "priorityField": "weight"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "name": "Board",
+          "id": "09ba1c1d-0916-4f22-b805-a70b3daf6cee",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "due",
+            "checkField": "published"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "name": "Calendar",
+          "id": "60f3f14e-fe10-4a79-b9b1-cf50c82664d5",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "name": "Gallery",
+          "id": "6092434a-ca79-4d27-859b-94eafc2976df",
+          "type": "gallery"
+        }
+      ],
+      "name": "Demo project",
+      "id": "f1b130d6-254b-4195-bb9d-3ec934a94641",
+      "path": "Projects - Demo Project"
+    },
+    {
+      "fieldConfig": {
+        "空间复杂度": {
+          "richText": true,
+          "options": []
+        },
+        "分类": {}
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "090 - 算法/010 - 常用算法和数据结构",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "id": "9c836ff9-d866-46ab-9136-2084941921b9",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "65014991-4c76-4203-9ffe-e1df962b06bc",
+      "name": "常用算法和数据结构"
+    }
+  ],
   "preferences": {
     "projectSizeLimit": 1000,
     "frontmatter": {

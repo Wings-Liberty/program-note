@@ -1,4 +1,3 @@
-#正在复习
 
 # CompletableFuture 能实现什么功能
 
@@ -166,115 +165,52 @@ public void parallelAndAllOf() throws InterruptedException {
 - 无入参，有返回值
 - 有入参，有返回值
 
-参考资料有以下
+**创建带有任务的对象**
+| 静态方法名                                                 | 说明             |
+|:---------------------------------------------------------- |:---------------- |
+|CompletableFuture\<Void\> runAsync(Runnable runnable)|无入参，无返回值|
+|CompletableFuture\<U\> supplyAsync(Supplier\<U\> supplier)| 无入参，有返回值 |
 
+**组织多个对象之间的执行关系**
+
+
+| 静态方法名                                                       | 说明                                                                                                |
+|:---------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------- |
+| CompletableFuture\<Void\> allOf(CompletableFuture\<?\>... cfs)   | 创建一个汇聚节点，当 cfs 里所有任务都执行完后，汇聚节点才会放行，并继续执行下一步                   |
+| CompletableFuture\<Object\> anyOf(CompletableFuture\<?\>... cfs) | 创建一个汇聚节点，当 cfs 里任意一个任务执行完后，汇聚节点就会放行，并继续执行下一步，但只会放行一次 |
+
+
+
+**链式调用，设置下一步要执行的任务内容**
+| 成员方法                                                                    | 说明                   |
+|:--------------------------------------------------------------------------- |:---------------------- |
+| CompletableFuture\<Void\> thenRun(Runnable action)                          | 无入参，无返回值       |
+| CompletableFuture\<Void\> thenAcceptAsync(Consumer\<? super T\> action)     | 无入参，有返回值       |
+| CompletableFuture\<U\> thenApplyAsync(Function\<? super T,? extends U\> fn) | 有入参，有返回值       |
+| CompletableFuture\<T\> exceptionally(Function\<Throwable, ? extends T\> fn) | 接收异常对象，有返回值 | 
+
+`CompletableFuture` 还提供了其他很多方法，但本质上都是上述方法的排列组合，或者说是封装
+
+> [!tip] `CompletableFuture` 还提供了预设返回结果的 API
+> - `boolean complete(T value)`，`CompletableFuture<U> completedFuture(U value)` 可以预设返回结果，如果还没计算完就调用 `get` 方法，就返回预先设置的值
+> - 也可以用 `boolean completeExceptionally(Throwable ex)` 预先设置一个异常，如果没计算完就 `get` 结果，就抛出预设的异常
+
+虽然是上述方法的排列组合，不过下面这些方法也确实用使用价值
+
+
+| 成员方法                                                                                                                        | 说明                                               |
+|:------------------------------------------------------------------------------------------------------------------------------- |:-------------------------------------------------- |
+| CompletableFuture\<U\> handleAsync(BiFunction\<? super T, Throwable, ? extends U\> fn)                                          | 有入参，有返回值，且入参有上一个步骤留下的异常对象 |
+|CompletableFuture\<V\> thenCombineAsync(CompletionStage\<? extends U\> other, BiFunction\<? super T,? super U,? extends V\> fn)| 等 this 和 other 都执行完后就执行 fn               |
+|CompletableFuture\<T\> whenCompleteAsync(BiConsumer\<? super T, ? super Throwable\> action)| 等 this 执行完后执行 action，action 有入参，无返回值                                                   |
+
+
+>[!tip] 参考资料
 > - [廖雪峰的教程](https://www.liaoxuefeng.com/wiki/1252599548343744/1306581182447650)用很简单的例子讲明白了 `CompletableFuture` 是什么，怎么用和常用的 3，4 个方法（完全足够了，其他API都是这几个的变体和组合）。但是很多 API 都没介绍
 > - [更多 API 的介绍](https://zhuanlan.zhihu.com/p/344431341)。文章下面还提供了一些优秀的参考资料
 >   - [简单介绍它是什么](https://blog.csdn.net/u011726984/article/details/79320004)
 >   - [Future 的实现机制 - 讲解实现原理](https://zhuanlan.zhihu.com/p/54459770)
 >   - [外文](callicoder.com/java-8-completablefuture-tutorial/)
 > - [更详细的API](https://www.jianshu.com/p/558b090ae4bb)：其实其他 API 都是常用的 3，4 个 API 的组合变体，而且还难以理解
-> - [美团技术分享](https://tech.meituan.com/2022/05/12/principles-and-practices-of-completablefuture.html)
+> - [美团技术分享 - CompletableFuture 实现原理](https://tech.meituan.com/2022/05/12/principles-and-practices-of-completablefuture.html)
 
-
-> 这里的异步回调机制能实现异步回调和Future的组合
-
-核心类 `CompletableFuture`   此类提供了很多静态方法处理 `Future`
-
-示例代码
-
-```java
-/**
- * 异步回调
- */
-public class AsyncDemo {
-
-    public static void main(String[] args) throws ExecutionException, InterruptedException {
-//        CompletableFuture<Void> runAsync = CompletableFuture.runAsync(() -> {
-//            System.out.println("hello");
-//        });
-
-        CompletableFuture<Integer> asyncFuture = CompletableFuture.supplyAsync(() -> {
-            System.out.println("异步回调");
-            int i= 3/0;
-            return 200;
-        });
-
-        System.out.println("任务执行的返回值 : " + asyncFuture.whenComplete((res, throwable) -> {
-            System.out.println("res : " + res);
-            System.out.println("throwable : " + throwable);
-        }).exceptionally(throwable -> {
-            System.out.println("exceptionally抛出的异常 throwable" + throwable);
-            return 100;
-        }).get());
-    }
-}
-```
-
-# 最旧的笔记
-
-回调的方式实现异步编程
-
-Java 的一些框架， 比如 Netty， 自己扩展了 Java 的 `Future` 接口， 提供了 `addListener`等多个扩展方法； Google guava 也提供了通用的扩展 Future
-
-`Future` 以及相关使用方法提供了异步执行任务的能力， 但是对于结果的获取却是很不方便， 只能通过阻塞或者轮询的方式得到任务的结果。 阻塞的方式显然和我们的异步编程的初衷相违背， 轮询的方式又会耗费无谓的 CPU 资源
-
-
-在 Java 8 中, 新增加了一个包含 50 个方法左右的类: CompletableFuture， 提供了非常强大的 Future 的扩展功能， 可以帮助我们简化异步编程的复杂性， 提供了函数式编程的能力， 可以通过回调的方式处理计算结果， 并且提供了转换和组合 CompletableFuture 的方法
-
-CompletableFuture 类实现了 Future 接口， 所以还是可以像以前一样通过 `get` 方法阻塞或者轮询的方式获得结果， **但是这种方式不推荐使用**
- 
-CompletableFuture 和 FutureTask 同属于 Future 接口的实现类， 都可以获取线程的执行结果
-
-![../91 - 静态资源/Pasted image 20220918225907.png](https://wings-liberty.oss-cn-beijing.aliyuncs.com/note/Pasted%20image%2020220918225907.png)
-
-
-CompletableFuture 的主要使用方式如下
-
-1. 创建一个对象
-2. 计算完成时回调方法
-3. handle 方法发
-4. 线程串行化方法
-5. 多个任务组合，都完成后再向下执行
-6. 多个任务组合，完成一个就能向下执行
-7. 多任务组合
-
-异步回调的本质就是用线程池 + 同步器 实现
-
-## 创建异步回调的方法
-
-![Pasted image 20220918230954](https://wings-liberty.oss-cn-beijing.aliyuncs.com/note/Pasted%20image%2020220918230954.png)
-
-runXxxx 都是没有返回结果的， supplyXxx 都是可以获取返回结果的，可以传入自定义的线程池， 否则就用默认的线程池
-
-
-## 回调方法获取计算的返回值
-
-![Pasted image 20220918231958](https://wings-liberty.oss-cn-beijing.aliyuncs.com/note/Pasted%20image%2020220918231958.png)
-
-- whenComplete 可以处理正常和异常的计算结果
-- exceptionally 处理异常情况
-
-
-whenComplete 和 whenCompleteAsync 的区别：  
-
-- whenComplete： 是执行当前任务的线程执行继续执行 whenComplete 的任务
-- whenCompleteAsync： 是执行把 whenCompleteAsync 这个任务继续提交给线程池  
-来进行执行
-
-
-## 修改结果返回值
-
-handle 和 complete 都能修改任务的执行结果
-
-
-## 串行化执行的方法调用
-
-当前置任务都完成后再执行这些 thenXxx 方法，这些方法会依赖前置任务的返回值
-
-![Pasted image 20220918233105](https://wings-liberty.oss-cn-beijing.aliyuncs.com/note/Pasted%20image%2020220918233105.png)
-
-## 两个任务都完成后就运行指定方法合并结果
-
-
-![[../../020 - 附件文件夹/07、异步&线程池.pdf]]
