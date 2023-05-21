@@ -196,28 +196,6 @@ System.out.println(predicate.test("断言型接口"));
 [还有很多其他函数式接口](https://www.runoob.com/java/java8-functional-interfaces.html)
 
 
-# Comparator 比较器
-
-> `Comparator` 是比较器，用于比较两个对象，并返回一个 `int` 结果
->
-> `Comparator` 是函数式接口，函数式方法是 `compare`
-
-![[../../020 - 附件文件夹/Pasted image 20230327003346.png|600]]
-
-其他的方法都有实现。其他方法分为3类
-
-- `comparingXxx` 将参数转换为指定类型的变量后再调用该类型的 `compare` 方法
-- `thenComparingXxx` 接收一个比较器，如果上一个比较器返回结果为 0 就调用这个比较器进行二次比较
-- 其他方法都是返回一个内置的比较器。如 `naturalOrder` 比较规则是自然顺序的比较器，`reverse` 和 `reverseOrder` 自然顺序的逆序排序比较器等内置比较器
-
-```java
-Arrays.sort(peoples, Comparator.comparing(Person::getlastName).thenComparing(Person::getFirstName));
-
-Arrays.sort(peoples, Comparator.comparing(Person::getName, (s, t) -> Integer.compare(s.length(), t.length())));
-
-Comparator.comparing(Person::getMiddleName(), Comparator.nullsFirst(...));
-```
-
 # Lambda 受检异常处理
 
 ```java

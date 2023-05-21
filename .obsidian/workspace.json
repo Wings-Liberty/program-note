@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java 基础知识/030 - 并发专题/060 - transient 关键字.md",
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/011 - 比较两个对象大小 - Comparable 和 Comparator.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "22ffe60c3399f1bb",
+            "id": "956fd1cd2670c84b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "150 - 极客时间/089 - 消息队列高手课/16 - 缓存策略：如何使用缓存来减少磁盘IO？.md",
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java 基础知识/030 - 并发专题/060 - transient 关键字.md"
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/011 - 比较两个对象大小 - Comparable 和 Comparator.md"
               }
             }
           },
@@ -137,6 +137,10 @@
   },
   "active": "8855b212e483d882",
   "lastOpenFiles": [
+    "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
+    "150 - 极客时间/089 - 消息队列高手课/16 - 缓存策略：如何使用缓存来减少磁盘IO？.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/011 - 比较两个对象大小 - Comparable 和 Comparator.md",
+    "040 - Java 基础知识/030 - 并发专题/060 - transient 关键字.md",
     "040 - Java 基础知识/030 - 并发专题/050 - ThreadLocal 和 TTL.md",
     "040 - Java 基础知识/030 - 并发专题/040 - 并发容器 - CopyOnWriteList.md",
     "040 - Java 基础知识/030 - 并发专题/020 - AQS 原理.md",
@@ -158,11 +162,7 @@
     "040 - Java 基础知识/020 - Java 语法基础知识/100 - 泛型.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/090 - 错误，异常.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/080 - 内部类和动态代理类.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/020 - 运算符，流程控制和输入输出.md",
-    "150 - 极客时间/089 - 消息队列高手课/20 - RocketMQProducer源码分析：消息生产的实现过程.md",
-    "100 - 编码技巧和架构/030 - 设计模式/020 - 23 种设计模式.md",
-    "150 - 极客时间/089 - 消息队列高手课/19 - 数据压缩：时间换空间的游戏.md",
     "150 - 极客时间/089 - 消息队列高手课",
     "150 - 极客时间",
     "020 - 附件文件夹/BladeX开发手册-2.7.0.RELEASE.pdf",
