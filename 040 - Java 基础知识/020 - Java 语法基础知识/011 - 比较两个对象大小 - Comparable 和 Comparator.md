@@ -52,11 +52,33 @@ System.out.println(t1.compareTo(t2));
 
 通俗点说：`Comparable` 是为了让对象本身具有比较大小的能力，`Comparator` 是创建一个裁判，让这个裁判判断两个对象谁打谁小，但这个对象自己可能没有比较大小的能力
 
-为了快速创建比较器，`Comparator` 提供了一些静态方法
+# 怎么创建和使用 Comparator
 
-- 
+为了快速创建比较器，`Comparator` 提供了一些静态方法直接创建简单的比较器
 
-![[../../020 - 附件文件夹/Pasted image 20230327003346.png|600]]
+![[../../020 - 附件文件夹/Pasted image 20230521121724.png]]
+
+比如：
+
+```java
+// 让 users 里的元素根据 User 的 ID 排序，因为 ID 是 Integer，所以默认用 Integer 的 compareTo 方法
+Arrays.sort(users, Comparator.comparing(User::getId));
+
+// 让 users 里的元素现根据 User 的 name 排序，再根据 ID 排序。并且自定义 name 的排序规则是根据 name 的长度排序
+Arrays.sort(users, Comparator.comparing(User::getName, Comparator.comparingInt(String::length)).thenComparing(User::getId));
+
+```
+
+```java
+// 自然排序指直接调用指定类的 compare 方法
+Arrays.sort(users, Comparator.naturalOrder());
+// 逆序就是对 compare 结果取反后排序
+Arrays.sort(users, Comparator.reverseOrder());
+```
+
+创建好比较器后还能调用成员方法继续定制它，设计更复杂的比较规则
+
+比如创建一个根据名字长度排序的比较器，还可以继续设置如果名字长度相等再比较另一个字段
 
 其他的方法都有实现。其他方法分为3类
 
