@@ -65,7 +65,7 @@ System.out.println(t1.compareTo(t2));
 Arrays.sort(users, Comparator.comparing(User::getId));
 
 // 让 users 里的元素现根据 User 的 name 排序，再根据 ID 排序。并且自定义 name 的排序规则是根据 name 的长度排序
-Arrays.sort(users, Comparator.comparing(User::getName, Comparator.comparingInt(String::length)).thenComparing(User::getId));
+Arrays.sort(users, Comparator.comparing(User::getName, Comparator.comparingInt(String::length)));
 
 ```
 
@@ -80,16 +80,9 @@ Arrays.sort(users, Comparator.reverseOrder());
 
 比如创建一个根据名字长度排序的比较器，还可以继续设置如果名字长度相等再比较另一个字段
 
-其他的方法都有实现。其他方法分为3类
-
-- `comparingXxx` 将参数转换为指定类型的变量后再调用该类型的 `compare` 方法
-- `thenComparingXxx` 接收一个比较器，如果上一个比较器返回结果为 0 就调用这个比较器进行二次比较
-- 其他方法都是返回一个内置的比较器。如 `naturalOrder` 比较规则是自然顺序的比较器，`reverse` 和 `reverseOrder` 自然顺序的逆序排序比较器等内置比较器
-
 ```java
-Arrays.sort(peoples, Comparator.comparing(Person::getlastName).thenComparing(Person::getFirstName));
-
-Arrays.sort(peoples, Comparator.comparing(Person::getName, (s, t) -> Integer.compare(s.length(), t.length())));
-
-Comparator.comparing(Person::getMiddleName(), Comparator.nullsFirst(...));
+Arrays.sort(users, Comparator.comparing(User::getName, Comparator.comparingInt(String::length)).thenComparing(User::getId));
 ```
+
+如果想做做逆序排序，调用成员方法 `reverse`，这个方法是成员方法，不是静态方法，注意和 `reverseOrder` 的不同
+

@@ -1,12 +1,18 @@
 #正在复习
 
-有一个这样的需求。有一个方法里需要完成 5 个任务，
+# CompletableFuture 能实现什么功能
+
+有一个这样的需求。有一个方法里需要完成 5 个任务，需要按照以下顺序完成
 
 ![[../../020 - 附件文件夹/Pasted image 20230419225752.png|300]]
 
+这个过程有两个地方不是写一段顺序代码就能实现的
+
+- task1 和 task2 只要有一个完成了就能走下一步，task3 和 task4 都完成了才能走下一步
+- task1 和 task2 能并行执行，task3 和 task 4 能并行执行
 
 
-# 异步回调 - CompletableFuture
+# 异步回调是什么
 
 异步回调是干啥的？为什么会有异步回调？新功能来源于新需求，因为有以下需求所以就有了这个功能
 
@@ -14,7 +20,7 @@
 
 于是就可以用多线程，为费时行为创建一个 `Runnable` 后丢给线程池
 
-但又希望可以这样，方法先让线程池做一件事，然后主线程做自己的事，等主线程做完后找线程池要任务的执行结果，于是有了 `Callable` 和 `Future` 接口及其实现类
+但又希望可以这样，先让线程池做一件事，然后主线程做自己的事，等主线程做完后找线程池要任务的执行结果，于是有了 `Callable` 和 `Future` 接口及其实现类
 
 但这还不够，我想这样，同时创建多个任务丢给线程池，然后等这些任务都返回结果，或有任意一个返回结果后，主线程再继续向下走。有这个需求是因为这种场景很常见
 
@@ -25,14 +31,140 @@
 > 小学你一定在数学书的某个章节里见过这个问题
 >
 > 问题：烧水需要 10 分钟，扫地需要 5 分钟，写作业需要 6 分钟，问你完成这三件事需要几分钟
->
-> 这么简单的问题在小学会，结果成年写代码的时候就不知道怎么才能缩短接口响应事件了。笑死
 
 
 **也就是说我希望方法的执行过程可以是一个工作流**，而不是传统的串行方式执行。我根据每个任务的依赖关系，在工作流中设置哪些任务可以并行执行，哪些任务必须等其他任务完成后才能执行
 
 **因为有了并行的部分，所以工作流能比传统串行执行方法更快地完成任务。**然后 JDK 就有了 `CompletableFuture` 帮助我们 “绘制” 每个任务之间的依赖关系
 
+
+# 怎么用 CompletableFuture 的 API 实现工作流
+
+以这张图为模板，实现各种并行计算
+
+![[../../020 - 附件文件夹/Pasted image 20230419225752.png|300]]
+
+`CompletableFuture` 用了类似门面模式，需要用户创建一些 `CompletableFuture` 对象，每个对象就相当于上图的一个节点
+
+- 当需要这个节点执行任务时，在创建 `CompletableFuture` 的时候就把任务作为一个参数传进去
+- 当需要指定这个节点和其他节点的关系时，就把 `CompletableFuture` 对象作为参数传进入
+
+为了实现上述流程，上述每一个节点应该有这些信息
+
+- 它和其他节点的关系
+- 需要执行的任务
+- 获取上一个任务的返回值（任务入参）
+- 这个任务的返回值是什么（任务返回结果）
+- 如果执行任务时发生了异常，这个节点应该返回什么给下一个节点（任务异常的返回结果）
+
+举几个例子
+
+## 如果执行异常，怎么捕获异常并返回结果
+
+```java
+@Test  
+public void testExceptionFunc() throws InterruptedException {  
+    CompletableFuture<Integer> cf = CompletableFuture.supplyAsync(() -> {  
+        System.out.println("0 不能作为除数，所以会抛异常");
+        return 1 / 0;  
+    });  
+    cf.exceptionally(e -> {  
+        System.out.println("处理异常，返回默认值 0，原因: " + e.getLocalizedMessage());  
+        return 0;  
+    });  
+    TimeUnit.SECONDS.sleep(2);  
+}
+```
+
+## 设置两个串行执行的任务
+
+用一个 `CompletableFuture` 对象的方法链式调用就能创建另一个 `CompletableFuture` 对象，这两个任务有串行执行的关系
+
+```java
+@Test  
+public void testSerial() throws InterruptedException {  
+    CompletableFuture<Integer> cf1 = CompletableFuture.supplyAsync(() -> {  
+        System.out.println("完成任务1");  
+        return 1;  
+    });
+    CompletableFuture<Integer> cf2 = cf1.thenApplyAsync(num -> {  
+        System.out.println("完成任务2");  
+        return num + 1;  
+    });
+    TimeUnit.SECONDS.sleep(2);  
+}
+```
+
+## 并行执行的任务
+
+独立创建两个 `CompletableFuture` 对象，里面的两个任务就会并行执行
+
+如果这样创建了两个任务后，还想实现
+
+- task1 和 task2 其中一个执行完就执行下一步
+- task3 和 task4 都执行完后再执行下一步
+
+![[../../020 - 附件文件夹/Pasted image 20230419225752.png|300]]
+
+这就需要 `CompletableFuture` 提供的方法把多个对象合并成一个
+
+并行执行两个任务，只要有一个任务完成就能结束
+
+```java
+@Test  
+public void parallelAndAnyOf() throws InterruptedException {  
+    AtomicInteger a = new AtomicInteger(0);  
+    CompletableFuture<Integer> cf1 = CompletableFuture.supplyAsync(() -> {  
+        a.incrementAndGet();  
+        System.out.println("完成 1 号任务");  
+        return 1;  
+    });  
+    CompletableFuture<Integer> cf2 = CompletableFuture.supplyAsync(() -> {  
+        a.incrementAndGet();  
+        System.out.println("完成 2 号任务");  
+        return 2;  
+    });  
+    // 合并两个任务  
+    CompletableFuture<Object> merge = CompletableFuture.anyOf(cf1, cf2);  
+    // cf1 和 cf2 只要有一个任务完成了就执行下一步。但 merge 节点后的节点都只会执行一次
+    merge.thenAccept(code -> System.out.println("完成了 " + a.get() + " 个任务，并且先完成的任务编号是: " + code));  
+    TimeUnit.SECONDS.sleep(2);  
+}
+```
+
+并行完成两个任务，都完成后再输出
+
+```java
+@Test  
+public void parallelAndAllOf() throws InterruptedException {  
+    AtomicInteger a = new AtomicInteger(0);  
+    CompletableFuture<Integer> cf1 = CompletableFuture.supplyAsync(() -> {  
+        a.incrementAndGet();  
+        System.out.println("完成 1 号任务");  
+        return 1;  
+    });  
+    CompletableFuture<Integer> cf2 = CompletableFuture.supplyAsync(() -> {  
+        a.incrementAndGet();  
+        System.out.println("完成 2 号任务");  
+        return 2;  
+    });
+    // 合并两个任务  
+    CompletableFuture<Void> merge = CompletableFuture.allOf(cf1, cf2);  
+    // cf1 和 cf2 都执行完才会执行 merge 。但 cf1 先完成后会执行下面的输出，但 cf2 仍会执行，不过不再执行 merge 的输出  
+    merge.thenAccept(code -> System.out.println("完成了所有任务" + code));  
+    TimeUnit.SECONDS.sleep(2);  
+}
+```
+
+## 更多创建 CompletableFuture 的方法
+
+`CompletableFuture` 对象里的任务以一个函数接口实例作为参数，它表示需要执行的任务内容
+
+这个函数式接口有 3 种
+
+- 无入参，无返回值
+- 无入参，有返回值
+- 有入参，有返回值
 
 参考资料有以下
 
