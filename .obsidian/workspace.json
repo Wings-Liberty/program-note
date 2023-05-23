@@ -32,16 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e382c820853a51b9",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md"
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/141 - File 和文件读写.md"
               }
             }
           },
@@ -143,10 +136,10 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "ae98602e5f0b84c7",
+  "active": "2aa261d7a6296a22",
   "lastOpenFiles": [
-    "040 - Java 基础知识/020 - Java 语法基础知识/141 - File 和文件读写.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/141 - File 和文件读写.md",
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
     "020 - 附件文件夹/Drawing 2022-06-09 13.54.13.excalidraw.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
