@@ -121,3 +121,7 @@ jar 包中用 META-INF/MANIFEST.MF 文件描述 Java 程序信息，比如在文
 👴 终于终于知道 classpath 是啥了。知道了 classpath 后有助于更深入理解类加载器和类加载机制。了解程序启动时 JVM 加载类时都干了什么事
 
 JVM？垃圾！Java？垃圾！
+
+
+从 classpath 里读取数据，参考[廖雪峰](https://www.liaoxuefeng.com/wiki/1252599548343744/1298366384308257)
+
