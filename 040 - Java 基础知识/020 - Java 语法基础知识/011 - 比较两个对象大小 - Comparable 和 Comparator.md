@@ -86,3 +86,14 @@ Arrays.sort(users, Comparator.comparing(User::getName, Comparator.comparingInt(S
 
 如果想做做逆序排序，调用成员方法 `reverse`，这个方法是成员方法，不是静态方法，注意和 `reverseOrder` 的不同
 
+比如想根据列表里元素的日期排序
+
+```java
+List<Pair<LocalDate, Integer>> unSortList = Lists.newArrayList();  
+unSortList.add(Pair.of(LocalDate.now(), 1));  
+unSortList.add(Pair.of(LocalDate.now().plusDays(2L), 1));  
+unSortList.add(Pair.of(LocalDate.now().plusDays(1L), 1));
+
+List<Pair<LocalDate, Integer>> reverseSortList = unSortList.stream().sorted(Comparator.<Pair<LocalDate, Integer>, LocalDate>comparing(Pair::getKey).reversed()).collect(Collectors.toList());  
+reverseSortList.forEach(System.out::println);
+```
