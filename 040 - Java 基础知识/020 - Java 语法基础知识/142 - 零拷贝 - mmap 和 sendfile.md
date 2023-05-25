@@ -1,4 +1,4 @@
-#还没有复习 
+#正在复习 
 
 > [!note] Java IO 的三种读写方式
 > 这里说的不是 BIO，NIO，AIO。而是在说操作系统上读写数据的方式
@@ -11,7 +11,7 @@
 
 FileChannel 和传统 IO 相比，并没有减少读写文件时的数据拷贝次数或 CPU 状态切换次数，但能通过缓存加快速度
 
-关于零拷贝的理论知识见[[../05 - 计算机基础/03 - 操作系统/零拷贝|零拷贝]]
+关于零拷贝的理论知识见[[../../110 - 计算机常识/030 - 操作系统/零拷贝|零拷贝]]
 
 
 Java 的 java.nio 包实现了 mmap 和 sendfile 的 API，其底层是用 JNI 调用了 mmap 和 sendfile 系统调用
@@ -89,3 +89,6 @@ file.write(content); // 在文件末尾追加内容
 
 > [!warning] 选择性使用 RandomAccessFile
 > RandomAccessFile 用的是传统 IO 方式，根据实际情况，使用零拷贝方式访问文件数据可能会更好
+
+> [!todo] 如果有机会，试着写一个 demo，看看传统 IO 读和 mmap 读的性能区别
+> 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md",
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/142 - 零拷贝 - mmap 和 sendfile.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,19 +21,28 @@
             }
           },
           {
-            "id": "2aa261d7a6296a22",
+            "id": "1c8e94992f2a2d4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/141 - File 和文件读写.md",
+                "file": "110 - 计算机常识/030 - 操作系统/零拷贝.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "4b9244810961df65",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zip",
+                "query": "#正在复习",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md"
+                "file": "110 - 计算机常识/030 - 操作系统/零拷贝.md"
               }
             }
           },
@@ -135,15 +144,20 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "ae98602e5f0b84c7",
+  "active": "1c8e94992f2a2d4b",
   "lastOpenFiles": [
-    "040 - Java 基础知识/020 - Java 语法基础知识/141 - File 和文件读写.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/142 - 零拷贝 - mmap 和 sendfile.md",
+    "110 - 计算机常识/030 - 操作系统/零拷贝.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/141 - File，Path 和文件读写.md",
+    "021 - 离线网页备份文件夹/傻瓜三歪让我教他「零拷贝」 (2023_5_25 22_22_35).html",
+    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 随机访问文件.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/150 - 日期和时间 API.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 实战.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 部署和使用方式.md",
     "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/011 - 比较两个对象大小 - Comparable 和 Comparator.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md",
     "040 - Java 基础知识/010 - JDK 基础/Java 的 ClassPath 再探.md",
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
     "020 - 附件文件夹/Drawing 2022-06-09 13.54.13.excalidraw.md",
@@ -160,11 +174,6 @@
     "090 - 算法/040 - 工程算法/一致性算法 - Raft 协议.md",
     "090 - 算法/010 - 产.md",
     "090 - 算法/010 - 常用算法和数据结构",
-    "010 - 新建笔记/整理进度.md",
-    "010 - 新建笔记/近期计划.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/171 - CompletableFuture 实现原理.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/180 - 日志系统.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/170 - 异步回调 - CompletableFuture.md",
     "021 - 离线网页备份文件夹/CompletableFuture原理与实践-外卖商家端API的异步化 - 美团技术团队 (2023_5_21 18_06_43).html",
     "020 - 附件文件夹/Pasted image 20230521121724.png",
     "150 - 极客时间/089 - 消息队列高手课",
@@ -181,7 +190,6 @@
     "020 - 附件文件夹/Pasted image 20230503142105.png",
     "020 - 附件文件夹/Pasted image 20230503141740.png",
     "020 - 附件文件夹/Pasted image 20230503141729.png",
-    "021 - 离线网页备份文件夹/在java中如何处理finally块中的抛出异常以及finally和return的一些细节_finally里面可以抛出异常吗.html",
-    "021 - 离线网页备份文件夹/Lambda 表达式的作用域.html"
+    "021 - 离线网页备份文件夹/在java中如何处理finally块中的抛出异常以及finally和return的一些细节_finally里面可以抛出异常吗.html"
   ]
 }
