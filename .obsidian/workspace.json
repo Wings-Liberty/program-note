@@ -32,22 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4b9244810961df65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "110 - 计算机常识/030 - 操作系统/零拷贝.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,10 +136,11 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "4b9244810961df65",
+  "active": "1c8e94992f2a2d4b",
   "lastOpenFiles": [
-    "110 - 计算机常识/030 - 操作系统/Page Cache.md",
+    "110 - 计算机常识/030 - 操作系统/SysLog 系统日志.md",
     "110 - 计算机常识/030 - 操作系统/零拷贝.md",
+    "110 - 计算机常识/030 - 操作系统/Page Cache.md",
     "050 - Tomcat/020 - Tomcat 深度解析.md",
     "050 - Tomcat/010 - Tomcat 和 JavaWeb API.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/180 - 日志系统.md",
@@ -177,7 +165,6 @@
     "040 - Java 基础知识/020 - Java 语法基础知识/110 - 数组和集合.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
     "090 - 算法/010 - 常用算法和数据结构/ 直接插入排序.md",
-    "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
     "Projects - Demo Project",
     "090 - 算法/010 - 常用算法和数据结构",
     "021 - 离线网页备份文件夹/CompletableFuture原理与实践-外卖商家端API的异步化 - 美团技术团队 (2023_5_21 18_06_43).html",
