@@ -37,12 +37,17 @@
             "id": "4b9244810961df65",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "110 - 计算机常识/030 - 操作系统/零拷贝.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -144,15 +149,21 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "1c8e94992f2a2d4b",
+  "active": "4b9244810961df65",
   "lastOpenFiles": [
-    "040 - Java 基础知识/020 - Java 语法基础知识/142 - 零拷贝 - mmap 和 sendfile.md",
+    "110 - 计算机常识/030 - 操作系统/Page Cache.md",
     "110 - 计算机常识/030 - 操作系统/零拷贝.md",
+    "050 - Tomcat/020 - Tomcat 深度解析.md",
+    "050 - Tomcat/010 - Tomcat 和 JavaWeb API.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/180 - 日志系统.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/170 - 异步回调 - CompletableFuture.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/171 - CompletableFuture 实现原理.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 随机访问文件.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/150 - 日期和时间 API.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/142 - 零拷贝 - mmap 和 sendfile.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/141 - File，Path 和文件读写.md",
     "021 - 离线网页备份文件夹/傻瓜三歪让我教他「零拷贝」 (2023_5_25 22_22_35).html",
-    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 随机访问文件.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/150 - 日期和时间 API.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 实战.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 部署和使用方式.md",
@@ -167,12 +178,7 @@
     "040 - Java 基础知识/020 - Java 语法基础知识/010 - 基本数据类型和包装类.md",
     "090 - 算法/010 - 常用算法和数据结构/ 直接插入排序.md",
     "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
-    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
-    "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
-    "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project",
-    "090 - 算法/040 - 工程算法/一致性算法 - Raft 协议.md",
-    "090 - 算法/010 - 产.md",
     "090 - 算法/010 - 常用算法和数据结构",
     "021 - 离线网页备份文件夹/CompletableFuture原理与实践-外卖商家端API的异步化 - 美团技术团队 (2023_5_21 18_06_43).html",
     "020 - 附件文件夹/Pasted image 20230521121724.png",
