@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "040 - Java 基础知识/030 - 并发专题/未归档/JUC.md",
+                "file": "110 - 计算机常识/正则表达式.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java 基础知识/030 - 并发专题/未归档/JUC.md"
+                "file": "110 - 计算机常识/正则表达式.md"
               }
             }
           },
@@ -151,6 +151,8 @@
   },
   "active": "658ebc0d2e1a1b20",
   "lastOpenFiles": [
+    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
+    "040 - Java 基础知识/030 - 并发专题/未归档/JUC.md",
     "040 - Java 基础知识/030 - 并发专题/未归档/图灵并发专题.md",
     "040 - Java 基础知识/030 - 并发专题/010 - 线程池原理.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/180 - JDK 的日志系统.md",
@@ -179,8 +181,6 @@
     "110 - 计算机常识/030 - 操作系统/Page Cache.md",
     "050 - Tomcat/020 - Tomcat 深度解析.md",
     "050 - Tomcat/010 - Tomcat 和 JavaWeb API.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/170 - 异步回调 - CompletableFuture.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/171 - CompletableFuture 实现原理.md",
     "021 - 离线网页备份文件夹/傻瓜三歪让我教他「零拷贝」 (2023_5_25 22_22_35).html",
     "Projects - Demo Project",
     "090 - 算法/010 - 常用算法和数据结构",
