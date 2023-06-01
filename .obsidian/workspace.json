@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b2b149ca4068fab9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -76,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#正在复习",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -149,17 +162,18 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "658ebc0d2e1a1b20",
+  "active": "68a81097870ae0d6",
   "lastOpenFiles": [
-    "021 - 离线网页备份文件夹/一些关于flowable里组件的作用和生命周期的提问和ChatGPT.35的回答.html",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/03 - 会签和或签.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/24 - Demo 功能验证.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/26 - 新的全局常量没入库，节点调用的时候查不到.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/24 - Demo 功能验证.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/31 - 剧本的循环结构和延时节点调研.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/40 - 策略执行流程实现草稿.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/41 - 执行异常处理方式（仅针对动作）.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
+    "021 - 离线网页备份文件夹/一些关于flowable里组件的作用和生命周期的提问和ChatGPT.35的回答.html",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/03 - 会签和或签.md",
     "110 - 计算机常识/正则表达式.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
     "040 - Java 基础知识/030 - 并发专题/未归档/JUC.md",
@@ -189,7 +203,6 @@
     "150 - 极客时间/089 - 消息队列高手课",
     "150 - 极客时间",
     "020 - 附件文件夹/BladeX开发手册-2.7.0.RELEASE.pdf",
-    "020 - 附件文件夹/The Linux Commend Line.pdf",
     "020 - 附件文件夹/Pasted image 20230503143540.png",
     "020 - 附件文件夹/Pasted image 20230503143525.png",
     "020 - 附件文件夹/Pasted image 20230503143513.png",
