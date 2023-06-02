@@ -336,7 +336,7 @@ arthas-cmd.sh
 - `--install` `-i` 安装命令，比如 `arthas-cmd.sh -i lib.tar.gz`
 - `--uninstall` `-u` 卸载。删除 ~/.arthas
 
-# arthas-tunnel 
+# arthas-tunnel
 
 不好用。因为它要求被监控的程序要添加一个 arthas 的依赖
 
