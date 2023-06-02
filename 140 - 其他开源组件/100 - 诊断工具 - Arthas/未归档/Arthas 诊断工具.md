@@ -358,3 +358,11 @@ arthas-cmd.sh
 - [ ] 方案二：看看有没有直接看局部变量值的方法
 
 火焰图可以用来看
+
+
+跟踪指定的方法用 `-c` ，官网好像写错了，写成 `-e` 了，而且也没有使用案例
+
+```
+profiler start -c com.cdos.soar.flow.config.service.ActionServiceTask.execute
+```
+
