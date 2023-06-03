@@ -21,19 +21,6 @@
             }
           },
           {
-            "id": "4f9506fa16793904",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/180 - JDK 的日志系统.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "658ebc0d2e1a1b20",
             "type": "leaf",
             "state": {
@@ -60,12 +47,12 @@
             }
           },
           {
-            "id": "94c222a9495734c3",
+            "id": "4f9506fa16793904",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
+                "file": "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "040 - Java 基础知识/020 - Java 语法基础知识/180 - JDK 的日志系统.md"
+                "file": "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md"
               }
             }
           },
@@ -177,11 +164,13 @@
   },
   "active": "4f9506fa16793904",
   "lastOpenFiles": [
-    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/180 - JDK 的日志系统.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
+    "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
+    "140 - 其他开源组件/120 - Java 的日志框架",
+    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/OGNL 表达式.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
@@ -202,9 +191,7 @@
     "040 - Java 基础知识/030 - 并发专题/010 - 线程池原理.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/150 - 日期和时间 API.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/142 - RandomAccessFile - 随机访问文件.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/141 - File，Path 和文件读写.md",
     "020 - 附件文件夹/Pasted image 20230526232756.png",
-    "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md",
     "021 - 离线网页备份文件夹/1.RandomAccessFile特点 - 萌哥-爱学习 - 博客园 (2023_5_26 22_40_34).html",
     "020 - 附件文件夹/Pasted image 20230526223422.png",
     "021 - 离线网页备份文件夹/认真分析mmap：是什么 为什么 怎么用 - 胡潇 - 博客园 (2023_5_26 22_24_28).html",
@@ -215,7 +202,6 @@
     "020 - 附件文件夹/Pasted image 20230521121724.png",
     "150 - 极客时间/089 - 消息队列高手课",
     "150 - 极客时间",
-    "020 - 附件文件夹/BladeX开发手册-2.7.0.RELEASE.pdf",
     "020 - 附件文件夹/Pasted image 20230503143540.png",
     "020 - 附件文件夹/Pasted image 20230503143525.png",
     "020 - 附件文件夹/Pasted image 20230503143513.png",
