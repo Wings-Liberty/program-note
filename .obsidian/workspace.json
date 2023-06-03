@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
+                "file": "140 - 其他开源组件/120 - Java 的日志框架/01 - Logback.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md"
+                "file": "140 - 其他开源组件/120 - Java 的日志框架/01 - Logback.md"
               }
             }
           },
@@ -164,11 +164,12 @@
   },
   "active": "4f9506fa16793904",
   "lastOpenFiles": [
+    "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
+    "140 - 其他开源组件/120 - Java 的日志框架/01 - Logback.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/180 - JDK 的日志系统.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
-    "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
     "140 - 其他开源组件/120 - Java 的日志框架",
     "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
