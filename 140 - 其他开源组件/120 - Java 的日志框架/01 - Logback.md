@@ -26,7 +26,7 @@ public class HelloWorld1 {
 20:49:07.962 [main] DEBUG chapters.introduction.​HelloWorld1 - Hello world.
 ```
 
-logback 内置了一个状态系统，它用来监控 logback 自己，比如打印 logback 自己相关的日志，定位 logback 本身存在的问题。由于这部分不是重点，所以可以略过
+logback 内置了一个状态系统，它用来监控 logback 自己，并把每个 logger 的信息实时放到 log 的上下文对象里，比如打印 logback 自己相关的日志，定位 logback 本身存在的问题。由于这部分不是重点，所以可以略过
 
 如果没有设置配置文件，logkack 会用默认的配置文件。所以项目接入 logback 很简单
 
