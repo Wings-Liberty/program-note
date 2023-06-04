@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2d6802e1256308ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/120 - Java 的日志框架/01 - Logback.md"
+                "file": "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md"
               }
             }
           },
@@ -162,10 +175,10 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "4f9506fa16793904",
+  "active": "2d6802e1256308ab",
   "lastOpenFiles": [
-    "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
     "140 - 其他开源组件/120 - Java 的日志框架/01 - Logback.md",
+    "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/180 - JDK 的日志系统.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
