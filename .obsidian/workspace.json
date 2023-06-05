@@ -71,9 +71,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8d829c74d8f3c4e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/011 - 比较两个对象大小 - Comparable 和 Comparator.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -139,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md"
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/011 - 比较两个对象大小 - Comparable 和 Comparator.md"
               }
             }
           },
@@ -175,8 +188,10 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "658ebc0d2e1a1b20",
+  "active": "8d829c74d8f3c4e3",
   "lastOpenFiles": [
+    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
     "010 - 新建笔记/整理进度.md",
@@ -185,7 +200,6 @@
     "020 - 附件文件夹/Pasted image 20230604132218.png",
     "040 - Java 基础知识/020 - Java 语法基础知识/180 - JDK 的日志系统.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
     "140 - 其他开源组件/120 - Java 的日志框架",
     "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
@@ -202,7 +216,6 @@
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/41 - 执行异常处理方式（仅针对动作）.md",
     "021 - 离线网页备份文件夹/一些关于flowable里组件的作用和生命周期的提问和ChatGPT.35的回答.html",
     "110 - 计算机常识/正则表达式.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
     "040 - Java 基础知识/030 - 并发专题/未归档/JUC.md",
     "040 - Java 基础知识/030 - 并发专题/未归档/图灵并发专题.md",
     "040 - Java 基础知识/030 - 并发专题/010 - 线程池原理.md",
