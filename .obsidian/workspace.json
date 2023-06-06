@@ -71,9 +71,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a40f6226e0b0189b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -139,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "070 - Spring 全家桶/030 - Spring Boot/尚硅谷/010 - Spring Boot 笔记.md"
+                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md"
               }
             }
           },
@@ -175,11 +188,14 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "6fdd6ef977a182ac",
+  "active": "a40f6226e0b0189b",
   "lastOpenFiles": [
+    "140 - 其他开源组件/090 - 工作流 - Flowable/010 - 使用基础.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
+    "070 - Spring 全家桶/030 - Spring Boot/尚硅谷/010 - Spring Boot 笔记.md",
     "140 - 其他开源组件/030 - 消息队列 - Kafka/Kafka ToDo List.md",
     "140 - 其他开源组件/040 - 消息队列 - RocketMQ/010 - RocketMQ 使用方式和集群搭建.md",
-    "070 - Spring 全家桶/030 - Spring Boot/尚硅谷/010 - Spring Boot 笔记.md",
     "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
@@ -200,12 +216,9 @@
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/OGNL 表达式.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 部署和使用方式.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/03 - 会签和或签.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/26 - 新的全局常量没入库，节点调用的时候查不到.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/24 - Demo 功能验证.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/31 - 剧本的循环结构和延时节点调研.md",
     "021 - 离线网页备份文件夹/一些关于flowable里组件的作用和生命周期的提问和ChatGPT.35的回答.html",
     "020 - 附件文件夹/Pasted image 20230526232756.png",
     "021 - 离线网页备份文件夹/1.RandomAccessFile特点 - 萌哥-爱学习 - 博客园 (2023_5_26 22_40_34).html",
