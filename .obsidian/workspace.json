@@ -26,33 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e58dc0655d1093b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d6802e1256308ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
+                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -71,22 +45,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a40f6226e0b0189b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -152,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md"
+                "file": "070 - Spring 全家桶/030 - Spring Boot/尚硅谷/010 - Spring Boot 笔记.md"
               }
             }
           },
@@ -188,37 +149,37 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "a40f6226e0b0189b",
+  "active": "6fdd6ef977a182ac",
   "lastOpenFiles": [
-    "140 - 其他开源组件/090 - 工作流 - Flowable/010 - 使用基础.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
-    "070 - Spring 全家桶/030 - Spring Boot/尚硅谷/010 - Spring Boot 笔记.md",
-    "140 - 其他开源组件/030 - 消息队列 - Kafka/Kafka ToDo List.md",
-    "140 - 其他开源组件/040 - 消息队列 - RocketMQ/010 - RocketMQ 使用方式和集群搭建.md",
-    "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
-    "140 - 其他开源组件/120 - Java 的日志框架/02 - Logback 架构里的基本概念和名词解释.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/142 - RandomAccessFile - 随机访问文件.md",
-    "140 - 其他开源组件/120 - Java 的日志框架/01 - 五花八门的 Java 日志框架和实现包.md",
-    "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎 (2023_6_5 22_39_06).html",
-    "040 - Java 基础知识/020 - Java 语法基础知识/011 - 比较两个对象大小 - Comparable 和 Comparator.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
-    "010 - 新建笔记/整理进度.md",
     "010 - 新建笔记/近期计划.md",
-    "020 - 附件文件夹/Pasted image 20230604132218.png",
-    "040 - Java 基础知识/020 - Java 语法基础知识/180 - JDK 的日志系统.md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
-    "140 - 其他开源组件/120 - Java 的日志框架",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/OGNL 表达式.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 部署和使用方式.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/03 - 会签和或签.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
+    "070 - Spring 全家桶/030 - Spring Boot/尚硅谷/010 - Spring Boot 笔记.md",
+    "100 - 编码技巧和架构/030 - 设计模式/020 - 23 种设计模式.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/26 - 新的全局常量没入库，节点调用的时候查不到.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/24 - Demo 功能验证.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
+    "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/180 - JDK 的日志系统.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/171 - CompletableFuture 实现原理.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/170 - 异步回调 - CompletableFuture.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/160 - 安全，数字签名和加密 API.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/150 - 日期和时间 API.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/142 - RandomAccessFile - 随机访问文件.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/141 - File，Path 和文件读写.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/140 - IO 流.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/110 - 数组和集合.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/100 - 泛型.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/090 - 错误，异常.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/080 - 内部类和动态代理类.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/060 - 枚举类，反射和克隆.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/011 - 比较两个对象大小 - Comparable 和 Comparator.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
+    "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎 (2023_6_5 22_39_06).html",
+    "020 - 附件文件夹/Pasted image 20230604132218.png",
+    "140 - 其他开源组件/120 - Java 的日志框架",
     "021 - 离线网页备份文件夹/一些关于flowable里组件的作用和生命周期的提问和ChatGPT.35的回答.html",
     "020 - 附件文件夹/Pasted image 20230526232756.png",
     "021 - 离线网页备份文件夹/1.RandomAccessFile特点 - 萌哥-爱学习 - 博客园 (2023_5_26 22_40_34).html",
