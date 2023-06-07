@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md"
+                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md"
               }
             }
           },
@@ -175,8 +175,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "a7913925206e202c",
+  "active": "e498fd66a2e6a4e6",
   "lastOpenFiles": [
+    "020 - 附件文件夹/Pasted image 20230607175915.png",
+    "020 - 附件文件夹/Pasted image 20230607175626.png",
+    "020 - 附件文件夹/Pasted image 20230607175405.png",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/41 - 执行异常处理方式（仅针对动作）.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/40 - 策略执行流程实现草稿.md",
@@ -201,8 +205,6 @@
     "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/120 - 多线程 API.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/110 - 数组和集合.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/100 - 泛型.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/090 - 错误，异常.md",
     "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎 (2023_6_5 22_39_06).html",
     "020 - 附件文件夹/Pasted image 20230604132218.png",
     "140 - 其他开源组件/120 - Java 的日志框架",
@@ -220,8 +222,6 @@
     "020 - 附件文件夹/Pasted image 20230503143540.png",
     "020 - 附件文件夹/Pasted image 20230503143525.png",
     "020 - 附件文件夹/Pasted image 20230503143513.png",
-    "020 - 附件文件夹/Pasted image 20230503143059.png",
-    "020 - 附件文件夹/Pasted image 20230503142242.png",
-    "020 - 附件文件夹/Pasted image 20230503142221.png"
+    "020 - 附件文件夹/Pasted image 20230503143059.png"
   ]
 }
