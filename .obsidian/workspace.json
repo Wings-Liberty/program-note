@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a7913925206e202c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md"
+                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md"
               }
             }
           },
@@ -162,15 +175,19 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "e498fd66a2e6a4e6",
+  "active": "a7913925206e202c",
   "lastOpenFiles": [
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/41 - 执行异常处理方式（仅针对动作）.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/40 - 策略执行流程实现草稿.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/31 - 剧本的循环结构和延时节点调研.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/26 - 新的全局常量没入库，节点调用的时候查不到.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/24 - Demo 功能验证.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
     "070 - Spring 全家桶/030 - Spring Boot/尚硅谷/010 - Spring Boot 笔记.md",
     "010 - 新建笔记/近期计划.md",
     "100 - 编码技巧和架构/030 - 设计模式/020 - 23 种设计模式.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/26 - 新的全局常量没入库，节点调用的时候查不到.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/24 - Demo 功能验证.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
     "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/180 - JDK 的日志系统.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/171 - CompletableFuture 实现原理.md",
@@ -186,10 +203,6 @@
     "040 - Java 基础知识/020 - Java 语法基础知识/110 - 数组和集合.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/100 - 泛型.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/090 - 错误，异常.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/080 - 内部类和动态代理类.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/060 - 枚举类，反射和克隆.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/011 - 比较两个对象大小 - Comparable 和 Comparator.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/070 - Lambda 表达式和函数式接口.md",
     "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎 (2023_6_5 22_39_06).html",
     "020 - 附件文件夹/Pasted image 20230604132218.png",
     "140 - 其他开源组件/120 - Java 的日志框架",
