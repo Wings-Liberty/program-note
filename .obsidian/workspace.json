@@ -65,15 +65,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "aa415978f81380bd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -139,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md"
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md"
               }
             }
           },
@@ -175,21 +183,21 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "e498fd66a2e6a4e6",
+  "active": "a7913925206e202c",
   "lastOpenFiles": [
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
+    "070 - Spring 全家桶/030 - Spring Boot/尚硅谷/010 - Spring Boot 笔记.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
     "020 - 附件文件夹/Pasted image 20230607175915.png",
     "020 - 附件文件夹/Pasted image 20230607175626.png",
     "020 - 附件文件夹/Pasted image 20230607175405.png",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/41 - 执行异常处理方式（仅针对动作）.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/40 - 策略执行流程实现草稿.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/31 - 剧本的循环结构和延时节点调研.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/26 - 新的全局常量没入库，节点调用的时候查不到.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/24 - Demo 功能验证.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
-    "070 - Spring 全家桶/030 - Spring Boot/尚硅谷/010 - Spring Boot 笔记.md",
     "010 - 新建笔记/近期计划.md",
     "100 - 编码技巧和架构/030 - 设计模式/020 - 23 种设计模式.md",
     "140 - 其他开源组件/120 - Java 的日志框架/00 - 总览.md",
@@ -221,7 +229,6 @@
     "150 - 极客时间/089 - 消息队列高手课",
     "020 - 附件文件夹/Pasted image 20230503143540.png",
     "020 - 附件文件夹/Pasted image 20230503143525.png",
-    "020 - 附件文件夹/Pasted image 20230503143513.png",
-    "020 - 附件文件夹/Pasted image 20230503143059.png"
+    "020 - 附件文件夹/Pasted image 20230503143513.png"
   ]
 }
