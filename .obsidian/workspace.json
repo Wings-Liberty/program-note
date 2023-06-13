@@ -136,7 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 337.5
   },
   "right": {
     "id": "15933b55241e6afb",
@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,7 +189,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "15aea87d3fdb5827",
+  "active": "68a81097870ae0d6",
   "lastOpenFiles": [
     "040 - Java 基础知识/020 - Java 语法基础知识/180 - SPI 机制.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/04 - 真正的并行执行分支.md",
