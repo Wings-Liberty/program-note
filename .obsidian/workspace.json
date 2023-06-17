@@ -84,9 +84,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0b9c0fa199c825bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -152,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "130 - Linux/firewall-cmd 命令.md"
+                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/04 - 真正的并行执行分支.md"
               }
             }
           },
@@ -188,12 +201,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "1806383ed7e128ac",
+  "active": "15aea87d3fdb5827",
   "lastOpenFiles": [
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/04 - 真正的并行执行分支.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
     "130 - Linux/firewall-cmd 命令.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/04 - 真正的并行执行分支.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
