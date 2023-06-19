@@ -25,3 +25,8 @@ firewall-cmd --add-rich-rule='rule family="ipv4" source address="1.2.3.4" d
 
 [通过服务名查看服务占用的端口号](https://blog.csdn.net/qq_41905051/article/details/122706946)
 
+
+
+
+只有 rule 没有开放端口页访问不了指定的端口
+
