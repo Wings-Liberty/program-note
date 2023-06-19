@@ -18,3 +18,13 @@ zone 用法
 
 [firewall命令详细使用方式](https://blog.csdn.net/Zen_y/article/details/115212014)
 
+如果 zone 的 target 方式是 default，当这个 zone 的 source 优先匹配到数据包但又因为其它规则不接受这个包，会把数据包转给其它 zone，而不会直接丢掉
+
+
+如果想给 IP 加黑名单，可以把 ip 加到 drop 区，这样就不会因为被 interface 匹配但不符合其它规则后，因为 target 是 default 导致包又被转发到其它 zone
+
+或者添加高级规则
+
+```
+firewall-cmd --add-rich-rule='rule family="ipv4" source address="1.2.3.4" drop'
+```
