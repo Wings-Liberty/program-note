@@ -28,5 +28,4 @@ firewall-cmd --add-rich-rule='rule family="ipv4" source address="1.2.3.4" d
 
 
 
-只有 rule 没有开放端口页访问不了指定的端口
 
