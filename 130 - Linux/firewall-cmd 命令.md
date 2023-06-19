@@ -28,3 +28,7 @@ zone 用法
 ```
 firewall-cmd --add-rich-rule='rule family="ipv4" source address="1.2.3.4" drop'
 ```
+
+
+[通过服务名查看服务占用的端口号](https://blog.csdn.net/qq_41905051/article/details/122706946)
+
