@@ -4,13 +4,6 @@ zone 用法
 - [centos7 firewall-cmd 用活firewalld防火墙中的zone](https://www.cnblogs.com/itfat/p/9581915.html)
 
 
-> [!question] trust 和 work 分区的区别
-> 
-
-
-> [!question] 各个预置 zone 的区别
-> 
-
 
 以上两个问题参考下面的文章
 
