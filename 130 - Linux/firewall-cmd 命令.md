@@ -16,3 +16,5 @@ zone 用法
 
 [firewalld防火墙详细介绍](https://blog.csdn.net/A1100886/article/details/130801495)
 
+[firewall命令详细使用方式](https://blog.csdn.net/Zen_y/article/details/115212014)
+
