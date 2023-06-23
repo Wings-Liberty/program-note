@@ -84,9 +84,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f054e098f5200dcd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "110 - 计算机常识/正则表达式.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -152,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "130 - Linux/firewall-cmd 命令.md"
+                "file": "110 - 计算机常识/正则表达式.md"
               }
             }
           },
@@ -188,8 +201,9 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "1806383ed7e128ac",
+  "active": "f054e098f5200dcd",
   "lastOpenFiles": [
+    "130 - Linux/firewall-cmd 命令.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/04 - 真正的并行执行分支.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
@@ -197,7 +211,6 @@
     "140 - 其他开源组件/090 - 工作流 - Flowable/020 - 自定义使用方式.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/010 - 使用基础.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
-    "130 - Linux/firewall-cmd 命令.md",
     "020 - 附件文件夹/Pasted image 20230619171733.png",
     "020 - 附件文件夹/Pasted image 20230619171707.png",
     "020 - 附件文件夹/Pasted image 20230619171452.png",
