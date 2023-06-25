@@ -223,6 +223,7 @@ logger --incloud-no-appender | grep com.cx.controller
 > `logger --incloud-no-appender | grep name | grep com.cx.controller`，发现没有输出后，再调用 `logger --incloud-no-appender` 就不要好用了。
 > 但如果用 `logger --incloud-no-appender | grep com.cx.controller` 就没问题
 
+
 ![Pasted image 20221207154431](https://wings-liberty.oss-cn-beijing.aliyuncs.com/note/Pasted%20image%2020221207154431.png)
 
 然后获取类的加载器，一般 logger 用的类加载器和这个类一样
