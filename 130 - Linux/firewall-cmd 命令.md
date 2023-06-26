@@ -26,6 +26,9 @@ firewall-cmd --add-rich-rule='rule family="ipv4" source address="1.2.3.4" d
 [通过服务名查看服务占用的端口号](https://blog.csdn.net/qq_41905051/article/details/122706946)
 
 
+firewall-cmd 的 services 列表来自 `/usr/lib/firewalld/services/`，如果想修改服务的默认端口或没有需要的服务，可以修改这里的 xml 文件
+
+改完后需要 `--reload` 一下
 
 
 
