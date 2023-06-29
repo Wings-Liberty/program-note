@@ -238,7 +238,6 @@ objects.{ #this instanceof String ? #this : #this.toString()}
 ```javascript
 // new + 完整的类名
 new java.lang.String("hello world")
-复制代码
 ```
 
 ### 逗号运算符 - 链式语句
