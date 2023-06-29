@@ -311,6 +311,12 @@ LevelFilter 只会让符合设定级别的日志通过，其他级别的均被�
 > 修改 LevelFilter 的效果很差（Level 是一个复杂对象，并且 LevelFilter 不是一个 Spring bean），所以暂时放弃此功能
 
 
+## 统计方法调用链路上每个方法的调用耗时
+
+[用 trace 命令实现](https://arthas.aliyun.com/doc/trace.html#%E6%A0%B9%E6%8D%AE%E8%B0%83%E7%94%A8%E8%80%97%E6%97%B6%E8%BF%87%E6%BB%A4:~:text=%23-,trace%20%E5%A4%9A%E4%B8%AA%E7%B1%BB%E6%88%96%E8%80%85%E5%A4%9A%E4%B8%AA%E5%87%BD%E6%95%B0,-trace%20%E5%91%BD%E4%BB%A4%E5%8F%AA)
+
+IDEA arthas 插件很好地提供了追踪多个方法的按钮
+
 - [ ] 查看 sql 语句
 - [ ] 获取被代理的目标对象。对象经常会因为 aop，事务等被代理，如果直接获取 bean 得到的就是代理对象，所以有其他手段能取到代理对象。参考[这里](https://www.yuque.com/arthas-idea-plugin/help/uldktc)
 
