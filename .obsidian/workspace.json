@@ -98,8 +98,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/01 - 笔记.md"
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md"
               }
             }
           },
@@ -201,11 +200,13 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "f1989e17f8592106",
+  "active": "27affeb1bc79dde7",
   "lastOpenFiles": [
+    "110 - 计算机常识/030 - 操作系统/零拷贝.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
+    "140 - 其他开源组件/130 - 流式计算 - Flink/01 - 笔记.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "020 - 附件文件夹/Pasted image 20230628202839.png",
-    "140 - 其他开源组件/130 - 流式计算 - Flink/01 - 笔记.md",
     "130 - Linux/firewall-cmd 命令.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
     "010 - 新建笔记/近期计划.md",
@@ -224,7 +225,6 @@
     "020 - 附件文件夹/Pasted image 20230619171707.png",
     "020 - 附件文件夹/Pasted image 20230619171452.png",
     "020 - 附件文件夹/Pasted image 20230619171431.png",
-    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/26 - 新的全局常量没入库，节点调用的时候查不到.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/24 - Demo 功能验证.md",
