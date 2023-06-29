@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md"
+                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/01 - 笔记.md"
               }
             }
           },
@@ -201,12 +201,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "a7913925206e202c",
+  "active": "f1989e17f8592106",
   "lastOpenFiles": [
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "020 - 附件文件夹/Pasted image 20230628202839.png",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - 笔记.md",
     "130 - Linux/firewall-cmd 命令.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
     "010 - 新建笔记/近期计划.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/04 - 真正的并行执行分支.md",
@@ -244,7 +244,6 @@
     "070 - Spring 全家桶/030 - Spring Boot/尚硅谷/010 - Spring Boot 笔记.md",
     "020 - 附件文件夹/Pasted image 20230607175915.png",
     "020 - 附件文件夹/Pasted image 20230607175626.png",
-    "020 - 附件文件夹/Pasted image 20230607175405.png",
     "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎 (2023_6_5 22_39_06).html",
     "140 - 其他开源组件/120 - Java 的日志框架",
     "021 - 离线网页备份文件夹/一些关于flowable里组件的作用和生命周期的提问和ChatGPT.35的回答.html",
