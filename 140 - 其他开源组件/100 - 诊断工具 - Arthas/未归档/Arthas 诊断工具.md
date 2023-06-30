@@ -386,3 +386,32 @@ profiler start -c com.cdos.soar.flow.config.service.ActionServiceTask.execute
 
 # ognl 表达式怎么写条件语句
 
+条件由 4 部分组成
+
+- 左值
+- 右值
+- 比较符
+- 多个条件之间的逻辑运算符
+
+比较符合逻辑运算符无需赘述，左右值来自 ognl 上下文，被调用方法的出入参，异常
+
+
+- 被调用方法的参数列表：`params`，这是个数组，通过 `params[0]` 就能得到入参的第一个参数。如果第一个入参是 List，想要访问 List 里第 2 元素，可以这样：`params[0][1]` 或 `param[0].get(1)`；如果参数是 pojo，可以用点运算符访问属性，比如：`param[1].age`；如果是 Map，用 `params[0].{name}` 访问 key=name 的 value
+
+判断字符串是否相等直接用 `==`，不用 `.equals`
+
+`this` 关键字
+
+- 返回结果：`returnObj`
+- 异常对象：`throwExp`
+- 接口/方法调用耗时：`#cost`
+
+可以直接用 `.` 调用这些对象的方法，但需要自行保证这些对象的运行时类型有这些方法
+
+[表达式核心变量](https://arthas.aliyun.com/doc/advice-class.html)
+
+# 怎么 watch 构造函数
+
+以下内容来自[这里](https://github.com/alibaba/arthas/issues/71)
+
+![[../../../020 - 附件文件夹/Pasted image 20230630172533.png]]

@@ -47,51 +47,12 @@
             }
           },
           {
-            "id": "a7913925206e202c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7321fca658051a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/OGNL 表达式.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "15aea87d3fdb5827",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/04 - 真正的并行执行分支.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1806383ed7e128ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "130 - Linux/firewall-cmd 命令.md",
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,9 +71,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "111830453747fe35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -178,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md"
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md"
               }
             }
           },
@@ -202,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 329.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,27 +188,33 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "a7913925206e202c",
+  "active": "111830453747fe35",
   "lastOpenFiles": [
+    "020 - 附件文件夹/Pasted image 20230630185742.png",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - 笔记.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/010.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/OGNL 表达式.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 基本使用方式.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
+    "020 - 附件文件夹/Pasted image 20230630172533.png",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/04 - 真正的并行执行分支.md",
+    "130 - Linux/firewall-cmd 命令.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/040 - 类，对象和访问权限关键字.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/060 - 枚举类，反射和克隆.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/OGNL 表达式.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
     "110 - 计算机常识/030 - 操作系统/零拷贝.md",
     "020 - 附件文件夹/Pasted image 20230628202839.png",
-    "130 - Linux/firewall-cmd 命令.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
     "010 - 新建笔记/近期计划.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/04 - 真正的并行执行分支.md",
     "020 - 附件文件夹/Pasted image 20230624144025.png",
     "020 - 附件文件夹/Pasted image 20230623204500.png",
     "140 - 其他开源组件/130 - 流式计算 - Flink",
     "110 - 计算机常识/正则表达式.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/130 - Stream 流库.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/020 - 自定义使用方式.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/010 - 使用基础.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/02 - 进阶.md",
@@ -245,19 +225,13 @@
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/26 - 新的全局常量没入库，节点调用的时候查不到.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/24 - Demo 功能验证.md",
-    "140 - 其他开源组件/120 - Java 的日志框架/02 - Logback 架构里的基本概念和名词解释.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/180 - SPI 服务提供机制.md",
-    "140 - 其他开源组件/120 - Java 的日志框架/01 - 五花八门的 Java 日志框架和实现包.md",
     "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎.html",
     "021 - 离线网页备份文件夹/Java SPI思想梳理 - 知乎.html",
-    "010 - 新建笔记/整理进度.md",
     "021 - 离线网页备份文件夹/Java SPI思想梳理 - 知乎 (2023_6_12 23_26_50).html",
     "020 - 附件文件夹/Pasted image 20230612175940.png",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/03 - 会签和或签.md",
     "160 - Java 常用工具库",
     "170 - 编码实践常见问题解决方案",
     "020 - 附件文件夹/Pasted image 20230607175915.png",
-    "020 - 附件文件夹/Pasted image 20230607175626.png",
     "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎 (2023_6_5 22_39_06).html",
     "140 - 其他开源组件/120 - Java 的日志框架",
     "021 - 离线网页备份文件夹/一些关于flowable里组件的作用和生命周期的提问和ChatGPT.35的回答.html",

@@ -1,3 +1,5 @@
+#正在复习 
+
 zone 用法
 
 - [centos7 firewall-cmd 理解多区域配置中的 firewalld 防火墙](https://www.cnblogs.com/itfat/p/9581956.html)
