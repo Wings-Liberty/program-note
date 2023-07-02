@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
+                "file": "130 - Linux/Shell 脚本.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md"
+                "file": "130 - Linux/Shell 脚本.md"
               }
             }
           },
@@ -214,12 +214,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "f72377edbe558bf2",
+  "active": "1c9ab869f3c21e7e",
   "lastOpenFiles": [
     "130 - Linux/030 - 运维脚本/个人运维脚本.md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
-    "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
     "130 - Linux/Shell 脚本.md",
+    "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
+    "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
     "130 - Linux/Linux 实用命令.md",
     "130 - Linux/初始化虚拟机必备操作.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md",
