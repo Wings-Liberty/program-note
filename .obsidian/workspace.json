@@ -97,9 +97,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1c9ab869f3c21e7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -165,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "130 - Linux/030 - 运维脚本/个人运维脚本.md"
+                "file": "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md"
               }
             }
           },
@@ -201,17 +214,18 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "e02082952d216e6a",
+  "active": "f72377edbe558bf2",
   "lastOpenFiles": [
+    "130 - Linux/030 - 运维脚本/个人运维脚本.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
+    "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
+    "130 - Linux/Shell 脚本.md",
+    "130 - Linux/Linux 实用命令.md",
+    "130 - Linux/初始化虚拟机必备操作.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/020 - Docker 数据卷以及怎么用 DockerFile 和 docker-compose 自定义镜像.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
-    "130 - Linux/030 - 运维脚本/个人运维脚本.md",
-    "130 - Linux/Shell 脚本.md",
     "020 - 附件文件夹/The Linux Commend Line.pdf",
-    "130 - Linux/Linux 实用命令.md",
-    "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
     "130 - Linux/firewall-cmd 命令.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 临时笔记.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
@@ -238,7 +252,6 @@
     "040 - Java 基础知识/020 - Java 语法基础知识/060 - 枚举类，反射和克隆.md",
     "110 - 计算机常识/030 - 操作系统/零拷贝.md",
     "020 - 附件文件夹/Pasted image 20230628202839.png",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
     "020 - 附件文件夹/Pasted image 20230624144025.png",
     "020 - 附件文件夹/Pasted image 20230623204500.png",
     "140 - 其他开源组件/130 - 流式计算 - Flink",
