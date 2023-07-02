@@ -60,25 +60,12 @@
             }
           },
           {
-            "id": "f1989e17f8592106",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "130 - Linux/030 - 运维脚本/个人运维脚本.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ebc24d794b4b5d5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/01 - 笔记.md",
+                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/01 - 临时笔记.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -165,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/01 - 笔记.md"
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md"
               }
             }
           },
@@ -201,16 +188,19 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "ebc24d794b4b5d5f",
+  "active": "15aea87d3fdb5827",
   "lastOpenFiles": [
+    "140 - 其他开源组件/140 - 数据库 - ClickHouse/01 - 临时笔记.md",
+    "140 - 其他开源组件/130 - 流式计算 - Flink/01 - 临时笔记.md",
     "130 - Linux/030 - 运维脚本/个人运维脚本.md",
+    "140 - 其他开源组件/140 - 数据库 - ClickHouse",
+    "140 - 其他开源组件/010 - RPC 组件 - Dubbo/未命名",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md",
     "130 - Linux/00 - 目录划分.md",
     "130 - Linux/020 - Linux 重要和常用命令的详细使用手册",
     "130 - Linux/020 - Linux Desktop 入坟记录/未命名",
     "130 - Linux/030 - 运维脚本",
-    "140 - 其他开源组件/130 - 流式计算 - Flink/01 - 笔记.md",
     "020 - 附件文件夹/Pasted image 20230630224256.png",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md",
     "020 - 附件文件夹/Pasted image 20230630185742.png",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/010.md",
@@ -242,12 +232,9 @@
     "020 - 附件文件夹/Pasted image 20230619171452.png",
     "020 - 附件文件夹/Pasted image 20230619171431.png",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/01 - Flowable 基本使用方式.md",
-    "140 - 其他开源组件/090 - 工作流 - Flowable/态势感知3.2里对Flowable的应用/26 - 新的全局常量没入库，节点调用的时候查不到.md",
     "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎.html",
     "021 - 离线网页备份文件夹/Java SPI思想梳理 - 知乎.html",
     "021 - 离线网页备份文件夹/Java SPI思想梳理 - 知乎 (2023_6_12 23_26_50).html",
-    "160 - Java 常用工具库",
-    "170 - 编码实践常见问题解决方案",
-    "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎 (2023_6_5 22_39_06).html"
+    "160 - Java 常用工具库"
   ]
 }
