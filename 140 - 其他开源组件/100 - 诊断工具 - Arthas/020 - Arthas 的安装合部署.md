@@ -1,4 +1,3 @@
-#还没有复习 
 
 # 在线安装
 
@@ -53,3 +52,4 @@ java -jar arthas-boot.jar <pid>
 
 2. 执行 idea-arthas 生成的热部署脚本时，会用 jps 命令查询进程，如果 arthas 不在指定目录下
 
+无法解决，必须用 jps 命令
