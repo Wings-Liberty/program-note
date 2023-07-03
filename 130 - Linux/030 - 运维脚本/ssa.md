@@ -19,7 +19,7 @@ L software/
 ```
 
 
-# ssa_software
+# software
 
 最好能做成交互式的脚本，而不单单是一次性执行的脚本
 
@@ -39,7 +39,7 @@ L software/
 
 软件的启动停止暂定不需要写脚本，自己调 docker 等命令启停
 
-# ssa_cluster
+# cluster
 
 ```
 --sendfile=<path>/-f # 分发文件到写死的地址。可以输入多个文件

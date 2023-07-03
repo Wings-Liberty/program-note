@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "130 - Linux/030 - 运维脚本/个人运维脚本.md",
+                "file": "130 - Linux/030 - 运维脚本/ssa.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -216,10 +216,11 @@
   },
   "active": "1c9ab869f3c21e7e",
   "lastOpenFiles": [
-    "130 - Linux/030 - 运维脚本/个人运维脚本.md",
+    "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
+    "130 - Linux/030 - 运维脚本/ssa.md",
+    "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 临时笔记.md",
     "130 - Linux/Shell 脚本.md",
     "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
     "130 - Linux/Linux 实用命令.md",
     "130 - Linux/初始化虚拟机必备操作.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md",
@@ -227,7 +228,6 @@
     "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
     "020 - 附件文件夹/The Linux Commend Line.pdf",
     "130 - Linux/firewall-cmd 命令.md",
-    "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 临时笔记.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md",
