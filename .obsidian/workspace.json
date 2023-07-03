@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md"
+                "file": "130 - Linux/Shell 脚本.md"
               }
             }
           },
@@ -214,8 +214,9 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "15aea87d3fdb5827",
+  "active": "1c9ab869f3c21e7e",
   "lastOpenFiles": [
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md",
     "130 - Linux/030 - 运维脚本/ssa.md",
     "130 - Linux/Shell 脚本.md",
     "010 - 新建笔记/近期计划.md",
@@ -231,7 +232,6 @@
     "130 - Linux/firewall-cmd 命令.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md",
     "140 - 其他开源组件/140 - 数据库 - ClickHouse/01 - 临时笔记.md",
     "140 - 其他开源组件/140 - 数据库 - ClickHouse",
     "140 - 其他开源组件/010 - RPC 组件 - Dubbo/未命名",
