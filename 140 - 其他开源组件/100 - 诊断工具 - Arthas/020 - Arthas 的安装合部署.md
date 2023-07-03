@@ -34,4 +34,22 @@ sh ./install-local.sh
 ```
 
 
-# 如何应对
+# 如何让 arthas 在缺少部分依赖的环境里运行
+
+arthas 有部分功能需要依赖 JDK 环境和 unzip 命令。如果开发环境里没有，arthas 有些功能就不能用
+
+受影响功能和解决方案如下
+
+1. 启动 arthas-boot 时，会用 jps 命令获取 Java 进程
+
+解决方案：启动 arthas-boot 前提前获取 Java 进程的 PID，启动时指定 PID
+
+```bash
+# 找目标进程的 PID
+ps -ef | grep java
+# 启动 arthas 时指定 PID
+java -jar arthas-boot.jar <pid>
+```
+
+2. 执行 idea-arthas 生成的热部署脚本时，会用 jps 命令查询进程，如果 arthas 不在指定目录下
+
