@@ -1,0 +1,265 @@
+{
+  "main": {
+    "id": "e5de3d82c3e4f045",
+    "type": "split",
+    "children": [
+      {
+        "id": "09db7838173c3fa9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27affeb1bc79dde7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "658ebc0d2e1a1b20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e498fd66a2e6a4e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ebc24d794b4b5d5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 临时笔记.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e02082952d216e6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "130 - Linux/030 - 运维脚本/ssa.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f72377edbe558bf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c9ab869f3c21e7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "130 - Linux/Shell 脚本.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "15aea87d3fdb5827",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "104f68afeb87d584",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a3a2974525fd5e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68a81097870ae0d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "015f6984f1bc4966",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "145a92916a1d6451",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 321.5
+  },
+  "right": {
+    "id": "15933b55241e6afb",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e28643a5abf30f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50b1d4af7bbf17fd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "130 - Linux/Shell 脚本.md"
+              }
+            }
+          },
+          {
+            "id": "f28d75311b0a4ddf",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c7d145da6ee5e1b5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 329.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-projects:Open projects": false
+    }
+  },
+  "active": "1c9ab869f3c21e7e",
+  "lastOpenFiles": [
+    "130 - Linux/030 - 运维脚本/ssa.md",
+    "130 - Linux/Shell 脚本.md",
+    "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
+    "020 - 附件文件夹/The Linux Commend Line.pdf",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md",
+    "010 - 新建笔记/近期计划.md",
+    "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 临时笔记.md",
+    "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
+    "130 - Linux/Linux 实用命令.md",
+    "130 - Linux/初始化虚拟机必备操作.md",
+    "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md",
+    "120 - 项目管理/030 - 容器化管理 - Docker/020 - Docker 数据卷以及怎么用 DockerFile 和 docker-compose 自定义镜像.md",
+    "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
+    "130 - Linux/firewall-cmd 命令.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
+    "140 - 其他开源组件/140 - 数据库 - ClickHouse/01 - 临时笔记.md",
+    "140 - 其他开源组件/140 - 数据库 - ClickHouse",
+    "140 - 其他开源组件/010 - RPC 组件 - Dubbo/未命名",
+    "130 - Linux/00 - 目录划分.md",
+    "130 - Linux/020 - Linux 重要和常用命令的详细使用手册",
+    "130 - Linux/020 - Linux Desktop 入坟记录/未命名",
+    "130 - Linux/030 - 运维脚本",
+    "020 - 附件文件夹/Pasted image 20230630224256.png",
+    "020 - 附件文件夹/Pasted image 20230630185742.png",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/010.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/OGNL 表达式.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 基本使用方式.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
+    "020 - 附件文件夹/Pasted image 20230630172533.png",
+    "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/04 - 真正的并行执行分支.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/040 - 类，对象和访问权限关键字.md",
+    "020 - 附件文件夹/Pasted image 20230628202839.png",
+    "020 - 附件文件夹/Pasted image 20230624144025.png",
+    "020 - 附件文件夹/Pasted image 20230623204500.png",
+    "140 - 其他开源组件/130 - 流式计算 - Flink",
+    "020 - 附件文件夹/Pasted image 20230619171733.png",
+    "020 - 附件文件夹/Pasted image 20230619171707.png",
+    "020 - 附件文件夹/Pasted image 20230619171452.png",
+    "020 - 附件文件夹/Pasted image 20230619171431.png",
+    "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎.html",
+    "021 - 离线网页备份文件夹/Java SPI思想梳理 - 知乎.html",
+    "021 - 离线网页备份文件夹/Java SPI思想梳理 - 知乎 (2023_6_12 23_26_50).html"
+  ]
+}
