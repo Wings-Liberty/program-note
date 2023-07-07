@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md"
+                "file": "130 - Linux/Shell 脚本.md"
               }
             }
           },
@@ -214,10 +214,10 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "15aea87d3fdb5827",
+  "active": "1c9ab869f3c21e7e",
   "lastOpenFiles": [
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 基本使用方式.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 基本使用方式.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
     "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
     "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（旧）.md",
