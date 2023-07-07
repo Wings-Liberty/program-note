@@ -104,20 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d658bae8015ff5b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -125,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -191,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md"
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md"
               }
             }
           },
@@ -227,15 +214,17 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "d658bae8015ff5b1",
+  "active": "15aea87d3fdb5827",
   "lastOpenFiles": [
-    "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（旧）.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 基本使用方式.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
     "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（旧）.md",
     "130 - Linux/Shell 脚本.md",
     "130 - Linux/030 - 运维脚本/ssa.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
     "020 - 附件文件夹/The Linux Commend Line.pdf",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md",
     "010 - 新建笔记/近期计划.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 临时笔记.md",
     "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
@@ -259,11 +248,9 @@
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/010.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/OGNL 表达式.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 基本使用方式.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "020 - 附件文件夹/Pasted image 20230630172533.png",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/04 - 真正的并行执行分支.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
     "020 - 附件文件夹/Pasted image 20230628202839.png",
     "020 - 附件文件夹/Pasted image 20230624144025.png",
     "020 - 附件文件夹/Pasted image 20230623204500.png",
