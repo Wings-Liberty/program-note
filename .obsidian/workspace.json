@@ -110,9 +110,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d658bae8015ff5b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -178,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "130 - Linux/Shell 脚本.md"
+                "file": "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md"
               }
             }
           },
@@ -214,10 +227,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "1c9ab869f3c21e7e",
+  "active": "d658bae8015ff5b1",
   "lastOpenFiles": [
-    "130 - Linux/030 - 运维脚本/ssa.md",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（旧）.md",
+    "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
     "130 - Linux/Shell 脚本.md",
+    "130 - Linux/030 - 运维脚本/ssa.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
     "020 - 附件文件夹/The Linux Commend Line.pdf",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装合部署.md",
@@ -249,7 +264,6 @@
     "020 - 附件文件夹/Pasted image 20230630172533.png",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/04 - 真正的并行执行分支.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/040 - 类，对象和访问权限关键字.md",
     "020 - 附件文件夹/Pasted image 20230628202839.png",
     "020 - 附件文件夹/Pasted image 20230624144025.png",
     "020 - 附件文件夹/Pasted image 20230623204500.png",
