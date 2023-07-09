@@ -99,28 +99,12 @@
             }
           },
           {
-            "id": "53d69be515164f79",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b3b5b1377e2d8df8",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
-          },
-          {
             "id": "9c9d56129883d61e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010 - 学习计划/近期计划.md",
+                "file": "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -128,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -193,7 +177,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "000 - Obsidian 设置记录/03 - 第三方插件设置.md"
+              }
             }
           },
           {
@@ -216,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,11 +214,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "b3b5b1377e2d8df8",
+  "active": "9c9d56129883d61e",
   "lastOpenFiles": [
+    "000 - Obsidian 设置记录/02 - 核心插件设置.md",
     "010 - 学习计划/近期计划.md",
-    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
+    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
     "130 - Linux/Shell 脚本.md",
@@ -264,7 +250,6 @@
     "020 - 附件文件夹/Pasted image 20230630224256.png",
     "020 - 附件文件夹/Pasted image 20230630185742.png",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/010.md",
     "020 - 附件文件夹/Pasted image 20230630172533.png",
     "020 - 附件文件夹/Pasted image 20230628202839.png",
     "020 - 附件文件夹/Pasted image 20230624144025.png",
