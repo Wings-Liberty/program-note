@@ -55,5 +55,22 @@
       ],
       "key": "M"
     }
+  ],
+  "workspace:close": [],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "]"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "["
+    }
   ]
 }

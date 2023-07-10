@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "130 - Linux/030 - 运维脚本/ssa.md",
+                "file": "130 - Linux/030 - 运维脚本/ssa_script README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,19 +73,6 @@
             }
           },
           {
-            "id": "ebc24d794b4b5d5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2eccacb20e441b0b",
             "type": "leaf",
             "state": {
@@ -102,17 +89,14 @@
             "id": "9c9d56129883d61e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "010 - 学习计划/学习计划看板.md"
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -178,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 - Obsidian 设置记录/03 - 第三方插件设置.md"
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md"
               }
             }
           },
@@ -202,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,16 +198,24 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "9c9d56129883d61e",
+  "active": "15aea87d3fdb5827",
   "lastOpenFiles": [
-    "000 - Obsidian 设置记录/02 - 核心插件设置.md",
-    "010 - 学习计划/近期计划.md",
-    "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
-    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md",
+    "010 - 学习计划/学习计划看板.md",
+    "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
     "130 - Linux/Shell 脚本.md",
-    "130 - Linux/030 - 运维脚本/ssa.md",
+    "130 - Linux/030 - 运维脚本/ssa_script README.md",
+    "010 - 学习计划/整理进度.md",
+    "010 - 学习计划/近期计划.md",
+    "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
+    "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
+    "000 - Obsidian 设置记录/01 - 基础设置.md",
+    "020 - 附件文件夹/Pasted image 20230709221918.png",
+    "180 - 未整理/看板任务",
+    "010 - 学习计划/看板任务列表",
+    "000 - Obsidian 设置记录/02 - 核心插件设置.md",
+    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
@@ -238,18 +230,13 @@
     "130 - Linux/初始化虚拟机必备操作.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/030 - Docker 网络.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/020 - Docker 数据卷以及怎么用 DockerFile 和 docker-compose 自定义镜像.md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/010 - 搭建 Docker 以及用简单的指令管理镜像和容器.md",
-    "130 - Linux/firewall-cmd 命令.md",
-    "140 - 其他开源组件/140 - 数据库 - ClickHouse/01 - 临时笔记.md",
     "140 - 其他开源组件/140 - 数据库 - ClickHouse",
     "140 - 其他开源组件/010 - RPC 组件 - Dubbo/未命名",
-    "130 - Linux/00 - 目录划分.md",
     "130 - Linux/020 - Linux 重要和常用命令的详细使用手册",
     "130 - Linux/020 - Linux Desktop 入坟记录/未命名",
     "130 - Linux/030 - 运维脚本",
     "020 - 附件文件夹/Pasted image 20230630224256.png",
     "020 - 附件文件夹/Pasted image 20230630185742.png",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
     "020 - 附件文件夹/Pasted image 20230630172533.png",
     "020 - 附件文件夹/Pasted image 20230628202839.png",
     "020 - 附件文件夹/Pasted image 20230624144025.png",
@@ -258,9 +245,6 @@
     "020 - 附件文件夹/Pasted image 20230619171733.png",
     "020 - 附件文件夹/Pasted image 20230619171707.png",
     "020 - 附件文件夹/Pasted image 20230619171452.png",
-    "020 - 附件文件夹/Pasted image 20230619171431.png",
-    "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎.html",
-    "021 - 离线网页备份文件夹/Java SPI思想梳理 - 知乎.html",
-    "021 - 离线网页备份文件夹/Java SPI思想梳理 - 知乎 (2023_6_12 23_26_50).html"
+    "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎.html"
   ]
 }
