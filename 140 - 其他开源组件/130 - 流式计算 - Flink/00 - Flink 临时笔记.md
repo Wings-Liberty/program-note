@@ -31,7 +31,7 @@
 2. 用 data set api 实现 word count
 
 quick start 不需要搭建 flink server，直接在 demo 里写代码即可运行
-
+	
 
 > [!tip] 用 链式编程时，flink 的 api 用 lambda 有时候会报错，因为 lambda 的类型推断提供不了足够的信息，可能会导致运行报错。有两个方式解决问题
 > - 用匿名内部类方式写
