@@ -6,7 +6,8 @@
   "enabledCssSnippets": [
     "ImageSetting",
     "Table",
-    "custom-admonitions.cc18f3"
+    "custom-admonitions.cc18f3",
+    "Kanban"
   ],
   "theme": "obsidian"
 }

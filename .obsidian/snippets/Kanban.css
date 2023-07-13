@@ -1,0 +1,5 @@
+/* 修复看板插件里写checkbox后有小部分被遮挡的bug */
+.kanban-plugin__markdown-preview-view ul,
+.kanban-plugin__markdown-preview-view ol {
+    padding-inline-start: 34px !important;
+}

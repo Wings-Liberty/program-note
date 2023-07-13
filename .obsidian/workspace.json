@@ -109,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md"
+                "file": "010 - 学习计划/学习计划看板.md"
               }
             }
           },
@@ -213,12 +213,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "15aea87d3fdb5827",
+  "active": "9c9d56129883d61e",
   "lastOpenFiles": [
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md",
     "010 - 学习计划/学习计划看板.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
     "130 - Linux/Shell 脚本.md",
     "130 - Linux/030 - 运维脚本/ssa_script README.md",
     "010 - 学习计划/整理进度.md",
