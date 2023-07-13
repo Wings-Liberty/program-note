@@ -1,5 +1,4 @@
 
-
 # 概述
 
 ognl，全称 Object Graphic Navigation Language（对象图导航语言），如下面是一个典型的表达式
@@ -346,3 +345,5 @@ root 对象有一些内置的方法和属性，比如
 > - [Ognl 语法基础教程](https://juejin.cn/post/6844904013683507207)
 > - [apache - ognl](https://commons.apache.org/proper/commons-ognl/language-guide.html)
 > - [【Arthas】命令之ognl使用姿势](https://blog.csdn.net/u010634066/article/details/101013479)
+> - [活用ognl表达式](https://github.com/alibaba/arthas/issues/11)
+> - [Arthas的一些特殊用法文档说明](https://github.com/alibaba/arthas/issues/71)
