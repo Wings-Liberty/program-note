@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -193,8 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "right": {
     "id": "15933b55241e6afb",
@@ -210,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "010 - 学习计划/学习计划看板.md"
+                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md"
               }
             }
           },
@@ -234,8 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5,
-    "collapsed": true
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,11 +245,11 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "9c9d56129883d61e",
+  "active": "8acdbc5d80aa19e9",
   "lastOpenFiles": [
+    "010 - 学习计划/学习计划看板.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/03 - 会签和或签.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
-    "010 - 学习计划/学习计划看板.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
