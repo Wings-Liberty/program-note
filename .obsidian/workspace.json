@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -116,11 +116,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 321.5,
+    "collapsed": true
   },
   "right": {
     "id": "15933b55241e6afb",
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md"
+                "file": "010 - 学习计划/学习计划看板.md"
               }
             }
           },
@@ -160,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 278.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,17 +175,21 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "8acdbc5d80aa19e9",
+  "active": "9c9d56129883d61e",
   "lastOpenFiles": [
-    "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md",
+    "020 - 附件文件夹/Pasted image 20230716143833.png",
+    "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
+    "130 - Linux/Shell 脚本.md",
+    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
+    "020 - 附件文件夹/Pasted image 20230716135924.png",
+    "020 - 附件文件夹/Pasted image 20230716135713.png",
+    "020 - 附件文件夹/Pasted image 20230716134852.png",
     "020 - 附件文件夹/Pasted image 20230716123621.png",
     "020 - 附件文件夹/Pasted image 20230716121314.png",
     "010 - 学习计划/学习计划看板.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/050 docker-compose.md",
-    "130 - Linux/Shell 脚本.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
-    "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
     "130 - Linux/030 - 运维脚本/ssa_script README.md",
@@ -213,11 +220,7 @@
     "020 - 附件文件夹/Pasted image 20230630224256.png",
     "020 - 附件文件夹/Pasted image 20230630185742.png",
     "020 - 附件文件夹/Pasted image 20230630172533.png",
-    "020 - 附件文件夹/Pasted image 20230628202839.png",
-    "020 - 附件文件夹/Pasted image 20230624144025.png",
-    "020 - 附件文件夹/Pasted image 20230623204500.png",
     "140 - 其他开源组件/130 - 流式计算 - Flink",
-    "020 - 附件文件夹/Pasted image 20230619171733.png",
     "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎.html"
   ]
 }
