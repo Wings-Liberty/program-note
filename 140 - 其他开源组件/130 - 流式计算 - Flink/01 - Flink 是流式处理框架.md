@@ -207,7 +207,7 @@ stream.map(word -> Tuple2.of(word, 1L)).setParallelism(2);
 
 > flink server 里有多个地方都能设置并行度：配置文件，命令行，代码
 
-## 分区，分组和算子链
+### 分区，分组
 
 参考刚才提到的 job 实例，如下（这是一个 word count demo）
 
@@ -229,8 +229,6 @@ stream.map(word -> Tuple2.of(word, 1L)).setParallelism(2);
 - 一对一（One-to-one，forwarding）
 - 重分区（Redistributing），比如 keyBy
 
-**分区和分组**
-
 keyBy 会对数据进行分区，实际上这样说并不准确。分区是物理上的，分组是逻辑上的
 
 case1：现在的并行度是 1，也就是只有一个 `Task Slot`，那么数据经过 keyBy 后相当于进入了一个线程的 `Map<String, List<Tuple2>>`
@@ -241,7 +239,7 @@ case2：现在的并行度是 10，也就是只有一个 `Task Slot`，那么数
 
 case2 中，因为 key 有 10 种，所以分组数量仍为 10 ；因为 `Slot` 有 10 个，所以物理存储空间有 10 个，分区数量也就有 10 个
 
-**算子链**
+### 算子链
 
 引子问题：`Slot` 里有什么东西？
 
@@ -257,10 +255,7 @@ case2 中，因为 key 有 10 种，所以分组数量仍为 10 ；因为 `Slot`
 
 如果 `socket[0]` 和 `flatMap[1]` 不在同一个 `TaskManager` 节点上，那就需要把 `socket` 的结果经过网络传输传给 `flatMap`
 
-为了优化掉这个消耗，在提交 job 时
-
-1. 把 `socket[0]` 和 `flatMap[0]` 这两个算子合并成一个**算子链**放到一个 `Slot` 里，这样  `socket[0]` 收到的数据就直接发给 `flatMap[0]` 了
-2. 一个 `Slot` 不是只能保存一个算子或算子链，而是保存不重复的算子或算子链
+为了优化掉这个消耗，在提交 job 时把 `socket[0]` 和 `flatMap[0]` 这两个算子合并成一个**算子链**放到一个 `Slot` 里，这样  `socket[0]` 收到的数据就直接发给 `flatMap[0]` 了
 
 结果就成了这样
 
@@ -279,6 +274,62 @@ Flink 默认会按照算子链的原则进行链接合并，如果我们想要�
 // 从当前算子开始新链
 .map(word -> Tuple2.of(word, 1L)).startNewChain()
 ```
+
+### 任务槽和并行度是什么关系
+
+假如一个 `TaskManager` 有三个 `slot`，那么它会将管理的内存平均分成三份，每个 `slot` 独自占据一份这样一来，在 `slot` 上执行一个子任务时，相当于划定了一块内存专款专用”，就不需要跟来自其他作业的任务去竞争内存资源了
+
+所以现在只要 2 个 `TaskManager`，就可以并行处理分配好的 5 个任务了
+
+![[../../020 - 附件文件夹/Pasted image 20230716152940.png|700]]
+
+`conf/flink-conf.yaml` 配置文件中，可以设置 `TaskManager` 的 `slot` 数量，默认是 1
+
+```
+taskmanager.numberOfTaskSlots: 1
+```
+
+`slot` 目前仅仅用来隔离内存，不会涉及 CPU 的隔离。在具体应用时，可以将 `slot` 数量配置为机器的 CPU 核心数，尽量避免不同任务之间对 CPU 的竞争。这也是开发环境默认并行度设为机器 CPU 数量的原因
+
+不同的任务可以共享同一个任务槽的共享，也就是说 `Slot` 里可以有多个算子的子任务，但是同一个 job 的并行算子子任务不能在同一个 `Slot` 里
+
+Flink 默认是允许 `slot` 共享的，如果希望某个算子对应的任务完全独占一个 `slot`，或者只有某一部分算子共享 `slot`，我们也可以通过设置 “slot共享组” 手动指定：
+
+```java
+.map(word -> Tuple2.of(word, 1L)).slotSharingGroup("1");
+```
+
+## 逻辑流图/作业图/执行图/物理流图
+
+之前简单说过逻辑流图和物理流图，但细分下来对 job 的图数据结构解析其实一共有 4 个阶段，每个阶段都有一个图数据结
+
+![[../../020 - 附件文件夹/Pasted image 20230716154506.png]]![[../../020 - 附件文件夹/Pasted image 20230716154604.png]]
+
+**逻辑流图（StreamGraph）**
+
+这是根据用户通过 DataStream API 编写的代码生成的最初的 DAG 图，用来**表示程序的拓扑结构**。这一步一般在客户端完成。
+
+**作业图（JobGraph）**
+
+StreamGraph 经过优化后生成的就是作业图（JobGraph），这是提交给 `JobManager` 的数据结构，确定了当前作业中所有任务的划分
+
+主要的优化为：将多个符合条件的节点链接在一起合并成一个任务节点，**形成算子链**，这样可以减少数据交换的消耗。JobGraph 一般也是在客户端生成的，在作业提交时传递给 `JobMaster`
+
+我们提交作业之后，**Flink 自带的 Web UI 展示的就是作业图**
+
+**执行图（ExecutionGraph）**
+
+`JobMaster` 收到 JobGraph 后，会根据它来生成执行图（ExecutionGraph）。ExecutionGraph 是 JobGraph 的并行化版本，是调度层最核心的数据结构。与 JobGraph 最大的区别就是**按照并行度对并行子任务进行了拆分**，并明确了任务间数据传输的方式
+
+**物理图（Physical Graph）**
+
+**JobMaster** 生成执行图后，会**将它分发给 `TaskManager`**
+
+**各个 `TaskManager` 会根据执行图部署任务，最终的物理执行过程也会形成一张“图”**，一般就叫作物理图（Physical Graph）。这只是具体执行层面的图，并不是一个具体的数据结构
+
+物理图主要就是在执行图的基础上，进一步确定数据存放的位置和收发的具体方式。有了物理图，`TaskManager` 就可以对传递来的数据进行处理计算了
+
+
 
 # 名词解释
 

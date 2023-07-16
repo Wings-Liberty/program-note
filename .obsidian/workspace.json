@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md",
+                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/02 - Flink DataStream API.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,13 +116,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "right": {
     "id": "15933b55241e6afb",
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "010 - 学习计划/学习计划看板.md"
+                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md"
               }
             }
           },
@@ -175,9 +173,15 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "9c9d56129883d61e",
+  "active": "2eccacb20e441b0b",
   "lastOpenFiles": [
+    "140 - 其他开源组件/130 - 流式计算 - Flink/02 - Flink DataStream API.md",
+    "020 - 附件文件夹/Pasted image 20230716155204.png",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md",
+    "020 - 附件文件夹/Pasted image 20230716154604.png",
+    "020 - 附件文件夹/Pasted image 20230716154506.png",
+    "020 - 附件文件夹/Pasted image 20230716152940.png",
+    "010 - 学习计划/学习计划看板.md",
     "020 - 附件文件夹/Pasted image 20230716143833.png",
     "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
     "130 - Linux/Shell 脚本.md",
@@ -187,7 +191,6 @@
     "020 - 附件文件夹/Pasted image 20230716134852.png",
     "020 - 附件文件夹/Pasted image 20230716123621.png",
     "020 - 附件文件夹/Pasted image 20230716121314.png",
-    "010 - 学习计划/学习计划看板.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/050 docker-compose.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
@@ -200,7 +203,6 @@
     "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
     "000 - Obsidian 设置记录/04 - 个性化设置和使用方式.md",
     "000 - Obsidian 设置记录/01 - 基础设置.md",
-    "020 - 附件文件夹/Pasted image 20230709221918.png",
     "180 - 未整理/看板任务",
     "010 - 学习计划/看板任务列表",
     "000 - Obsidian 设置记录/02 - 核心插件设置.md",
@@ -211,15 +213,11 @@
     "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
     "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（旧）.md",
     "020 - 附件文件夹/The Linux Commend Line.pdf",
-    "130 - Linux/鸟哥的 Linux 私房菜 — 基础学习篇.md",
     "140 - 其他开源组件/140 - 数据库 - ClickHouse",
     "140 - 其他开源组件/010 - RPC 组件 - Dubbo/未命名",
     "130 - Linux/020 - Linux 重要和常用命令的详细使用手册",
     "130 - Linux/020 - Linux Desktop 入坟记录/未命名",
     "130 - Linux/030 - 运维脚本",
-    "020 - 附件文件夹/Pasted image 20230630224256.png",
-    "020 - 附件文件夹/Pasted image 20230630185742.png",
-    "020 - 附件文件夹/Pasted image 20230630172533.png",
     "140 - 其他开源组件/130 - 流式计算 - Flink",
     "021 - 离线网页备份文件夹/理清，五花八门的Java日志 - 知乎.html"
   ]
