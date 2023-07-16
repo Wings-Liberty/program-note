@@ -34,19 +34,6 @@
             }
           },
           {
-            "id": "15aea87d3fdb5827",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2eccacb20e441b0b",
             "type": "leaf",
             "state": {
@@ -81,22 +68,9 @@
                 "file": "010 - 学习计划/学习计划看板.md"
               }
             }
-          },
-          {
-            "id": "d9b9b76f6b8cd920",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "120 - 项目管理/030 - 容器化管理 - Docker/050 docker-compose.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -162,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "010 - 学习计划/学习计划看板.md"
+                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md"
               }
             }
           },
@@ -199,20 +173,20 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "9c9d56129883d61e",
+  "active": "8acdbc5d80aa19e9",
   "lastOpenFiles": [
+    "010 - 学习计划/学习计划看板.md",
+    "120 - 项目管理/030 - 容器化管理 - Docker/050 docker-compose.md",
+    "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
+    "130 - Linux/Shell 脚本.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
-    "120 - 项目管理/030 - 容器化管理 - Docker/050 docker-compose.md",
-    "010 - 学习计划/学习计划看板.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
-    "130 - Linux/Shell 脚本.md",
     "130 - Linux/030 - 运维脚本/ssa_script README.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/未归档/03 - 会签和或签.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/010 - OGNL 语法.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
-    "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
     "010 - 学习计划/整理进度.md",
     "010 - 学习计划/近期计划.md",
     "000 - Obsidian 设置记录/03 - 第三方插件设置.md",
