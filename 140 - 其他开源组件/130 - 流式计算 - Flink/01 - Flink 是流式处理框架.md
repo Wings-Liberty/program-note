@@ -50,8 +50,95 @@ Flink 根据其提供的目的和实现方式对这些 API 进行了分层
 
 > 因为 Flink 的分区只有在集群模式下才会真正的做物理分区，所以学习阶段也需要搭建集群了
 
+## 集群里都有什么节点组成
 
+Flink 是 CS 架构，client 指定义并提交 job 的地方
 
+server 端有两类节点：
+
+- JobManager：用于管理 TaskManager 集群并解析 client 提交过来的 job 的地方
+- TaskManager：用于执行 job，是真正“干活”的工作节点
+
+![[../../020 - 附件文件夹/Pasted image 20230716121314.png|700]]
+
+## 怎么启动 Fink
+
+这里简单说一下启动单机 Flink 和集群 Flink
+
+**单机版**
+
+下载 `flink-1.17.0-bin-scala_2.12` 后，改一下配置文件 `conf/flink-conf.yaml`
+
+```yaml
+# 如果不改这个配置，就不能远程访问 flink web ui
+rest.bind-address: 0.0.0.0
+```
+
+然后调用启动脚本即可
+
+```bash
+bash bin/start-cluster.sh
+```
+
+**集群版**
+
+用 docker 方式启动，调用 `ssa_scrpit` 后输入命令
+
+```
+install flink_cluster
+start flink_cluster
+```
+
+docker 配置方式参考 `ssa_scrpit` 的 `xxx_flink_cluster` 函数和 `docker-compose.yaml` 文件
+
+## 部署模式
+
+这里说的部署模式不是单机部署或者集群部署方案，而是 `JobManager` 和 `TaskManager` 的工作方式，不同的方式会影响 Flink 的如下部分
+
+- 集群的生命周期以及资源的分配方式
+- job 的 `main` 方法在哪执行（`Client` 还是 `TaskManager`）
+
+会话模式，单作业模式，应用模式
+
+#有待了解  暂时没看明白这三个模式的区别
+
+> pre-job 模式有被弃用趋势，被 application job 模式取代
+
+## 历史服务器
+
+顾名思义，这个服务只用来记录并查看历史，防止Flink 挂掉后只能打开磁盘文件查看历史日志定位问题
+
+开启历史服务器需要修改历史服务相关配置，然后调用脚本启动历史服务
+
+#有待了解 暂无需求，先跳过去
+
+# Flink 的运行时架构是什么样的？
+
+之前说过了 Flink 有 `Client`，`JobManager` 和 `TaskManager`
+
+现在说一下它们是怎么工作的
+
+![[../../020 - 附件文件夹/Pasted image 20230716123621.png|950]]
+
+这里提到了几个新名词 `JobMaster`，`Task Slot`
+
+**JobMaster**
+
+`JobManager`（进程）收到客户端每提交一个 job 就会创建一个 `JobMaster` 线程去解析 job，根据其调用的算子之间的调用关系，将其解析图数据结构
+
+**Task Slot**
+
+`Slot` 是资源调度的最小单位，`slot` 的数量限制了 `TaskManager` 能够并行处理的任务数量
+
+比如
+
+1. `Client` 交了一个 job，里面有 3 个可以并行执行的算子，并且每个算子的并行度都是 3
+2. `JobManager` 在请求 slot 时，请求到了 1 号 `TaskManager` 的 3 个 `slot`
+3. 执行算子时，1 号 `TaskManager` 就会启动 3 个线程并行执行
+
+如果第 2 步各请求到了 3 个 `TaskManager` 中的一个 `Slot`，那么就是 3 个 `TaskManager` 各启动一个线程执行算子
+
+> `TaskManager` 之间是可以交换数据的，这是为了满足有些并行度只能是 1 的算子的功能，这种算子需要先收集各个并行算子返回的数据（需要多个 `TaskManager` 把数据传输到一个 `TaskManager` 后在执行并行度是 1 的算子）
 
 # 名词解释
 

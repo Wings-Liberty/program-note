@@ -25,47 +25,8 @@
 
 
 
-## quick start
-
-1. 创建 idea 项目，导入 flink-1.17.0 依赖（flnk-stream-java, flink-clients）
-2. 用 data set api 实现 word count
-
-quick start 不需要搭建 flink server，直接在 demo 里写代码即可运行
-	
-
-> [!tip] 用 链式编程时，flink 的 api 用 lambda 有时候会报错，因为 lambda 的类型推断提供不了足够的信息，可能会导致运行报错。有两个方式解决问题
-> - 用匿名内部类方式写
-> - 链式调用 reture，显示传入类型对象
-> ![[../../020 - 附件文件夹/Pasted image 20230623204500.png]]
-
-> [!tip] IDEA 和 Maven 使用小技巧
-> 生产环境下像 flink server 有的 flink-clients、flink-stream-java 这种已经有的依赖，在 Java 客户端项目的 pom 文件里设置成 scope provided 即可。他表示打包时不打进来。但这样在 IDEA 运行程序会导致找不到类，就需要在 IDEA 的 application configuration 里勾选运行时把 provided 也打包进来。至于为啥生产环境不把这些包打进来，我还不知道为啥
-
-## flink server 作业提交方式
-
-作业：写了一个方法就相当于定义了一个 job
-
-**web-ui 上提交**
-
-在 flink-web-ui 里提交 job 步骤如下
-
-1. 项目打 jar 包
-2. 在 flink-web-ui 上传 jar 包，并选择 job 所属的类，方法，方法入参，并行度等
-3. 点击提交按钮
-
-**命令行提交**
-
-用的也不少
-
-## 部署模式
-
-pre-job 模式有被弃用趋势，被 application job 模式取代
-
 # Flink 运行时架构
 
-- jobmanager 和 jobmaster 的关系：前者是”老大“，是一个进程，后者是一个线程，前者可以只有多个后者的线程
-- jobmaster 和 job 的关系：客户端提交了一个 job 后 jobmanager 就会创建一个对应的 jobmaster 线程
-- 算子：客户端创建了一个 word count 的  job，job 读到数据后，第一步用空格分割出多个单词，下一步是根据 word 分组，下一步是对分组结果进行 sum 计算，下一步是打印结果。每一步都是一个算子
 - 算子链：一对一和重分区的区别。在并行算子里，如果算子的输出结果给另一个算子时需要发送到指定的 task manager 的算子就是重分区。比如 word count 里，“hello” 的数量只有 1 号 task manager 知道，那么分组算子就得把统计 “hello” 的数量结果发给 1号 task manager
 - 怎么区分哪些是一对一和重分区：在 web-ui 里能看到 job 的流程图，如果线条上有 forward 表示连接的两个算子是一对一的关系，其它基本都是重分区的关系
 - 逻辑流图和job流图的区别：逻辑流图就是 flink 根据客户端调用算子的顺序生成的图结构，job流图是基于逻辑流图的优化，比如把多个一对一的算子合并成一个
