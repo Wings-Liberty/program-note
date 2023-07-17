@@ -60,7 +60,7 @@
             }
           },
           {
-            "id": "9c9d56129883d61e",
+            "id": "6a7915d096e3bf3a",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md"
+                "file": "010 - 学习计划/学习计划看板.md"
               }
             }
           },
@@ -173,17 +173,17 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "2eccacb20e441b0b",
+  "active": "6a7915d096e3bf3a",
   "lastOpenFiles": [
     "140 - 其他开源组件/130 - 流式计算 - Flink/02 - Flink DataStream API.md",
+    "010 - 学习计划/学习计划看板.md",
+    "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
     "020 - 附件文件夹/Pasted image 20230716155204.png",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md",
     "020 - 附件文件夹/Pasted image 20230716154604.png",
     "020 - 附件文件夹/Pasted image 20230716154506.png",
     "020 - 附件文件夹/Pasted image 20230716152940.png",
-    "010 - 学习计划/学习计划看板.md",
     "020 - 附件文件夹/Pasted image 20230716143833.png",
-    "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
     "130 - Linux/Shell 脚本.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
     "020 - 附件文件夹/Pasted image 20230716135924.png",
