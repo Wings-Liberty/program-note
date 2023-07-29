@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/02 - Flink DataStream API.md",
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/130 - 流式计算 - Flink/02 - Flink DataStream API.md"
+                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md"
               }
             }
           },
@@ -160,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5,
-    "collapsed": true
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,8 +174,10 @@
   },
   "active": "8acdbc5d80aa19e9",
   "lastOpenFiles": [
-    "010 - 学习计划/学习计划看板.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 基本使用方式.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/02 - Flink DataStream API.md",
+    "010 - 学习计划/学习计划看板.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
     "020 - 附件文件夹/Pasted image 20230716155204.png",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md",
@@ -208,7 +209,6 @@
     "000 - Obsidian 设置记录/02 - 核心插件设置.md",
     "Projects - Demo Project/Why You Should Be Taking More Notes.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/030 - 详细设计与实现.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 基本使用方式.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具实战经验.md",
     "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（新）.md",
     "140 - 其他开源组件/060 - 日志检索 - ELK/010 - ElasticSearch/未归档/ES（旧）.md",
