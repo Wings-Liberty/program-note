@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md"
+                "file": "010 - 学习计划/学习计划看板.md"
               }
             }
           },
@@ -172,20 +172,21 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "8acdbc5d80aa19e9",
+  "active": "6a7915d096e3bf3a",
   "lastOpenFiles": [
+    "130 - Linux/Shell 脚本.md",
+    "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
+    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
+    "010 - 学习计划/学习计划看板.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/030 - Arthas 基本使用方式.md",
     "140 - 其他开源组件/100 - 诊断工具 - Arthas/未归档/Arthas 诊断工具.md",
     "140 - 其他开源组件/130 - 流式计算 - Flink/02 - Flink DataStream API.md",
-    "010 - 学习计划/学习计划看板.md",
-    "140 - 其他开源组件/130 - 流式计算 - Flink/00 - Flink 临时笔记.md",
     "020 - 附件文件夹/Pasted image 20230716155204.png",
     "140 - 其他开源组件/130 - 流式计算 - Flink/01 - Flink 是流式处理框架.md",
     "020 - 附件文件夹/Pasted image 20230716154604.png",
     "020 - 附件文件夹/Pasted image 20230716154506.png",
     "020 - 附件文件夹/Pasted image 20230716152940.png",
     "020 - 附件文件夹/Pasted image 20230716143833.png",
-    "130 - Linux/Shell 脚本.md",
     "040 - Java 基础知识/020 - Java 语法基础知识/143 - 零拷贝 - mmap 和 sendfile.md",
     "020 - 附件文件夹/Pasted image 20230716135924.png",
     "020 - 附件文件夹/Pasted image 20230716135713.png",
@@ -193,7 +194,6 @@
     "020 - 附件文件夹/Pasted image 20230716123621.png",
     "020 - 附件文件夹/Pasted image 20230716121314.png",
     "120 - 项目管理/030 - 容器化管理 - Docker/050 docker-compose.md",
-    "140 - 其他开源组件/100 - 诊断工具 - Arthas/020 - Arthas 的安装和部署.md",
     "140 - 其他开源组件/090 - 工作流 - Flowable/00 - flow 归档计划.md",
     "120 - 项目管理/030 - 容器化管理 - Docker/040 - 常用容器搭建方式.md",
     "130 - Linux/030 - 运维脚本/ssa_script README.md",
